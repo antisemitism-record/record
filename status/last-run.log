@@ -1,5 +1,27 @@
-== agents.research.recent
-United Kingdom -> 1 proposed, 1 written, 1 held
-Belgium -> 1 proposed, 1 written, 0 held
-{'countries': 2, 'rows': 2, 'live': 1, 'held': 1, 'input_tokens': 213090, 'output_tokens': 4961, 'searches': 16}
+== agents.probe
+   []
+200 len=26418 wp_total= https://www.jta.org/wp-json/wp/v2/types
+   {"post":{"description":"","hierarchical":false,"has_archive":false,"name":"Posts","slug":"post","icon":"dashicons-admin-post","taxonomies":["category","post_tag","author"],"rest_base":"posts","rest_namespace":"wp\/v2","template":[],"template_lock":false,"yoast
+404 len=134516 wp_total= https://www.jta.org/1933/04/01
+    <!doctype html> <html lang="en-US" class="no-js"> <head> <!-- DNS Prefetching --> <link rel="dns-prefetch" href="//fonts.googleapis.com"> <link rel="dns-prefetch" href="//securepubads.g.doubleclick.net"> <link rel="dns-prefetch" href="//www.googletagmanager.c
+200 len=155979 wp_total= https://www.jta.org/archive
+    <!doctype html> <html lang="en-US" class="no-js"> <head> <!-- DNS Prefetching --> <link rel="dns-prefetch" href="//fonts.googleapis.com"> <link rel="dns-prefetch" href="//securepubads.g.doubleclick.net"> <link rel="dns-prefetch" href="//www.googletagmanager.c
+200 len=261191 wp_total= https://www.amadeu-antonio-stiftung.de/chronik/
+   <!doctype html> <html lang="de-DE"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="profile" href="http://gmpg.org/xfn/11"> <link rel="apple-touch-icon" sizes="180x180" href="https://www.amadeu-anto
+200 len=101762 wp_total= https://www.osservatorioantisemitismo.it/episodi-di-antisemitismo-in-italia/
+   <!DOCTYPE html> <!--[if IE 6]> <html id="ie6" dir="ltr" lang="it-IT" prefix="og: https://ogp.me/ns#" > <![endif]--> <!--[if IE 7]> <html id="ie7" dir="ltr" lang="it-IT" prefix="og: https://ogp.me/ns#" > <![endif]--> <!--[if IE 8]> <html id="ie8" dir="ltr" lang
+404 len=84988 wp_total= https://chroniclingamerica.loc.gov/search/pages/results/?andtext=pogrom&date1=1905&date2=1905&dateFilterType=y
+   <!DOCTYPE html> <html lang="en" class="no-js" prefix="lc: http://loc.gov/#"> <head> <title>Page Not Found -- 404 -- Library of Congress</title> <link href='https://www.loc.gov/static/stylesheets/base.css' type='text/css' rel='stylesheet' /> <link href="https:/
+200 len=1857982 wp_total= https://www.loc.gov/collections/chronicling-america/?q=pogrom&dates=1905&fo=json&c=1
+   {"advanced_search": true, "aka": ["hnews", "https://lccn.loc.gov/2007618519", "ndnp", "chronam"], "awardees": {"ak": "Alaska State Library Historical Collections", "arhi": "Arkansas State Archives", "au": "University of Alabama Libraries, Tuscaloosa, AL", "az"
+200 len=727 wp_total= https://www.jewishgen.org/yizkor/translations.html
+   <html> <head> <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> <title>JewishGen Yizkor Book Translations</title> <META HTTP-EQUIV="refresh" CONTENT="0;URL=/yizkor/Translations/"> </HEAD> <body topmargin="0px" bgcolor="#ffffff" text="#00
+404 len=146 wp_total= https://report-antisemitism.de/chronicle/
+   <html> <head><title>404 Not Found</title></head> <body> <center><h1>404 Not Found</h1></center> <hr><center>nginx</center> </body> </html> 
+200 len=177933 wp_total= https://en.wikipedia.org/w/api.php?action=parse&page=Timeline_of_antisemitism_in_the_20th_century&prop=wikitex
+   {"parse":{"title":"Timeline of antisemitism in the 20th century","pageid":59459541,"wikitext":{"*":"{{short description|None}}\n{{Dynamic list}}\n{{Use dmy dates|date=August 2021}}\n\nThis '''timeline of antisemitism''' chronicles the facts of [[antisemitism]]
+403 len=6673 wp_total= https://www.nli.org.il/en/newspapers/
+   <!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <meta name="robots" content="noindex,nofollow"> <title>Checking your browser...</title> <meta http-equiv="refresh" content="360"
+200 len=46432 wp_total= https://ajcarchives.org/main.php?GroupingId=40
+    <!DOCTYPE html> <html lang="en-US" > <head> <meta http-equiv="X-UA-Compatible" content="IE=Edge"> <meta charset="utf-8"> <title>AJC Archives New Home Information</title> <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon"> <meta name="viewport" 
 {"total": 36803, "active": 36800, "candidate": 3, "merged": 0, "documented": 270, "register": 36533, "country_level_only": 158} {"fbi": 36281, "nypd": 252, "seed": 252, "research": 18}
