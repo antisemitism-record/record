@@ -11,6 +11,7 @@ permissions:
 concurrency: agents
 jobs:
   run:
+    if: github.repository == 'antisemitism-record/record'
     runs-on: ubuntu-latest
     timeout-minutes: 120
     env:
@@ -28,15 +29,16 @@ jobs:
           mkdir -p status
           : > status/last-run.log
           fail=0
-          while read -r agent _; do
+          while read -r agent args; do
             case "$agent" in ""|\#*) continue;; esac
             case "$agent" in
               agents.*) ;;
               *) echo "refused: $agent" | tee -a status/last-run.log; continue;;
             esac
             echo "== $agent" | tee -a status/last-run.log
+            case "$args" in *[!a-z0-9=\ ._,-]*) echo "refused arguments" | tee -a status/last-run.log; continue;; esac
             rc=0
-            python -m "$agent" > /tmp/agent.log 2>&1 || rc=$?
+            python -m "$agent" $args > /tmp/agent.log 2>&1 || rc=$?
             tail -n 25 /tmp/agent.log | tee -a status/last-run.log
             [ "$rc" = "0" ] || { fail=1; echo "FAILED: $agent" | tee -a status/last-run.log; }
           done < .github/run/request.txt

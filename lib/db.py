@@ -66,10 +66,14 @@ def start_run(agent):
                     prefer="return=representation")[0]["id"]
 
 
-def finish_run(run_id, ok, rows_written=0, error=None, log=None, usd=0):
+def now():
+    return datetime.datetime.now(datetime.timezone.utc).isoformat()
+
+
+def finish_run(run_id, ok, rows_written=0, error=None, log=None, usd=0, input_tokens=0, output_tokens=0):
     _request("PATCH", "agent_run", params={"id": f"eq.{run_id}"},
-             json={"finished_at": datetime.datetime.now(datetime.timezone.utc).isoformat(), "ok": ok, "rows_written": rows_written,
-                   "error": error, "log": log, "usd": usd})
+             json={"finished_at": now(), "ok": ok, "rows_written": rows_written, "error": error, "log": log,
+                   "usd": usd, "input_tokens": input_tokens, "output_tokens": output_tokens})
 
 
 def write_documented(items, batch=200):
