@@ -1,3 +1,4 @@
 # One agent module per line, optional arguments after it. Changing this file starts a run.
-# requested 2026-11-13T22:05Z e
+# requested 2026-11-13T22:15Z f
+agents.harvest.requeue
 agents.status

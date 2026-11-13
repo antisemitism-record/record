@@ -54,11 +54,17 @@ Never invent anything. If the text describes no incident, return an empty list. 
 
 
 def fetch(lang, title):
-    r = requests.get(f"https://{lang}.wikipedia.org/w/api.php", headers=UA, timeout=90, params={
-        "action": "query", "prop": "extracts", "explaintext": 1, "redirects": 1, "format": "json", "titles": title})
-    r.raise_for_status()
-    page = next(iter(r.json().get("query", {}).get("pages", {}).values()), {})
-    return page.get("extract") or ""
+    last = None
+    for attempt in range(6):
+        r = requests.get(f"https://{lang}.wikipedia.org/w/api.php", headers=UA, timeout=90, params={
+            "action": "query", "prop": "extracts", "explaintext": 1, "redirects": 1, "format": "json",
+            "titles": title, "maxlag": 5})
+        if r.status_code == 200 and "error" not in r.text[:200]:
+            page = next(iter(r.json().get("query", {}).get("pages", {}).values()), {})
+            return page.get("extract") or ""
+        last = f"{r.status_code} {r.text[:120]}"
+        time.sleep(float(r.headers.get("Retry-After", 0) or 0) or 6 * (attempt + 1))
+    raise RuntimeError(f"Wikipedia did not answer: {last}")
 
 
 def chunks(text):
@@ -186,6 +192,7 @@ def main():
                 db._request("PATCH", "cell", params={"id": f"eq.{cell['id']}"},
                             json={"status": "done", "worked_at": db.now(), "rows_written": res["incidents"], "notes": note})
                 total["pages"] += 1
+                time.sleep(1.5)
                 for k in ("incidents", "live", "held"):
                     total[k] += res[k]
                 print(cell["region"][:90], "->", note)
