@@ -1,160 +1,160 @@
 {
- "generated": "2026-11-13T20:53:15+00:00",
+ "generated": "2026-11-13T21:05:57+00:00",
  "incidents": {
-  "total": 36944,
-  "active": 36939,
-  "candidate": 5,
+  "total": 38083,
+  "active": 38075,
+  "candidate": 8,
   "merged": 0,
-  "documented": 411,
+  "documented": 1550,
   "register": 36533,
-  "country_level_only": 228
+  "country_level_only": 560
  },
  "by_origin": {
   "fbi": 36281,
   "nypd": 252,
   "seed": 252,
   "research": 18,
-  "jta": 141
+  "jta": 1280
  },
  "cells": {
-  "pending": 2255,
-  "claimed": 1,
-  "done": 4,
+  "pending": 2193,
+  "claimed": 6,
+  "done": 61,
   "blocked": 0
  },
  "jta_months": {
-  "pending": 1243,
-  "claimed": 1,
-  "done": 2,
+  "pending": 1181,
+  "claimed": 6,
+  "done": 59,
   "blocked": 0
  },
- "held_for_review": 5,
+ "held_for_review": 8,
  "latest_jta": [
   {
-   "event_date": "1975-06-11",
+   "event_date": "1927-09-12",
    "place": null,
-   "country": "SA",
-   "type": "discrimination",
-   "status": "active",
-   "geo_precision": "country",
-   "summary": "The ADL filed charges with the EEOC against four US companies for accepting Arab-country job practices that screen out Jews. The article says Aramco demanded baptismal certificates from overseas job candidates to prove they were not Jewish."
-  },
-  {
-   "event_date": "1975-06-17",
-   "place": "Metullah",
-   "country": "IL",
-   "type": "terror",
-   "status": "active",
-   "geo_precision": "city",
-   "summary": "Katyusha rockets fired at midnight hit Metullah, damaging power lines and some buildings. Rockets were also fired at Kfar Giladi and Metullah before dawn, causing slight damage."
-  },
-  {
-   "event_date": "1975-06-09",
-   "place": null,
-   "country": "RU",
-   "type": "discrimination",
-   "status": "active",
-   "geo_precision": "country",
-   "summary": "The article reports that Soviet Jewish war veterans Col. (ret.) Efim Davidovich and Col. Lev Ovsicher were stripped of rank and lost their pensions after applying for visas to emigrate to Israel, and that they face persecution by the KGB."
-  },
-  {
-   "event_date": "1975-06-10",
-   "place": null,
-   "country": "GB",
+   "country": "IE",
    "type": "harassment",
    "status": "active",
    "geo_precision": "country",
-   "summary": "The article reports that an anti-Semitic pamphlet, 'Did Six Million Really Die?', was sent unsolicited to schools by a neo-Fascist group. The pamphlet first appeared a year earlier."
+   "summary": "The article reports an anti-Semitic campaign raised by several Irish newspapers in connection with the showing of a Metro-Goldwyn-Mayer film. The article is truncated and gives no further details."
   },
   {
-   "event_date": "1975-06-11",
-   "place": "Moscow",
-   "country": "RU",
+   "event_date": "1927-09-20",
+   "place": "Kutelen",
+   "country": "UA",
+   "type": "property",
+   "status": "active",
+   "geo_precision": "country",
+   "summary": "Workers seized one of the three synagogues in Kutelen, Zhitomir, and it is to be converted into an artisan club after a long conflict with the religious congregation."
+  },
+  {
+   "event_date": "1927-09-04",
+   "place": null,
+   "country": "TR",
+   "type": "discrimination",
+   "status": "active",
+   "geo_precision": "country",
+   "summary": "The article reports that the government is reported to have issued an order prohibiting Jews from entering the interior of the country."
+  },
+  {
+   "event_date": "1927-09-11",
+   "place": "Roustchouk",
+   "country": "BG",
+   "type": "harassment",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "The article reports that members of the anti-Semitic organization Redna Zachtita tried to incite the population against the Jews and distributed anti-Semitic proclamations in Roustchouk. Police acted promptly and no further incidents followed."
+  },
+  {
+   "event_date": "1927-09-18",
+   "place": "Riga",
+   "country": "LV",
+   "type": "threat",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "Rabbis of the Jewish community in Riga received letters threatening that all Jews would be exterminated if the Latvian citizenship law was promulgated. The letters were apparently sent by an organized band."
+  },
+  {
+   "event_date": "1927-09-20",
+   "place": "Romny",
+   "country": "UA",
    "type": "discrimination",
    "status": "active",
    "geo_precision": "city",
-   "summary": "The NCSJ reported that Anatoly Malkin, 21, of Moscow, was detained and would probably be charged with draft evasion after applying for an exit visa."
+   "summary": "The local rabbi of Romny was sentenced to six months' imprisonment, later commuted to a fine of 50 roubles, on a charge of teaching religion to Jewish children under sixteen."
   },
   {
-   "event_date": "1975-06-16",
-   "place": "Nahariya",
-   "country": "IL",
-   "type": "terror",
-   "status": "active",
-   "geo_precision": "city",
-   "summary": "Katyusha rockets fired from Lebanon exploded at the seaside resort of Nahariya in the evening, injuring two civilians."
-  },
-  {
-   "event_date": "1975-06-05",
-   "place": "Moscow",
-   "country": "RU",
-   "type": "harassment",
-   "status": "active",
-   "geo_precision": "city",
-   "summary": "The article reports that the KGB told Jewish activist and physics professor Mark Azbel that his weekly seminars at home were an anti-Soviet action. Fifty-odd dismissed Soviet Jewish scientists attend the seminars, and the article describes personal threats and punitive measures against Azbel and his colleagues."
-  },
-  {
-   "event_date": "1975-06-05",
+   "event_date": "1927-09-02",
    "place": null,
-   "country": "RU",
-   "type": "harassment",
+   "country": "HU",
+   "type": "expulsion",
    "status": "active",
    "geo_precision": "country",
-   "summary": "The article reports that on June 15, 1970, about 20 Soviet Jews were arrested, allegedly for attempting to hijack a Soviet airliner, and that eyewitness testimony describes physical and mental torture of prisoners in the camps."
+   "summary": "The article reports that a number of Jews, mostly natives of Galicia who had lived in Hungary for decades, were expelled from Hungary under a recent order that led to raids on aliens in several towns, and arrived in Germany."
   },
   {
-   "event_date": "1975-06-09",
-   "place": null,
-   "country": null,
+   "event_date": "1927-09-04",
+   "place": "Angora",
+   "country": "TR",
+   "type": "discrimination",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "The article reports that placards were posted in Angora, Smyrna and Djancing urging the population to break business relations with Jews."
+  },
+  {
+   "event_date": "1927-09-07",
+   "place": "Kimpolung",
+   "country": "RO",
+   "type": "riot",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "The article reports anti-Semitic excesses in Kimpolung on the day before the article, and names a widow, Mrs. Rosa Behr, and her three children. The article does not describe the act."
+  },
+  {
+   "event_date": "1927-09-11",
+   "place": "Roustchouk",
+   "country": "BG",
+   "type": "arson",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "The article reports that several persons set fire to a triumphal arch at the entrance to the Jewish quarter of Roustchouk, erected for a Jewish sports anniversary. The persons were traced and arrested."
+  },
+  {
+   "event_date": "1927-09-13",
+   "place": "Beacon, N.Y.",
+   "country": "US",
    "type": "threat",
    "status": "active",
    "geo_precision": "country",
-   "summary": "In a BBC interview, Leila Khaled warned diaspora Jewish leaders who aid Israel that they are targets for terrorist attack, and refused to name them."
+   "summary": "A threatening note signed K.K.K. was received by Benjamin Cohen, manager of the co-operative camp Nitgadaiget at Beacon, New York. The note told campers to withdraw from the community or severe methods would be taken."
   },
   {
-   "event_date": "1975-06-09",
-   "place": null,
-   "country": null,
-   "type": "assault",
+   "event_date": "1927-09-16",
+   "place": "Spalarovke",
+   "country": "UA",
+   "type": "harassment",
    "status": "active",
    "geo_precision": "country",
-   "summary": "The article reports that Palestinian terrorists wounded J. Edward Sieff, managing director of Marks and Spencer, two years before the interview."
+   "summary": "A village barber gave an anti-Semitic speech at a public meeting in the village of Spalarovke, blaming the Jews and the Jewish Government for all the trouble. He was later sentenced to two years' imprisonment."
   },
   {
-   "event_date": "1975-06-11",
-   "place": "Babushkin",
-   "country": "RU",
-   "type": "discrimination",
+   "event_date": "1927-09-19",
+   "place": "Constantinople",
+   "country": "TR",
+   "type": "vandalism",
    "status": "active",
    "geo_precision": "city",
-   "summary": "The NCSJ reported that in Babushkin, a Moscow suburb, Jews seeking to apply for emigration were told to go home because emigration was finished."
+   "summary": "During anti-Jewish agitation in Constantinople following a Jewish protest, a number of Jewish homes had their windows smashed. Agitation to boycott Jewish firms was also reported."
   },
   {
-   "event_date": "1975-06-11",
+   "event_date": "1927-09-20",
    "place": null,
-   "country": "RU",
+   "country": "HU",
    "type": "discrimination",
    "status": "active",
    "geo_precision": "country",
-   "summary": "The NCSJ reported that in another region, applicants were told the invitations from relatives in Israel were forged."
-  },
-  {
-   "event_date": "1975-06-16",
-   "place": "Kfar Yuval",
-   "country": "IL",
-   "type": "murder",
-   "status": "active",
-   "geo_precision": "country",
-   "summary": "Four terrorists entered the Mordechai home in Kfar Yuval and took hostages, and a battle with soldiers followed. The article reports two Israeli civilians killed and six Israelis injured."
-  },
-  {
-   "event_date": "1975-06-17",
-   "place": "Kfar Giladi",
-   "country": "IL",
-   "type": "terror",
-   "status": "active",
-   "geo_precision": "city",
-   "summary": "Katyusha rockets were fired at Kfar Giladi just before dawn, causing slight damage that was promptly repaired."
+   "summary": "In Hungary, lawyer Rendes charged that Alfred Wohlstein, a native Hungarian, was included in the recent raids on aliens and deported because he is a Jew. The presiding judge declared this impossible."
   }
  ],
  "review_queue_open": 3,
@@ -162,38 +162,86 @@
   {
    "country": null,
    "region": "jta",
-   "period_start": 197506,
+   "period_start": 192709,
    "status": "done",
-   "rows_written": 17,
-   "notes": "310 articles, 116 read, 17 incidents, 17 live, 0 held, 10 at country level, 0 unparsed batches; 68840 in / 13977 out tokens"
+   "rows_written": 22,
+   "notes": "340 articles, 107 read, 22 incidents, 22 live, 0 held, 9 at country level, 0 unparsed batches; 55145 in / 16887 out tokens"
   },
   {
    "country": null,
    "region": "jta",
-   "period_start": 193304,
+   "period_start": 192502,
    "status": "done",
-   "rows_written": 124,
-   "notes": "506 articles, 277 read, 124 incidents, 122 live, 2 held, 60 at country level, 0 unparsed batches; 129977 in / 68621 out tokens"
+   "rows_written": 0,
+   "notes": "0 articles, 0 read, 0 incidents, 0 live, 0 held, 0 at country level, 0 unparsed batches; 0 in / 0 out tokens"
   },
   {
-   "country": "DE",
-   "region": null,
-   "period_start": 2020,
+   "country": null,
+   "region": "jta",
+   "period_start": 192810,
    "status": "done",
-   "rows_written": 11,
-   "notes": "11 proposed, 11 written, 11 live, 0 held, 0 unusable; 10 searches, 170626 in / 16435 out tokens"
+   "rows_written": 51,
+   "notes": "420 articles, 164 read, 51 incidents, 51 live, 0 held, 8 at country level, 0 unparsed batches; 85060 in / 35041 out tokens"
   },
   {
-   "country": "FR",
-   "region": null,
-   "period_start": 2020,
+   "country": null,
+   "region": "jta",
+   "period_start": 192806,
    "status": "done",
-   "rows_written": 5,
-   "notes": "5 proposed, 5 written, 3 live, 2 held, 0 unusable; 10 searches, 139981 in / 7094 out tokens"
+   "rows_written": 32,
+   "notes": "415 articles, 147 read, 32 incidents, 32 live, 0 held, 11 at country level, 0 unparsed batches; 77142 in / 21798 out tokens"
+  },
+  {
+   "country": null,
+   "region": "jta",
+   "period_start": 192704,
+   "status": "done",
+   "rows_written": 31,
+   "notes": "395 articles, 165 read, 31 incidents, 31 live, 0 held, 10 at country level, 0 unparsed batches; 91440 in / 21176 out tokens"
+  },
+  {
+   "country": null,
+   "region": "jta",
+   "period_start": 192710,
+   "status": "done",
+   "rows_written": 22,
+   "notes": "374 articles, 135 read, 22 incidents, 22 live, 0 held, 5 at country level, 0 unparsed batches; 61744 in / 12492 out tokens"
+  },
+  {
+   "country": null,
+   "region": "jta",
+   "period_start": 192803,
+   "status": "done",
+   "rows_written": 34,
+   "notes": "457 articles, 190 read, 34 incidents, 34 live, 0 held, 9 at country level, 1 unparsed batches; 99399 in / 27577 out tokens"
+  },
+  {
+   "country": null,
+   "region": "jta",
+   "period_start": 192711,
+   "status": "done",
+   "rows_written": 29,
+   "notes": "380 articles, 133 read, 29 incidents, 29 live, 0 held, 8 at country level, 0 unparsed batches; 66443 in / 20169 out tokens"
+  },
+  {
+   "country": null,
+   "region": "jta",
+   "period_start": 192308,
+   "status": "done",
+   "rows_written": 18,
+   "notes": "218 articles, 90 read, 18 incidents, 18 live, 0 held, 6 at country level, 0 unparsed batches; 35696 in / 11778 out tokens"
+  },
+  {
+   "country": null,
+   "region": "jta",
+   "period_start": 192511,
+   "status": "done",
+   "rows_written": 0,
+   "notes": "0 articles, 0 read, 0 incidents, 0 live, 0 held, 0 at country level, 0 unparsed batches; 0 in / 0 out tokens"
   }
  ],
- "sources": 277,
- "source_links": 37086,
+ "sources": 1247,
+ "source_links": 38225,
  "latest_research": [
   {
    "event_date": "2026-10-27",
@@ -293,6 +341,56 @@
   }
  ],
  "recent_runs": [
+  {
+   "agent": "harvest:jta",
+   "started_at": "2026-11-13T20:54:54.687416+00:00",
+   "finished_at": null,
+   "ok": null,
+   "rows_written": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "error": null
+  },
+  {
+   "agent": "harvest:jta",
+   "started_at": "2026-11-13T20:54:36.198751+00:00",
+   "finished_at": null,
+   "ok": null,
+   "rows_written": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "error": null
+  },
+  {
+   "agent": "harvest:jta",
+   "started_at": "2026-11-13T20:54:17.378707+00:00",
+   "finished_at": null,
+   "ok": null,
+   "rows_written": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "error": null
+  },
+  {
+   "agent": "harvest:jta",
+   "started_at": "2026-11-13T20:53:53.123291+00:00",
+   "finished_at": null,
+   "ok": null,
+   "rows_written": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "error": null
+  },
+  {
+   "agent": "harvest:jta",
+   "started_at": "2026-11-13T20:53:37.644657+00:00",
+   "finished_at": null,
+   "ok": null,
+   "rows_written": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "error": null
+  },
   {
    "agent": "harvest:jta",
    "started_at": "2026-11-13T20:53:14.680606+00:00",
