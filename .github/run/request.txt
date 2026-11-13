@@ -1,3 +1,3 @@
 # One agent module per line, optional arguments after it. Changing this file starts a run.
-# requested 2026-11-13T20:25Z
-agents.research.recent only=gb,be days=21
+# requested 2026-11-13T20:35Z
+agents.probe

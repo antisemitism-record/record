@@ -5,9 +5,6 @@ on:
   push:
     branches: [main]
     paths: [".github/run/request.txt"]
-  schedule:
-    - cron: "23 */4 * * *"   # backfill: every four hours
-    - cron: "41 9 * * *"     # live: once a day
   workflow_dispatch:
 permissions:
   contents: write

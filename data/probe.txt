@@ -1,0 +1,13 @@
+https://www.jta.org/wp-json/wp/v2/posts?per_page=3&after=1933-04-01T00:00:00&before=1933-04-03T00:00:00&_fields=id,date,link,title
+https://www.jta.org/wp-json/wp/v2/types
+https://www.jta.org/1933/04/01
+https://www.jta.org/archive
+https://www.amadeu-antonio-stiftung.de/chronik/
+https://www.osservatorioantisemitismo.it/episodi-di-antisemitismo-in-italia/
+https://chroniclingamerica.loc.gov/search/pages/results/?andtext=pogrom&date1=1905&date2=1905&dateFilterType=yearRange&format=json&rows=1
+https://www.loc.gov/collections/chronicling-america/?q=pogrom&dates=1905&fo=json&c=1
+https://www.jewishgen.org/yizkor/translations.html
+https://report-antisemitism.de/chronicle/
+https://en.wikipedia.org/w/api.php?action=parse&page=Timeline_of_antisemitism_in_the_20th_century&prop=wikitext&format=json
+https://www.nli.org.il/en/newspapers/
+https://ajcarchives.org/main.php?GroupingId=40
