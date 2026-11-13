@@ -24,6 +24,9 @@ def main():
                                   status="in.(done,blocked)", order="worked_at.desc.nullslast", limit=12),
         "sources": db.count("source"),
         "source_links": db.count("incident_source"),
+        "latest_research": db.select(
+            "incident", select="event_date,place,country,type,status,summary", external_source="eq.research",
+            order="created_at.desc", limit=12),
         "recent_runs": db.select("agent_run", select="agent,started_at,finished_at,ok,rows_written,input_tokens,output_tokens,error",
                                  order="started_at.desc", limit=15),
     }

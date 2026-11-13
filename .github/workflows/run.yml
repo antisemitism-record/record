@@ -5,6 +5,9 @@ on:
   push:
     branches: [main]
     paths: [".github/run/request.txt"]
+  schedule:
+    - cron: "23 */4 * * *"   # backfill: every four hours
+    - cron: "41 9 * * *"     # live: once a day
   workflow_dispatch:
 permissions:
   contents: write
@@ -29,6 +32,15 @@ jobs:
           mkdir -p status
           : > status/last-run.log
           fail=0
+          list=.github/run/request.txt
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            if [ -e .github/run/PAUSED ]; then echo "paused" | tee -a status/last-run.log; exit 0; fi
+            list=/tmp/request.txt
+            case "${{ github.event.schedule }}" in
+              "41 9 * * *") echo "agents.research.recent countries=6 days=21" > "$list";;
+              *)            echo "agents.research.worker cells=3 limit=25 searches=12" > "$list";;
+            esac
+          fi
           while read -r agent args; do
             case "$agent" in ""|\#*) continue;; esac
             case "$agent" in
@@ -41,7 +53,7 @@ jobs:
             python -m "$agent" $args > /tmp/agent.log 2>&1 || rc=$?
             tail -n 25 /tmp/agent.log | tee -a status/last-run.log
             [ "$rc" = "0" ] || { fail=1; echo "FAILED: $agent" | tee -a status/last-run.log; }
-          done < .github/run/request.txt
+          done < "$list"
           echo "fail=$fail" >> "$GITHUB_ENV"
       - name: Refresh status
         if: always()

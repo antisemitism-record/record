@@ -167,6 +167,33 @@ def to_item(inc, code, run_id):
     return {"row": row, "sources": sources, "verified": any_ok, "notes": notes}, None
 
 
+def store(found, code, run_id):
+    """Check every proposed incident against its sources and write it. Returns (written, held, unusable)."""
+    items, dropped = [], 0
+    for inc in found:
+        item, _why = to_item(inc, code, run_id)
+        if item:
+            items.append(item)
+        else:
+            dropped += 1
+    seen, uniq = set(), []
+    for it in items:
+        if it["row"]["external_key"] not in seen:
+            seen.add(it["row"]["external_key"])
+            uniq.append(it)
+    written = db.write_documented(uniq) if uniq else 0
+    held = [it for it in uniq if not it["verified"]]
+    if held:
+        ids = db.select("incident", select="id,external_key", external_source="eq.research",
+                        external_key="in.(" + ",".join(it["row"]["external_key"] for it in held) + ")")
+        by = {x["external_key"]: x["id"] for x in ids}
+        db._request("POST", "review_queue", json=[
+            {"incident_id": by[it["row"]["external_key"]], "reason": "source-unverified",
+             "detail": it["notes"][:1000], "raised_by": "research"} for it in held
+            if it["row"]["external_key"] in by], prefer="return=minimal")
+    return written, len(held), dropped
+
+
 def claim(n):
     cells = db.select("cell", select="id,country,period_start,period_end", status="eq.pending",
                       order="priority.asc,period_start.desc", limit=n)
@@ -191,27 +218,9 @@ def main():
             label = f"{name} {c['period_start']}-{c['period_end']}"
             try:
                 found, use = ask(name, c["period_start"], c["period_end"], limit, searches)
-                items, dropped = [], []
-                for inc in found:
-                    item, why = to_item(inc, c["country"], run_id)
-                    (items if item else dropped).append(item or why)
-                seen, uniq = set(), []
-                for it in items:
-                    if it["row"]["external_key"] not in seen:
-                        seen.add(it["row"]["external_key"])
-                        uniq.append(it)
-                written = db.write_documented(uniq) if uniq else 0
-                held = [it for it in uniq if not it["verified"]]
-                if held:
-                    ids = db.select("incident", select="id,external_key", external_source="eq.research",
-                                    external_key="in.(" + ",".join(it["row"]["external_key"] for it in held) + ")")
-                    by = {x["external_key"]: x["id"] for x in ids}
-                    db._request("POST", "review_queue", json=[
-                        {"incident_id": by[it["row"]["external_key"]], "reason": "source-unverified",
-                         "detail": it["notes"][:1000], "raised_by": "research"} for it in held
-                        if it["row"]["external_key"] in by], prefer="return=minimal")
-                note = (f"{len(found)} proposed, {written} written, {written - len(held)} live, {len(held)} held, "
-                        f"{len(dropped)} unusable; {use['searches']} searches, "
+                written, held, dropped = store(found, c["country"], run_id)
+                note = (f"{len(found)} proposed, {written} written, {written - held} live, {held} held, "
+                        f"{dropped} unusable; {use['searches']} searches, "
                         f"{use['input_tokens']} in / {use['output_tokens']} out tokens")
                 if not use["parsed"]:
                     note += "; reply could not be parsed"
@@ -223,8 +232,8 @@ def main():
                                   "rows_written": written, "notes": note})
                 total["cells"] += 1
                 total["rows"] += written
-                total["live"] += written - len(held)
-                total["held"] += len(held)
+                total["live"] += written - held
+                total["held"] += held
                 for k in ("input_tokens", "output_tokens", "searches"):
                     total[k] += use[k]
                 print(label, "->", note)
