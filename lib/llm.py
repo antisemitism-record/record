@@ -9,6 +9,10 @@ API = "https://api.anthropic.com/v1/messages"
 FAST = os.environ.get("EXTRACT_MODEL", "claude-haiku-5-5")
 
 
+class Stopped(RuntimeError):
+    """The API refused in a way retrying will not fix: no credit, spend limit reached, bad key."""
+
+
 class Usage:
     def __init__(self):
         self.input_tokens = self.output_tokens = self.calls = 0
@@ -40,7 +44,7 @@ def ask(prompt, system=None, model=FAST, max_tokens=8000, usage=None):
         if r.status_code in (429, 500, 502, 503, 529):
             time.sleep(min(90, 8 * (attempt + 1)))
             continue
-        break
+        raise Stopped(f"Claude API refused: {last}")
     raise RuntimeError(f"Claude API failed: {last}")
 
 

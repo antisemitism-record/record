@@ -36,6 +36,8 @@ SYSTEM = """You extract antisemitic incidents from news articles of the Jewish T
 
 An incident is a specific act at a specific place: an attack on a person, a riot or pogrom, a bombing, arson, a synagogue, cemetery, school, shop or home attacked or desecrated, a blood libel, an expulsion, a threat, an act of harassment, a discriminatory act against named people or a named community. Include small local incidents. One article may report several incidents; list each.
 
+List only incidents that happened shortly before the article was written, within about two months of the article date. Skip anything the article merely recalls from earlier years, anniversaries and retrospectives; those are recorded from the reports of their own time.
+
 Do not list: general political news, speeches, laws and decrees as such, statistics, opinion, appeals, relief work, court proceedings with no act described, or anything where the article does not say or show that Jews or a Jewish place were the target. Do not list Holocaust camps, ghettos or deportations; those are recorded separately. Local pogroms, shootings and attacks in those years are included.
 
 For each incident give:
@@ -44,7 +46,7 @@ For each incident give:
 - place: the town or city as the article names it; null if only a country is given
 - modern_name: today's usual English name of that town if different or if known, else the same as place
 - admin1: region or province if stated
-- country: two-letter ISO code of the country that place is in TODAY
+- country: two-letter ISO code of the country where it happened, using TODAY's borders. Always give one; skip the incident if the article does not say where it happened
 - type: one of murder, assault, arson, vandalism, desecration, threat, harassment, terror, riot, expulsion, property, discrimination, blood libel
 - target: person, synagogue, school, cemetery, business, home, memorial, community building or community
 - killed, wounded: numbers if stated, else null. If the article gives a range, use the lower figure.
@@ -121,7 +123,7 @@ def to_item(inc, by_id, world, run_id, n):
         return None
     cc = (inc.get("country") or "").upper()[:2]
     if not re.fullmatch(r"[A-Z]{2}", cc):
-        cc = None
+        return None
     place = (inc.get("place") or "").strip() or None
     lat = lon = None
     prec = "country"
@@ -237,6 +239,12 @@ def main():
                 for k in ("articles", "read", "incidents", "live", "held"):
                     total[k] += res[k]
                 print(ym, "->", note)
+            except llm.Stopped as e:
+                # Out of credit or over the spend limit: put the month back and stop this worker.
+                db._request("PATCH", "cell", params={"id": f"eq.{cell['id']}"},
+                            json={"status": "pending", "claimed_by": None, "notes": None})
+                print(ym, "-> STOPPED", str(e)[:300])
+                break
             except Exception as e:
                 db._request("PATCH", "cell", params={"id": f"eq.{cell['id']}"},
                             json={"status": "blocked", "notes": str(e)[:500]})
