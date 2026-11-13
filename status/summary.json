@@ -1,0 +1,57 @@
+{
+ "generated": "2026-11-13T19:38:37+00:00",
+ "incidents": {
+  "total": 36785,
+  "active": 36785,
+  "candidate": 0,
+  "merged": 0,
+  "documented": 252,
+  "register": 36533,
+  "country_level_only": 158
+ },
+ "by_origin": {
+  "fbi": 36281,
+  "nypd": 252,
+  "seed": 252
+ },
+ "sources": 153,
+ "source_links": 36910,
+ "recent_runs": [
+  {
+   "agent": "seed",
+   "started_at": "2026-11-13T19:38:36.26317+00:00",
+   "finished_at": "2026-11-13T19:38:37.484088+00:00",
+   "ok": true,
+   "rows_written": 252,
+   "usd": 0.0,
+   "error": null
+  },
+  {
+   "agent": "register:nypd",
+   "started_at": "2026-11-13T19:38:32.8629+00:00",
+   "finished_at": "2026-11-13T19:38:35.87417+00:00",
+   "ok": true,
+   "rows_written": 252,
+   "usd": 0.0,
+   "error": null
+  },
+  {
+   "agent": "register:fbi",
+   "started_at": "2026-11-13T19:37:28.552392+00:00",
+   "finished_at": "2026-11-13T19:38:32.387382+00:00",
+   "ok": true,
+   "rows_written": 36281,
+   "usd": 0.0,
+   "error": null
+  },
+  {
+   "agent": "register:fbi",
+   "started_at": "2026-11-13T19:26:22.683023+00:00",
+   "finished_at": "2026-11-13T19:27:01.294103+00:00",
+   "ok": true,
+   "rows_written": 36123,
+   "usd": 0.0,
+   "error": null
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+== agents.register.fbi
+{'rows': 36281, 'country_level': 158, 'city': 31615, 'region': 2594, 'state': 1914, 'first_year': '1991', 'last_year': '2025'}
+written 36281
+== agents.register.nypd
+{'after': '2025-12-31', 'rows': 252}
+written 252
+== agents.seed.load
+{'incidents': 252, 'source_links': 377}
+written 252
+{"total": 36785, "active": 36785, "candidate": 0, "merged": 0, "documented": 252, "register": 36533, "country_level_only": 158} {"fbi": 36281, "nypd": 252, "seed": 252}
