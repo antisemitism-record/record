@@ -21,6 +21,7 @@ SIGNED = "https://cde.ucr.cjis.gov/LATEST/s3/signedurl?key=additional-datasets/h
 SOURCE_TITLE = "FBI Hate Crime Statistics, incident-level master file"
 SOURCE_URL = "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/downloads"
 STATE_FIX = {"NB": "NE"}
+US_CENTRE = (39.83, -98.58)
 
 # First match wins, most serious first: (words to look for, type, severity, label)
 OFFENCES = [
@@ -72,8 +73,8 @@ def build_rows(fh, gaz, run_id=None):
         agency = d["pug_agency_name"].rstrip(":, ")
         where = gaz.locate(agency, state)
         if not where:
-            stats["unplaced"] += 1
-            continue
+            # Nothing is dropped for lack of a location: the row is kept at country level.
+            where = (US_CENTRE[0], US_CENTRE[1], "country")
         kind, sev, label = classify(d["offense_name"])
         loc = d["location_name"]
         other_bias = [b for b in d["bias_desc"].split(";") if "Jewish" not in b]
@@ -108,7 +109,7 @@ def main():
         fh = open(local, newline="", encoding="utf-8", errors="replace") if local else download()
         rows, stats = build_rows(fh, gaz, run_id)
         years = sorted(k[5:] for k in stats if k.startswith("year_"))
-        summary = {"rows": len(rows), "unplaced": stats["unplaced"], "city": stats["city"],
+        summary = {"rows": len(rows), "country_level": stats["country"], "city": stats["city"],
                    "region": stats["region"], "state": stats["state"],
                    "first_year": years[0], "last_year": years[-1]}
         print(summary)

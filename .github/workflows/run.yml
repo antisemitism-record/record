@@ -1,0 +1,57 @@
+# Runs the agents named in .github/run/request.txt, one per line, then
+# refreshes status/summary.json. Triggered whenever that file changes.
+name: run
+on:
+  push:
+    branches: [main]
+    paths: [".github/run/request.txt"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: agents
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q -r requirements.txt
+      - name: Run requested agents
+        run: |
+          mkdir -p status
+          : > status/last-run.log
+          fail=0
+          while read -r agent _; do
+            case "$agent" in ""|\#*) continue;; esac
+            case "$agent" in
+              agents.*) ;;
+              *) echo "refused: $agent" | tee -a status/last-run.log; continue;;
+            esac
+            echo "== $agent" | tee -a status/last-run.log
+            rc=0
+            python -m "$agent" > /tmp/agent.log 2>&1 || rc=$?
+            tail -n 25 /tmp/agent.log | tee -a status/last-run.log
+            [ "$rc" = "0" ] || { fail=1; echo "FAILED: $agent" | tee -a status/last-run.log; }
+          done < .github/run/request.txt
+          echo "fail=$fail" >> "$GITHUB_ENV"
+      - name: Refresh status
+        if: always()
+        run: python -m agents.status 2>&1 | tail -n 5 | tee -a status/last-run.log || true
+      - name: Publish status
+        if: always()
+        run: |
+          git config user.name "The Antisemitism Record"
+          git config user.email "356348794+antisemitismrecord-admin@users.noreply.github.com"
+          git add status
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Update status"
+          for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin main && break; sleep 5; done
+      - name: Result
+        run: test "$fail" = "0"

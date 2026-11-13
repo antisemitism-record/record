@@ -70,3 +70,54 @@ def finish_run(run_id, ok, rows_written=0, error=None, log=None, usd=0):
     _request("PATCH", "agent_run", params={"id": f"eq.{run_id}"},
              json={"finished_at": datetime.datetime.now(datetime.timezone.utc).isoformat(), "ok": ok, "rows_written": rows_written,
                    "error": error, "log": log, "usd": usd})
+
+
+def write_documented(items, batch=200):
+    """items: [{"row": incident dict, "sources": [{"title","url","kind","lang","publisher","evidence","passage"}]}]
+
+    Upserts each incident on its external key, then every source, then the
+    links. The first source listed is the main one; the rest confirm it.
+    """
+    written = 0
+    for i in range(0, len(items), batch):
+        chunk = items[i:i + batch]
+        got = upsert("incident", [c["row"] for c in chunk], "external_source,external_key", "id,external_key")
+        ids = {g["external_key"]: g["id"] for g in got}
+        src_rows, seen = [], set()
+        for c in chunk:
+            for s in c["sources"]:
+                k = (s.get("url"), s["title"])
+                if k not in seen:
+                    seen.add(k)
+                    src_rows.append({"title": s["title"], "url": s.get("url"), "kind": s["kind"],
+                                     "lang": s.get("lang"), "publisher": s.get("publisher")})
+        src = upsert("source", src_rows, "url,title", "id,url,title")
+        sid = {(x["url"], x["title"]): x["id"] for x in src}
+        links, seen = [], set()
+        for c in chunk:
+            inc = ids[c["row"]["external_key"]]
+            for n, s in enumerate(c["sources"]):
+                k = (inc, sid[(s.get("url"), s["title"])])
+                if k in seen:
+                    continue
+                seen.add(k)
+                links.append({"incident_id": k[0], "source_id": k[1],
+                              "role": "reporting" if n == 0 else "confirming",
+                              "evidence": s.get("evidence"), "passage": s.get("passage")})
+        upsert("incident_source", links, "incident_id,source_id", "incident_id")
+        written += len(got)
+    return written
+
+
+def count(table, **filters):
+    """Exact row count for a table with simple equality filters."""
+    params = {k: f"eq.{v}" for k, v in filters.items()}
+    params["select"] = "id" if table != "incident_source" else "incident_id"
+    r = requests.head(f"{URL}/rest/v1/{table}", params=params,
+                      headers=_headers("count=exact"), timeout=60)
+    r.raise_for_status()
+    return int(r.headers["content-range"].split("/")[-1])
+
+
+def select(table, **params):
+    return _request("GET", table, params=params)

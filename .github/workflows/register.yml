@@ -18,4 +18,6 @@ jobs:
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
-        run: python -m agents.register.fbi
+        run: |
+          python -m agents.register.fbi
+          python -m agents.register.nypd

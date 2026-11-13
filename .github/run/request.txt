@@ -1,0 +1,5 @@
+# One agent module per line. Changing this file starts a run.
+# requested 2026-11-13T19:50Z
+agents.register.fbi
+agents.register.nypd
+agents.seed.load
