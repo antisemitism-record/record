@@ -1,0 +1,59 @@
+# Page harvesters: reference pages in every language, several workers in parallel.
+# historical source unit by unit until its time is up.
+name: pages
+on:
+  schedule:
+    - cron: "37 */6 * * *"
+  push:
+    branches: [main]
+    paths: [".github/run/pages.txt"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: pages
+jobs:
+  work:
+    if: github.repository == 'antisemitism-record/record'
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      matrix:
+        worker: [1, 2, 3, 4]
+    env:
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q -r requirements.txt
+      - name: Harvest
+        run: |
+          if [ -e .github/run/PAUSED ]; then echo "paused"; exit 0; fi
+          sleep $(( (${{ matrix.worker }} - 1) * 20 ))
+          python -m agents.harvest.pages minutes=320 2>&1 | tail -n 400
+  status:
+    if: always() && github.repository == 'antisemitism-record/record'
+    needs: work
+    runs-on: ubuntu-latest
+    env:
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q -r requirements.txt
+      - run: python -m agents.status
+      - name: Publish status
+        run: |
+          git config user.name "The Antisemitism Record"
+          git config user.email "356348794+antisemitismrecord-admin@users.noreply.github.com"
+          git add status
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Update status"
+          for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin main && break; sleep 5; done
