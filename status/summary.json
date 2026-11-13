@@ -1,247 +1,255 @@
 {
- "generated": "2026-11-13T21:14:14+00:00",
+ "generated": "2026-11-13T21:21:48+00:00",
  "incidents": {
-  "total": 39025,
-  "active": 39012,
+  "total": 39732,
+  "active": 39719,
   "candidate": 13,
   "merged": 0,
-  "documented": 2492,
+  "documented": 3199,
   "register": 36533,
-  "country_level_only": 834
+  "country_level_only": 994
  },
  "by_origin": {
   "fbi": 36281,
   "nypd": 252,
   "seed": 252,
   "research": 18,
-  "jta": 2222
+  "jta": 2929,
+  "wiki": 0
  },
  "cells": {
-  "pending": 2172,
+  "pending": 50469,
   "claimed": 6,
-  "done": 82,
+  "done": 104,
   "blocked": 0
  },
  "jta_months": {
-  "pending": 1160,
+  "pending": 1142,
   "claimed": 6,
-  "done": 80,
+  "done": 98,
   "blocked": 0
  },
+ "wiki_pages": {
+  "pending": 48315,
+  "claimed": 0,
+  "done": 4,
+  "blocked": 0
+ },
+ "latest_wiki": [],
  "held_for_review": 13,
  "latest_jta": [
   {
-   "event_date": "1931-03-13",
-   "place": null,
-   "country": "PS",
-   "type": "blood libel",
+   "event_date": "1931-12-02",
+   "place": "Bratislava",
+   "country": "SK",
+   "type": "discrimination",
    "status": "active",
-   "geo_precision": "country",
-   "summary": "The article reports that the Arab newspaper Felestin published a blood libel story the previous week, and that criminal proceedings against its editor were dismissed."
+   "geo_precision": "city",
+   "summary": "Nationalist students at Bratislava University continued a numerus clausus agitation against Jewish students, holding meetings, and the Young Men's Christian Association lent premises for an antisemitic numerus clausus meeting after the Rectorate refused use of university rooms. The article reports that disturbances took place that day."
   },
   {
-   "event_date": "1931-03-20",
-   "place": "Preussisch-Holland",
-   "country": "PL",
+   "event_date": "1931-12-04",
+   "place": "Geneva",
+   "country": "CH",
+   "type": "harassment",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "The article reports that a text falsely presented as an Alliance Israelite Universelle proclamation calling for Jewish world domination was circulated in Geneva by Georges Oltramare, who publishes an antisemitic periodical. The Geneva Jewish community and the Alliance denounced the text as a forgery."
+  },
+  {
+   "event_date": "1931-11-30",
+   "place": "Vienna",
+   "country": "AT",
    "type": "assault",
    "status": "active",
    "geo_precision": "city",
-   "summary": "The article reports that Arthur Knopf, a young Jewish shop assistant, was stabbed in Preussisch-Holland in East Prussia by high school students taking part in a demonstration. He was in critical condition. The students said they stabbed him because they do not like Jews."
+   "summary": "The article reports that Nazi students drove Jewish students out of the University Building in Vienna, pursued them along the Ringstrasse, and beat and injured them, also knocking down several old people in the street. Two named Zionist students were badly injured and a number of Jewish students sustained minor injuries."
   },
   {
-   "event_date": "1931-03-05",
-   "place": "Haifa Bay area",
-   "country": "IL",
-   "type": "vandalism",
+   "event_date": "1931-12-02",
+   "place": null,
+   "country": "PL",
+   "type": "discrimination",
    "status": "active",
    "geo_precision": "country",
-   "summary": "Bedouin and Arabs are trespassing on Jewish-owned lands in the Haifa Bay area, and several thousand trees have been uprooted. The land is owned by the Palestine Economic Corporation together with the Jewish National Fund."
+   "summary": "The editor of the Yiddish daily Unser Express writes that a renewed boycott movement started by Polish antisemites has been launched against Jewish businesses in Poland."
   },
   {
-   "event_date": "1931-03-12",
+   "event_date": "1931-12-04",
+   "place": null,
+   "country": "PL",
+   "type": "discrimination",
+   "status": "active",
+   "geo_precision": "country",
+   "summary": "The article reports that Jewish shopkeepers, especially in Christian quarters, are doing almost no business during the Christmas season because of a boycott campaign. It also reports that many Jewish shops in Vilna are closing after going bankrupt."
+  },
+  {
+   "event_date": "1931-12-04",
+   "place": "Vienna",
+   "country": "AT",
+   "type": "harassment",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "The Socialist press reports that policemen belonging to the Swastika Party broke up a meeting of Socialist policemen, shouting antisemitic slogans including \"Jews' Slaves!\" and \"Perish Judea!\". The Interior Minister and Police Presidium ordered an inquiry."
+  },
+  {
+   "event_date": "1931-12-11",
+   "place": null,
+   "country": "PL",
+   "type": "riot",
+   "status": "active",
+   "geo_precision": "country",
+   "summary": "The Central Committee of the B'nai B'rith in Poland cables the American B'nai B'rith that antisemitic National Democratic students committed acts of violence against Jewish students, which spread from the universities to the streets. The article does not give dates or places."
+  },
+  {
+   "event_date": "1931-12-11",
+   "place": "Warsaw",
+   "country": "PL",
+   "type": "harassment",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "The Organisation of Jewish Retail Shopkeepers in Warsaw heard reports on boycott picketing by National Democratic students outside Jewish shops and called on the authorities to stop it."
+  },
+  {
+   "event_date": "1931-12-02",
+   "place": "Vilnius",
+   "country": "LT",
+   "type": "discrimination",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "When Vilna University reopened, Christian students occupied all the seats on the right side of the lecture halls, leaving the left side to Jewish students. The Jewish students refused to sit and stood during the lectures in protest."
+  },
+  {
+   "event_date": "1931-12-02",
+   "place": null,
+   "country": "PL",
+   "type": "riot",
+   "status": "active",
+   "geo_precision": "country",
+   "summary": "The Warsaw Jewish Community Administration states that excesses took place recently at Polish universities, where students tried to prevent Jewish students from attending lectures. The excesses spread to a number of towns."
+  },
+  {
+   "event_date": "1931-12-02",
+   "place": null,
+   "country": "LV",
+   "type": "assault",
+   "status": "active",
+   "geo_precision": "country",
+   "summary": "A Latvian education official told the Seym Educational Commission that in many German secondary schools in Latvia, Jewish pupils are being insulted and beaten by fellow pupils influenced by the Nazi movement."
+  },
+  {
+   "event_date": "1931-11-10",
+   "place": "Vilna",
+   "country": "LT",
+   "type": "assault",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "The article reports that National Democratic students attacked Jewish students at Vilna University, and that on a Tuesday morning the disturbances spread to the Faculty of Humanities, where several professors were beaten and Jewish students were hunted. Injuries occurred on both sides."
+  },
+  {
+   "event_date": "1931-12-04",
    "place": "Berlin",
    "country": "DE",
-   "type": "harassment",
-   "status": "active",
-   "geo_precision": "city",
-   "summary": "A crowd of Hitlerists gathered outside the Adlon Hotel in Berlin, where Charlie Chaplin was staying, shouting abuse calling him the 'Jewish comedian'. Police drove the demonstrators off."
-  },
-  {
-   "event_date": "1931-03-16",
-   "place": "Moscow",
-   "country": "RU",
-   "type": "discrimination",
-   "status": "active",
-   "geo_precision": "city",
-   "summary": "The article reports that the Jewish Communist organ Emess published caricatures of the accused Menshevik leaders that emphasised their Jewish features, and that the trial was used to stir anti-Jewish feeling."
-  },
-  {
-   "event_date": "1931-03-20",
-   "place": "Schriesheim",
-   "country": "DE",
-   "type": "desecration",
-   "status": "active",
-   "geo_precision": "city",
-   "summary": "The article reports that a Jewish cemetery in Schriesheim near Heidelberg was desecrated, with many tombstones demolished and others covered with filth. Two members of the Hitlerist organisation were arrested."
-  },
-  {
-   "event_date": "1931-03-03",
-   "place": "Jaffa",
-   "country": "IL",
-   "type": "blood libel",
-   "status": "active",
-   "geo_precision": "city",
-   "summary": "The Arabic newspaper Felestin published a story that a Jew had stolen Arab children, which the article describes as a blood libel. The Jewish Agency asked the government to act against the paper."
-  },
-  {
-   "event_date": "1931-03-03",
-   "place": "Jaffa",
-   "country": "IL",
    "type": "assault",
    "status": "active",
    "geo_precision": "city",
-   "summary": "According to the Felestin, an Arab greengrocer struck a Jew named Levy after confronting him over alleged stolen children, and Levy was then arrested. The article reports this as the greengrocer's account."
+   "summary": "The article reports that Nazis in Grenadier Strasse in Berlin shouted \"Perish Judea\" and attacked Jews passing through the street from behind. A crowd of Jews then drove the Nazis off, and two of the Nazis were injured."
   },
   {
-   "event_date": "1931-03-11",
-   "place": "Nehite",
-   "country": "UA",
-   "type": "blood libel",
-   "status": "active",
-   "geo_precision": "country",
-   "summary": "A school teacher from Nehite told police that four Jews had seized him and tried to crucify him on a synagogue door, and the peasants spread an outcry that Jews wanted his blood for Passover. The Czudyn police chief reported that the teacher had invented the story."
-  },
-  {
-   "event_date": "1931-03-11",
-   "place": "Munich",
-   "country": "DE",
-   "type": "harassment",
+   "event_date": "1931-11-10",
+   "place": "Vilna",
+   "country": "LT",
+   "type": "riot",
    "status": "active",
    "geo_precision": "city",
-   "summary": "Young men on Sunday trains from Munich into the mountains sang antisemitic songs, including lyrics calling for Jews to be killed, and made other passengers unable to find peace. The report describes this as a recurring practice."
-  },
-  {
-   "event_date": "1931-03-14",
-   "place": "Homel",
-   "country": "BY",
-   "type": "assault",
-   "status": "active",
-   "geo_precision": "city",
-   "summary": "The Minsk Yiddish Communist daily Oktiabr reports that non-Jewish workers at the Trud shoe factory in Homel tied up a Jewish worker, stripped him, and poured cement over his body, causing severe injuries. Other workers rescued him."
-  },
-  {
-   "event_date": "1931-03-14",
-   "place": null,
-   "country": "PS",
-   "type": "discrimination",
-   "status": "active",
-   "geo_precision": "country",
-   "summary": "The Palestine Arab Executive issued a proclamation reviving a boycott of Jews, urging Arab organisations to spread the boycott of Jewish goods and land sales."
-  },
-  {
-   "event_date": "1931-03-16",
-   "place": "Hamburg",
-   "country": "DE",
-   "type": "assault",
-   "status": "active",
-   "geo_precision": "city",
-   "summary": "Police Sergeant Friedrich Pohl fired his service revolver at Government-Councillor Lassally, a Jewish senior police officer, in his Hamburg office. The bullet lodged in Lassally's stomach and was removed; Pohl said he shot because he hates Jews."
-  },
-  {
-   "event_date": "1931-03-20",
-   "place": "Duisburg",
-   "country": "DE",
-   "type": "vandalism",
-   "status": "active",
-   "geo_precision": "city",
-   "summary": "The article reports that Hitlerist troops marched from a meeting to the Jewish Community Building in Duisburg and bombarded it with stones, smashing every window. Police arrived after the attackers had dispersed."
+   "summary": "The article reports that the Gazeta Warszawska claimed the accused Jews would face court martial, and that police officers were dismissed after a disciplinary inquiry into charges of anti-Jewish behaviour during excesses in Vilna on November 10."
   }
  ],
  "review_queue_open": 3,
  "recent_cells": [
   {
    "country": null,
-   "region": "jta",
-   "period_start": 193103,
+   "region": "wiki|en|Agron (dictionary)",
+   "period_start": 0,
    "status": "done",
-   "rows_written": 20,
-   "notes": "245 articles, 124 read, 20 incidents, 20 live, 0 held, 5 at country level, 1 unparsed batches; 78567 in / 21083 out tokens"
+   "rows_written": 0,
+   "notes": "1623 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 1422 in / 16 out tokens"
+  },
+  {
+   "country": null,
+   "region": "wiki|en|Ahmedabad\u2013Varanasi City Sabarmati Express",
+   "period_start": 0,
+   "status": "done",
+   "rows_written": 0,
+   "notes": "1749 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 1624 in / 98 out tokens"
+  },
+  {
+   "country": null,
+   "region": "wiki|en|1740 Batavia massacre",
+   "period_start": 0,
+   "status": "done",
+   "rows_written": 0,
+   "notes": "19339 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 7614 in / 101 out tokens"
+  },
+  {
+   "country": null,
+   "region": "wiki|en|1660 destruction of Tiberias",
+   "period_start": 0,
+   "status": "done",
+   "rows_written": 0,
+   "notes": "2652 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 1895 in / 88 out tokens"
   },
   {
    "country": null,
    "region": "jta",
-   "period_start": 193005,
+   "period_start": 193112,
    "status": "done",
-   "rows_written": 48,
-   "notes": "685 articles, 214 read, 48 incidents, 47 live, 1 held, 14 at country level, 0 unparsed batches; 95782 in / 28337 out tokens"
+   "rows_written": 60,
+   "notes": "289 articles, 158 read, 60 incidents, 60 live, 0 held, 12 at country level, 0 unparsed batches; 93405 in / 38818 out tokens"
   },
   {
    "country": null,
    "region": "jta",
-   "period_start": 193101,
+   "period_start": 192804,
    "status": "done",
-   "rows_written": 22,
-   "notes": "276 articles, 127 read, 22 incidents, 22 live, 0 held, 6 at country level, 0 unparsed batches; 75253 in / 18930 out tokens"
+   "rows_written": 31,
+   "notes": "400 articles, 134 read, 31 incidents, 31 live, 0 held, 8 at country level, 0 unparsed batches; 68386 in / 18277 out tokens"
   },
   {
    "country": null,
    "region": "jta",
-   "period_start": 193004,
+   "period_start": 193110,
    "status": "done",
-   "rows_written": 28,
-   "notes": "676 articles, 227 read, 28 incidents, 28 live, 0 held, 12 at country level, 0 unparsed batches; 106334 in / 21860 out tokens"
+   "rows_written": 23,
+   "notes": "244 articles, 121 read, 23 incidents, 23 live, 0 held, 4 at country level, 0 unparsed batches; 74552 in / 19488 out tokens"
   },
   {
    "country": null,
    "region": "jta",
-   "period_start": 192911,
+   "period_start": 192712,
    "status": "done",
-   "rows_written": 95,
-   "notes": "548 articles, 232 read, 95 incidents, 94 live, 1 held, 36 at country level, 0 unparsed batches; 104417 in / 58900 out tokens"
+   "rows_written": 41,
+   "notes": "279 articles, 108 read, 41 incidents, 41 live, 0 held, 13 at country level, 0 unparsed batches; 55211 in / 22380 out tokens"
   },
   {
    "country": null,
    "region": "jta",
-   "period_start": 192703,
+   "period_start": 192505,
    "status": "done",
-   "rows_written": 33,
-   "notes": "450 articles, 196 read, 33 incidents, 33 live, 0 held, 8 at country level, 0 unparsed batches; 115076 in / 25698 out tokens"
+   "rows_written": 0,
+   "notes": "0 articles, 0 read, 0 incidents, 0 live, 0 held, 0 at country level, 0 unparsed batches; 0 in / 0 out tokens"
   },
   {
    "country": null,
    "region": "jta",
-   "period_start": 192603,
+   "period_start": 193204,
    "status": "done",
    "rows_written": 24,
-   "notes": "383 articles, 151 read, 24 incidents, 23 live, 1 held, 15 at country level, 0 unparsed batches; 88814 in / 19149 out tokens"
-  },
-  {
-   "country": null,
-   "region": "jta",
-   "period_start": 193009,
-   "status": "done",
-   "rows_written": 37,
-   "notes": "569 articles, 228 read, 37 incidents, 37 live, 0 held, 8 at country level, 0 unparsed batches; 113439 in / 26704 out tokens"
-  },
-  {
-   "country": null,
-   "region": "jta",
-   "period_start": 192901,
-   "status": "done",
-   "rows_written": 26,
-   "notes": "493 articles, 166 read, 26 incidents, 26 live, 0 held, 6 at country level, 0 unparsed batches; 88510 in / 21106 out tokens"
-  },
-  {
-   "country": null,
-   "region": "jta",
-   "period_start": 192812,
-   "status": "done",
-   "rows_written": 72,
-   "notes": "597 articles, 167 read, 72 incidents, 71 live, 1 held, 22 at country level, 0 unparsed batches; 76787 in / 37777 out tokens"
+   "notes": "215 articles, 121 read, 24 incidents, 24 live, 0 held, 2 at country level, 0 unparsed batches; 64700 in / 17035 out tokens"
   }
  ],
- "sources": 1967,
- "source_links": 39167,
+ "sources": 2535,
+ "source_links": 39874,
  "latest_research": [
   {
    "event_date": "2026-10-27",
@@ -341,6 +349,16 @@
   }
  ],
  "recent_runs": [
+  {
+   "agent": "harvest:pages",
+   "started_at": "2026-11-13T21:21:41.535518+00:00",
+   "finished_at": "2026-11-13T21:21:48.086531+00:00",
+   "ok": true,
+   "rows_written": 0,
+   "input_tokens": 12555,
+   "output_tokens": 303,
+   "error": null
+  },
   {
    "agent": "harvest:jta",
    "started_at": "2026-11-13T20:54:54.687416+00:00",
