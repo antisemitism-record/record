@@ -1,0 +1,157 @@
+# date|basis(i/a)|place|country|lat|lon|type|target|sev|killed|wounded|summary|sources (W:Article title ; L:list code)|date note
+1929-08-24|i|Hebron|West Bank|31.530|35.095|assault|community|5|67||Mobs attacked the old Jewish community of Hebron during the 1929 riots. The survivors were evacuated and the community ended.|W:1929 Hebron massacre;L:T20
+1929-08-29|i|Safed|Israel|32.966|35.496|assault|community|5|18||Rioters killed residents of the Jewish quarter of Safed and burned homes.|W:1929 Palestine riots;L:T20|Sources give 18 to 20 killed.
+1933-08-16|i|Toronto, Ontario|Canada|43.664|-79.421|assault|community|3|0||A swastika banner raised at a baseball game set off hours of street fighting in Christie Pits park.|W:Christie Pits riot;L:T20
+1934-06-21|a|Towns of Eastern Thrace|Turkey|41.677|26.556|assault|community|4|||Mobs attacked Jews in several Thracian towns. More than 15,000 fled.|W:1934 Thrace pogroms;L:T20|Late June to early July 1934.
+1934-08-03|i|Constantine|Algeria|36.365|6.615|assault|community|5|25||Mobs killed Jews and raided about 200 Jewish shops over three days.|W:1934 Constantine pogrom;L:T20|Sources give 25 to 34 killed.
+1936-03-09|i|Przytyk|Poland|51.466|20.906|assault|community|5|3||A market-day clash turned into a pogrom. Three people were killed and Jewish homes wrecked.|W:Przytyk pogrom;L:T20
+1936-04-19|i|Jaffa|Israel|32.050|34.757|assault|community|5|9||Mobs attacked Jews in the streets of Jaffa at the start of the 1936 revolt.|W:The Bloody Day in Jaffa;L:T20
+1938-10-02|i|Tiberias|Israel|32.794|35.531|assault|community|5|19||Raiders entered the Jewish quarter and killed 19 people, 11 of them children.|W:1938 Tiberias massacre;L:T20
+1938-11-09|i|Cities across Germany and Austria|Germany|52.520|13.405|assault|synagogue|5|91||Kristallnacht. In one night synagogues were burned and Jewish shops and homes wrecked across the Reich. About 30,000 Jewish men were sent to camps.|W:Kristallnacht;L:T20|At least 91 killed that night. Later estimates are higher. Placed at Berlin.
+1941-05-19|a|Gabès|Tunisia|33.881|10.098|assault|community|5|8|20|A mob attacked the Jewish quarter of Gabès.|W:Gabès pogrom;L:T20|May 1941.
+1941-06-01|i|Baghdad|Iraq|33.325|44.422|assault|community|5|180|1000|The Farhud. Mobs attacked Baghdad's Jews for two days, looting homes and shops.|W:Farhud;L:T20|At least 180 killed. Some counts exceed 500.
+1941-06-29|i|Iași|Romania|47.158|27.601|assault|community|5|13266||Soldiers, police and mobs killed Jews in the city and on sealed trains over several days.|W:Iași pogrom;L:T20|At least 13,266 killed.
+1941-06-30|a|Lviv|Ukraine|49.840|24.030|assault|community|5|6000||Militias and mobs, encouraged by German forces, killed Jews in two waves in the summer of 1941.|W:Lviv pogroms (1941);L:T20|About 6,000 killed across both waves.
+1941-07-10|i|Jedwabne|Poland|53.287|22.303|assault|community|5|340||Local residents drove the town's Jews into a barn and burned them alive.|W:Jedwabne pogrom;L:T20|At least 340 killed.
+1945-08-11|i|Kraków|Poland|50.051|19.945|assault|community|5|1||A post-war mob attacked Jews and a synagogue. An Auschwitz survivor was killed.|W:Kraków pogrom;L:T20
+1945-11-02|i|Cairo|Egypt|30.044|31.236|assault|community|5|5|300|A demonstration turned into attacks on Jews and their property.|W:1945 Anti-Jewish riots in Egypt;L:T20
+1945-11-05|i|Tripoli|Libya|32.887|13.191|assault|community|5|140||Rioters killed more than 140 Jews and destroyed synagogues and homes over three days.|W:1945 Tripoli pogrom;L:T20
+1946-07-04|i|Kielce|Poland|50.866|20.628|assault|community|5|42||A mob of townspeople, soldiers and police killed Holocaust survivors who had returned to the town.|W:Kielce pogrom;L:T20
+1947-12-01|i|Aleppo|Syria|36.202|37.134|assault|community|5|75||Riots after the UN partition vote killed Jews and burned synagogues, schools and homes.|W:1947 anti-Jewish riots in Aleppo;L:T20
+1947-12-02|i|Aden|Yemen|12.789|45.036|assault|community|5|76|76|Three days of riots killed Jews and destroyed much of the Jewish quarter.|W:1947 anti-Jewish riots in Aden;L:T20|Between 76 and 82 killed.
+1947-12-05|i|Manama|Bahrain|26.228|50.586|assault|community|5|1||Rioters looted Jewish homes and shops and destroyed the synagogue. One person was killed.|W:1947 Manama riots;L:T20
+1948-06-07|i|Oujda and Jerada|Morocco|34.311|-2.160|assault|community|5|43|150|Mobs attacked the small Jewish communities of Oujda and Jerada.|W:1948 Anti-Jewish Riots in Oujda and Jerada;L:T20
+1948-06-12|i|Tripoli|Libya|32.887|13.191|assault|community|5|||Rioters attacked the Jewish quarter and the community fought back. More than a dozen Jews were killed.|W:1948 Anti-Jewish riots in Tripolitania;L:T20
+1948-06-20|a|Cairo|Egypt|30.050|31.262|terror|community|5|70|200|A series of bombings hit Cairo's Jewish quarter and Jewish-owned businesses.|W:1948 Cairo bombings;L:T20|Bombings ran from June to September 1948.
+1949-08-05|i|Damascus|Syria|33.509|36.316|terror|synagogue|5|12||Grenades were thrown into the Menarsha synagogue on a Friday evening.|W:Menarsha synagogue attack;L:T20
+1958-10-12|i|Atlanta, Georgia|United States|33.799|-84.389|property|synagogue|3|0|0|Dynamite tore through the Reform Temple on Peachtree Street. No one was hurt.|W:Hebrew Benevolent Congregation Temple bombing;L:T20
+1960-03-25|i|Gadsden, Alabama|United States|34.014|-86.007|assault|synagogue|4|0|2|A synagogue was firebombed during a service and a teenager shot two congregants outside.|L:T20
+1967-09-18|i|Jackson, Mississippi|United States|32.330|-90.170|property|synagogue|3|0||A Klan dynamite bomb wrecked the new building of the city's synagogue.|L:T20
+1972-05-30|i|Lod Airport|Israel|32.000|34.871|terror|public|5|26|80|Three gunmen opened fire on the crowd in the arrivals hall.|W:Lod Airport massacre
+1972-09-05|i|Munich|Germany|48.180|11.550|terror|person|5|11||Gunmen took Israeli Olympic athletes and coaches hostage in the Olympic village. Eleven were killed.|W:Munich massacre;L:T20
+1977-10-08|i|St. Louis, Missouri|United States|38.646|-90.340|terror|synagogue|5|1|2|A gunman fired on guests leaving a bar mitzvah.|L:US
+1980-10-03|i|Paris|France|48.872|2.289|terror|synagogue|5|4|46|A bomb exploded outside the rue Copernic synagogue during Friday evening services.|W:1980 Paris synagogue bombing;L:T20
+1981-08-29|i|Vienna|Austria|48.212|16.375|terror|synagogue|5|2|18|Gunmen posing as worshippers fired on and threw grenades at a bar mitzvah.|W:1981 Vienna synagogue attack;L:INST
+1981-10-20|i|Antwerp|Belgium|51.213|4.420|terror|synagogue|5|3|106|A truck bomb exploded outside a synagogue in the diamond district.|W:1981 Antwerp synagogue bombing;L:T20
+1982-09-18|i|Brussels|Belgium|50.840|4.356|terror|synagogue|4|0|4|A gunman with a submachine gun wounded four people at the Great Synagogue on Rosh Hashanah.|L:INST;L:T20
+1982-10-09|i|Rome|Italy|41.892|12.478|terror|synagogue|5|1|37|Attackers threw grenades and fired on families leaving the Great Synagogue. A small child was killed.|W:Great Synagogue of Rome attack;L:INST
+1984-06-18|i|Denver, Colorado|United States|39.739|-104.990|terror|person|5|1|0|Members of a white supremacist group shot a Jewish radio host dead in his driveway.|W:Alan Berg;L:US
+1985-12-27|i|Rome and Vienna airports|Italy|41.800|12.250|terror|business|5|19|138|Gunmen with rifles and grenades attacked Israeli airline counters at two airports within minutes.|W:1985 Rome and Vienna airport attacks|Placed at Rome Fiumicino.
+1986-04-17|i|Pittsburgh, Pennsylvania|United States|40.440|-79.920|assault|person|5|1|0|A man was shot dead because of his visibly Jewish dress.|L:US
+1986-09-06|i|Istanbul|Turkey|41.027|28.973|terror|synagogue|5|22|6|Gunmen attacked Shabbat services at the Neve Shalom synagogue.|W:Neve Shalom Synagogue;L:INST
+1986-09-06|i|Istanbul|Turkey|41.027|28.974|terror|synagogue|5|22||Gunmen fired on a Shabbat service, killing 22 people.|L:T20
+1991-08-19|i|Crown Heights, Brooklyn, New York|United States|40.669|-73.943|assault|community|5|1||Three days of rioting followed a fatal car accident. A Jewish student was stabbed to death.|W:Crown Heights riot;L:US
+1992-03-17|i|Buenos Aires|Argentina|-34.592|-58.382|terror|community|5|29|242|A truck bomb destroyed the Israeli embassy.|W:1992 attack on Israeli embassy in Buenos Aires
+1994-03-01|i|New York, New York|United States|40.706|-73.997|terror|community|5|1|3|A gunman fired on a van of Chabad students on the Brooklyn Bridge.|W:1994 Brooklyn Bridge shooting;L:US
+1994-07-18|i|Buenos Aires|Argentina|-34.602|-58.399|terror|community|5|85|300|A car bomb destroyed the AMIA Jewish community centre.|W:AMIA bombing;L:T20
+1999-06-18|i|Sacramento, California|United States|38.580|-121.490|property|synagogue|3|0|0|Three synagogues were firebombed in one night.|L:US
+1999-08-10|i|Granada Hills, Los Angeles, California|United States|34.262|-118.500|terror|community|5|1|5|A gunman fired about 70 shots into a Jewish community centre, wounding five, and later killed a mail carrier.|W:Los Angeles Jewish Community Center shooting;L:US
+2002-04-11|i|Djerba|Tunisia|33.814|10.859|terror|synagogue|5|19|30|A truck carrying gas was blown up at the entrance of the El Ghriba synagogue.|W:Ghriba synagogue bombing;L:T21
+2002-07-04|i|Los Angeles, California|United States|33.942|-118.409|terror|business|5|2|4|A gunman opened fire at an Israeli airline counter at Los Angeles airport.|L:US
+2002-11-28|i|Mombasa|Kenya|-3.860|39.800|terror|business|5|13|80|A car bomb hit an Israeli-owned hotel and missiles were fired at an Israeli airliner.|W:2002 Mombasa attacks
+2003-05-16|i|Casablanca|Morocco|33.589|-7.611|terror|community|5|||Suicide bombers hit several sites in one night, among them a Jewish community centre.|W:2003 Casablanca bombings;L:T21
+2003-11-15|i|Istanbul|Turkey|41.027|28.973|terror|synagogue|5|26|300|Truck bombs exploded outside the Neve Shalom and Bet Israel synagogues during Shabbat services.|W:2003 Istanbul bombings;L:INST
+2003-11-16|i|Istanbul|Turkey|41.027|28.973|terror|synagogue|5|||A car bomb hit the Neve Shalom synagogue.|L:T21
+2004-10-07|i|Taba, Sinai|Egypt|29.492|34.895|terror|business|5|34|171|Bombs hit resort hotels full of Israeli holidaymakers.|L:SA
+2006-01-11|i|Moscow|Russia|55.761|37.598|assault|synagogue|4|0|9|A man stabbed nine people in the Bolshaya Bronnaya synagogue.|W:Bolshaya Bronnaya Synagogue;L:T21
+2006-07-28|i|Seattle, Washington|United States|47.607|-122.336|terror|community|5|1|5|A gunman shot six women at the Jewish Federation building, one fatally.|L:US
+2008-11-26|i|Mumbai|India|18.916|72.828|terror|community|5|6||Gunmen seized the Chabad house during the Mumbai attacks and killed their hostages.|W:Nariman House;L:T21
+2009-06-10|i|Washington, DC|United States|38.887|-77.033|terror|community|5|1|0|A gunman shot a security officer dead at the Holocaust Memorial Museum.|L:US
+2010-07-23|i|Malmö|Sweden|55.605|13.003|property|synagogue|3|0|0|Explosives were set off at the synagogue.|W:Malmö Synagogue;L:T21
+2012-03-19|i|Toulouse|France|43.615|1.463|terror|school|5|4||A gunman killed four people at a Jewish school, three of them children.|W:Toulouse and Montauban shootings;L:T21
+2012-07-18|i|Burgas|Bulgaria|42.570|27.515|terror|person|5|6|32|A suicide bomber blew up a bus of Israeli tourists at the airport.|W:2012 Burgas bus bombing
+2014-04-13|i|Overland Park, Kansas|United States|38.933|-94.650|terror|community|5|3|0|A gunman shot three people at a Jewish community centre and a Jewish retirement home.|L:US
+2014-05-24|i|Brussels|Belgium|50.841|4.353|terror|community|5|4||A gunman shot four people dead at the Jewish Museum of Belgium.|W:Jewish Museum of Belgium shooting
+2015-01-09|i|Paris|France|48.847|2.415|terror|business|5|4||A gunman took shoppers hostage at a kosher supermarket and killed four.|W:Hypercacher kosher supermarket siege;L:T21
+2015-02-15|i|Copenhagen|Denmark|55.681|12.573|terror|synagogue|5|1||A gunman shot a volunteer guard dead outside the Great Synagogue.|W:2015 Copenhagen shootings;L:INST|Shortly after midnight.
+2017-04-04|i|Paris|France|48.863|2.380|assault|person|5|1||A Jewish woman was killed in her home by a neighbour. A court later found him not criminally responsible.|W:Murder of Sarah Halimi;L:T21
+2017-12-09|i|Gothenburg|Sweden|57.704|11.965|property|synagogue|3|0|0|Firebombs were thrown at the synagogue while teenagers were at a party inside.|L:INST
+2018-03-23|i|Paris|France|48.853|2.385|assault|person|5|1||An elderly Jewish woman was killed in her apartment.|W:Murder of Mireille Knoll;L:T21
+2018-10-27|i|Pittsburgh, Pennsylvania|United States|40.4437|-79.921|terror|synagogue|5|11|6|A gunman opened fire during Shabbat services at the Tree of Life synagogue.|W:Pittsburgh synagogue shooting;L:US
+2019-04-27|i|Poway, California|United States|32.994|-117.060|terror|synagogue|5|1|3|A gunman fired inside a synagogue on the last day of Passover.|W:Poway synagogue shooting;L:US
+2019-10-09|i|Halle|Germany|51.493|11.980|terror|synagogue|5|2||On Yom Kippur a gunman failed to break into the synagogue, then killed two people nearby.|W:Halle synagogue shooting;L:INST
+2019-12-10|i|Jersey City, New Jersey|United States|40.708|-74.083|terror|business|5|3|3|Two gunmen attacked a kosher grocery, killing three people inside.|W:2019 Jersey City shooting;L:US
+2019-12-28|i|Monsey, New York|United States|41.111|-74.068|assault|community|5|1|4|A man stabbed guests at a Hanukkah celebration in a rabbi's home.|W:Monsey Hanukkah stabbing;L:US
+2021-10-31|i|Austin, Texas|United States|30.307|-97.750|property|synagogue|3|0|0|A fire set at the sanctuary doors of a synagogue caused heavy damage.|L:US
+2022-01-15|i|Colleyville, Texas|United States|32.881|-97.155|terror|synagogue|4|0|0|A gunman held four people hostage in a synagogue for hours. All got out unharmed.|L:US
+2023-05-09|i|Djerba|Tunisia|33.814|10.859|terror|synagogue|5|5|8|A guardsman opened fire near the El Ghriba synagogue during the annual pilgrimage.|W:2023 Djerba shooting;L:INST
+2023-10-18|i|Berlin|Germany|52.534|13.401|property|community|3|0|0|Molotov cocktails were thrown at a Jewish community centre.|L:INST
+2023-11-01|i|Vienna|Austria|48.153|16.440|property|cemetery|3|0|0|The Jewish section of a cemetery was set on fire and sprayed with swastikas.|L:INST
+2023-11-05|i|Thousand Oaks, California|United States|34.171|-118.838|assault|person|5|1|0|A Jewish man died after being struck at duelling rallies over the Gaza war.|L:US
+2024-04-05|i|Oldenburg|Germany|53.141|8.214|property|synagogue|3|0|0|An incendiary device was thrown at the door of the synagogue.|L:INST
+2024-05-17|i|Rouen|France|49.443|1.094|property|synagogue|3|0|0|An incendiary device thrown through a window set the synagogue on fire. Police shot the attacker.|L:INST
+2024-12-06|i|Ripponlea, Melbourne|Australia|-37.878|145.008|property|synagogue|4|0|1|Masked arsonists set fire to a synagogue before dawn.|W:2024 Melbourne synagogue attack;L:INST
+2025-04-13|i|Harrisburg, Pennsylvania|United States|40.270|-76.890|property|person|3|0|0|Firebombs were thrown into the governor's residence while the family slept.|L:US
+2025-05-21|i|Washington, DC|United States|38.899|-77.017|terror|person|5|2|0|A gunman shot two Israeli embassy staff outside an event at the Capital Jewish Museum.|L:US
+2025-06-01|i|Boulder, Colorado|United States|40.018|-105.279|terror|community|5|1|13|An attacker threw firebombs at a weekly gathering for the Israeli hostages.|L:US
+2025-10-02|i|Manchester, England|United Kingdom|53.531|-2.262|terror|synagogue|5|2|3|On Yom Kippur a man drove a car at people outside a synagogue and attacked them with a knife.|W:2025 Manchester synagogue attack;L:INST
+2026-03-12|i|West Bloomfield, Michigan|United States|42.568|-83.383|terror|synagogue|4|0||A man drove a vehicle into a synagogue and opened fire. He was shot dead.|L:US
+# Israel: attacks on civilians
+1956-04-11|i|Kfar Chabad|Israel|31.989|34.853|terror|school|5|6||Gunmen who crossed the border fired into a synagogue study hall full of children.|W:Shafrir synagogue shooting;L:IL
+1956-10-04|i|Negev, Sodom road|Israel|31.070|35.200|terror|person|5|5|1|Gunmen ambushed two civilian vehicles on the road from Sodom to Beersheba.|W:Negev desert road ambush;L:IL
+1970-05-22|i|Avivim|Israel|33.088|35.472|terror|school|5|12|25|A school bus was ambushed near the northern border. Nine of the dead were children.|W:Avivim school bus bombing;L:IL|One list gives 8 May.
+1974-04-11|i|Kiryat Shmona|Israel|33.208|35.570|terror|home|5|18|15|Gunmen went through an apartment building shooting residents. Eight of the dead were children.|W:Kiryat Shmona massacre;L:IL
+1974-05-15|i|Ma'alot|Israel|33.017|35.271|terror|school|5|29|68|Gunmen took more than 100 schoolchildren hostage. Most of the dead were children.|W:Ma'alot massacre;L:IL
+1975-07-04|i|Zion Square, Jerusalem|Israel|31.782|35.219|terror|public|5|15|77|A bomb exploded in Zion Square.|W:Zion Square massacre;L:IL
+1978-03-11|i|Coastal road near Tel Aviv|Israel|32.146|34.800|terror|public|5|38|71|Gunmen who landed by sea hijacked a bus on the coastal road. Thirteen of the dead were children.|W:Coastal Road massacre;L:IL
+1989-07-06|i|Near Kiryat Yearim|Israel|31.803|35.100|terror|public|5|16|17|An attacker forced a crowded intercity bus off the road into a ravine.|L:SA
+1994-04-06|i|Afula|Israel|32.607|35.289|terror|public|5|8|40|A suicide bomber struck a bus.|L:SA
+1994-10-19|i|Dizengoff Street, Tel Aviv|Israel|32.078|34.774|terror|public|5|22|50|A suicide bomber blew up a bus in the morning rush hour.|W:Dizengoff Street bus bombing;L:IL
+1994-10-19|i|Tel Aviv|Israel|32.078|34.775|terror|public|5|22|50|Suicide bombing on a bus.|L:SA
+1995-01-22|i|Beit Lid Junction|Israel|32.324|34.906|terror|public|5|21|69|Two suicide bombers struck a crowded junction. The second hit those who came to help.|W:Beit Lid suicide bombing;L:IL
+1995-01-22|i|Beit Lid Junction|Israel|32.324|34.906|terror|public|5|21|69|Suicide bombing at a junction.|L:SA
+1996-02-25|i|Central bus station, Jerusalem|Israel|31.789|35.203|terror|public|5|26|48|A suicide bomber blew up a bus.|L:SA
+1996-03-03|i|Jaffa Road, Jerusalem|Israel|31.784|35.215|terror|public|5|19|7|A suicide bomber blew up a bus on the same route a week later.|L:SA
+1996-03-04|i|Dizengoff Center, Tel Aviv|Israel|32.075|34.775|terror|business|5|13|130|A suicide bomber struck outside a shopping centre.|L:SA
+1997-07-30|i|Mahane Yehuda market, Jerusalem|Israel|31.785|35.212|terror|business|5|16|170|Suicide bombers struck the main market.|L:SA
+2001-06-01|i|Tel Aviv seafront|Israel|32.068|34.763|terror|business|5|21|100|A suicide bomber struck a queue of teenagers outside the Dolphinarium discotheque.|W:Dolphinarium discotheque bombing;L:IL
+2001-06-01|i|Tel Aviv|Israel|32.068|34.763|terror|business|5|21|100|Suicide bombing at a discotheque.|L:SA
+2001-08-09|i|Central Jerusalem|Israel|31.783|35.218|terror|business|5|15|130|A suicide bomber struck a pizzeria at lunchtime. Seven of the dead were children.|W:Sbarro restaurant suicide bombing;L:IL
+2001-08-09|i|Jerusalem|Israel|31.783|35.218|terror|business|5|16|130|Suicide bombing at a restaurant.|L:SA
+2001-12-01|i|Ben Yehuda mall, Jerusalem|Israel|31.781|35.218|terror|public|5|11|188|Suicide bombers struck the pedestrian mall.|L:SA
+2001-12-02|i|Haifa|Israel|32.800|35.010|terror|public|5|15|40|A suicide bomber blew up a bus.|L:SA
+2002-03-02|i|Beit Yisrael, Jerusalem|Israel|31.789|35.223|terror|synagogue|5|11|50|A suicide bomber struck families beside a yeshiva. Seven of the dead were children.|W:Yeshivat Beit Yisrael bombing;L:IL
+2002-03-02|i|Jerusalem|Israel|31.789|35.223|terror|synagogue|5|11|50|Suicide bombing at a yeshiva.|L:SA
+2002-03-09|i|Rehavia, Jerusalem|Israel|31.775|35.214|terror|business|5|11|54|A suicide bomber struck a crowded cafe.|W:Café Moment bombing;L:IL
+2002-03-09|i|Rehavia, Jerusalem|Israel|31.775|35.214|terror|business|5|11|54|Suicide bombing at a cafe.|L:SA
+2002-03-27|i|Netanya|Israel|32.331|34.852|terror|business|5|30|140|A suicide bomber struck a Passover seder in a hotel dining room.|W:Passover massacre;L:IL
+2002-03-27|i|Netanya|Israel|32.331|34.852|terror|business|5|30|140|Suicide bombing at a hotel during the Passover seder.|L:SA
+2002-03-31|i|Haifa|Israel|32.787|35.021|terror|business|5|16|31|A suicide bomber struck a restaurant.|L:SA
+2002-04-10|i|Yagur Junction|Israel|32.741|35.076|terror|public|5|8|19|A suicide bombing at a road junction.|L:SA
+2002-05-07|i|Rishon LeZion|Israel|31.973|34.789|terror|business|5|16|55|A suicide bomber struck a crowded club.|L:SA
+2002-06-05|i|Megiddo Junction|Israel|32.573|35.180|terror|public|5|17|38|A bomb attack on a bus.|L:SA
+2002-06-18|i|Jerusalem|Israel|31.752|35.199|terror|public|5|19|74|A suicide bomber blew up a bus.|L:SA
+2002-07-31|i|Hebrew University, Jerusalem|Israel|31.794|35.241|terror|campus|5|9|80|A bomb exploded on the university campus.|L:SA
+2002-08-04|i|Meron Junction|Israel|32.990|35.440|terror|public|5|9|38|A suicide bomber blew up a bus.|L:SA
+2002-10-21|i|Karkur Junction|Israel|32.478|34.987|terror|public|5|14|40|A booby-trapped vehicle was blown up at a road junction.|L:SA
+2002-11-21|i|Kiryat Menachem, Jerusalem|Israel|31.752|35.164|terror|public|5|11|50|A suicide bomber blew up a bus.|W:Kiryat Menachem bus bombing;L:IL
+2002-11-21|i|Kiryat Menachem, Jerusalem|Israel|31.752|35.164|terror|public|5|11|50|Suicide bombing on a bus.|L:SA
+2003-01-05|i|Southern Tel Aviv|Israel|32.058|34.778|terror|public|5|23|100|An attack at the old central bus station.|W:Tel Aviv central bus station massacre;L:IL
+2003-01-05|i|Southern Tel Aviv|Israel|32.058|34.778|terror|public|5|23|120|Suicide bombing at a bus station.|L:SA
+2003-03-05|i|Carmeliya, Haifa|Israel|32.793|34.985|terror|public|5|17|53|A suicide bomber blew up a bus.|L:SA
+2003-06-11|i|Central Jerusalem|Israel|31.785|35.213|terror|public|5|17|100|A suicide bomber blew up a bus.|L:SA
+2003-08-19|i|Shmuel HaNavi, Jerusalem|Israel|31.793|35.225|terror|public|5|24|130|A suicide bomber blew up a crowded bus.|W:Shmuel HaNavi bus bombing;L:IL
+2003-08-19|i|Shmuel HaNavi, Jerusalem|Israel|31.793|35.225|terror|public|5|23|130|Suicide bombing on a bus.|L:SA
+2003-09-09|i|Tzrifin|Israel|31.960|34.842|terror|public|5|9|30|A suicide bomber struck a bus stop.|L:SA
+2003-10-04|i|Haifa|Israel|32.812|34.957|terror|business|5|21|60|A suicide bomber struck a beachfront restaurant.|W:Maxim restaurant suicide bombing;L:IL
+2003-10-04|i|Haifa|Israel|32.812|34.957|terror|business|5|21|60|Suicide bombing at a restaurant.|L:SA
+2004-01-29|i|Rehavia, Jerusalem|Israel|31.774|35.216|terror|public|5|11|50|A suicide bomber blew up a bus.|L:SA
+2004-02-22|i|Liberty Bell Garden, Jerusalem|Israel|31.770|35.223|terror|public|5|8|60|A suicide bomber blew up a bus.|L:SA
+2004-03-14|i|Ashdod|Israel|31.823|34.650|terror|business|5|10|16|Suicide bombers struck the port.|L:SA
+2004-08-31|i|Beersheba|Israel|31.243|34.793|terror|public|5|16|100|Suicide bombers blew up two buses.|L:SA
+2006-04-17|i|Southern Tel Aviv|Israel|32.058|34.779|terror|business|5|11|68|A suicide bomber struck a restaurant near the old central bus station.|W:2nd Rosh Ha'ir restaurant bombing;L:IL
+2006-04-17|i|Southern Tel Aviv|Israel|32.058|34.779|terror|business|5|11|68|Suicide bombing at a restaurant.|L:SA
+2008-03-06|i|Kiryat Moshe, Jerusalem|Israel|31.787|35.196|terror|school|5|8||A gunman opened fire in a yeshiva. Seven of the dead were students.|W:2008 Jerusalem yeshiva attack;L:IL
+2014-11-18|i|Har Nof, Jerusalem|Israel|31.786|35.175|terror|synagogue|5|5||Attackers struck worshippers at morning prayers. Four rabbis and a police officer were killed.|W:2014 Jerusalem synagogue attack;L:IL
+2022-03-29|i|Bnei Brak|Israel|32.084|34.834|terror|public|5|5||A gunman shot passers-by in the street.|W:2022 Bnei Brak shootings;L:IL
+2023-10-07|i|Re'im|Israel|31.398|34.470|terror|public|5|325||Gunmen attacked a music festival. Part of the 7 October attack, in which about 1,200 people were killed across southern Israel.|W:Nova music festival massacre;L:IL|At least 325 killed at this site.
+2023-10-07|i|Be'eri|Israel|31.424|34.492|terror|home|5|108||Gunmen went house to house in the kibbutz. Part of the 7 October attack.|W:Be'eri massacre;L:IL|At least 108 killed at this site.
+2023-10-07|i|Kfar Aza|Israel|31.484|34.534|terror|home|5|52||Gunmen overran the kibbutz. Part of the 7 October attack.|W:Kfar Aza massacre;L:IL
+2023-10-07|i|Nir Oz|Israel|31.310|34.402|terror|home|5|25||Gunmen overran the kibbutz. Part of the 7 October attack.|W:Nir Oz attack;L:IL
+2023-10-07|i|Netiv HaAsara|Israel|31.571|34.540|terror|home|5|20||Gunmen attacked the village. Part of the 7 October attack.|W:Netiv HaAsara massacre;L:IL|At least 20 killed.
+2023-10-07|i|Nahal Oz|Israel|31.474|34.497|terror|home|5|100||Gunmen attacked the kibbutz and the nearby base. Part of the 7 October attack.|W:Nahal Oz attack;L:IL|At least 100 killed.
+2023-10-07|i|Holit|Israel|31.230|34.324|terror|home|5|13||Gunmen attacked the kibbutz. Part of the 7 October attack.|W:Holit attack;L:IL
+2023-10-07|i|Yakhini|Israel|31.497|34.624|terror|home|5|7||Gunmen attacked the village. Part of the 7 October attack.|W:Yakhini massacre;L:IL
+2023-10-07|i|Ein HaShlosha|Israel|31.352|34.401|terror|home|5|5||Gunmen attacked the kibbutz. Part of the 7 October attack.|W:Ein HaShlosha massacre;L:IL
+2023-10-07|i|Nirim|Israel|31.336|34.396|terror|home|5|5||Gunmen attacked the kibbutz. Part of the 7 October attack.|W:Nirim attack;L:IL
+2024-10-01|i|Jaffa|Israel|32.050|34.757|terror|public|5|7||Gunmen opened fire on passengers and passers-by.|W:2024 Jaffa shooting;L:IL

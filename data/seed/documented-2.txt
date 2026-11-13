@@ -1,0 +1,85 @@
+# United States: bombings, arson and foiled plots against Jewish institutions
+1957-11-12|i|Charlotte, North Carolina|United States|35.227|-80.843|plot|synagogue|4|0||Six sticks of dynamite with a burning fuse were found outside a synagogue.|L:INST
+1958-02-09|i|Gastonia, North Carolina|United States|35.262|-81.187|plot|synagogue|4|0||Thirty sticks of dynamite in a suitcase were found outside a synagogue.|L:INST
+1958-03-16|i|Miami, Florida|United States|25.762|-80.192|property|school|3|0||An explosion badly damaged the school wing of a temple.|L:INST
+1958-03-16|i|Nashville, Tennessee|United States|36.163|-86.782|property|community|3|0||Dynamite damaged an empty Jewish community centre. It reopened two days later.|L:INST
+1958-04-28|i|Birmingham, Alabama|United States|33.521|-86.802|plot|synagogue|4|0|0|Dynamite was placed outside a temple. The fuses were put out before it exploded.|L:T20
+1969-01-11|i|Temple Hills, Maryland|United States|38.814|-76.934|property|synagogue|3|0|0|A bomb planted in a synagogue wall damaged the kitchen, social hall and classrooms.|L:INST
+1977-03-11|i|Washington, DC|United States|38.907|-77.037|terror|community|4|0||Gunmen seized 149 hostages at three buildings, among them the B'nai B'rith headquarters, for 39 hours.|L:INST
+1980-07-01|a|Temple Hills, Maryland|United States|38.814|-76.934|property|synagogue|3|0|0|An attempted firebombing was cut short when the alarm brought police.|L:INST|Summer 1980.
+1983-01-01|a|Bloomington, Indiana|United States|39.165|-86.526|property|synagogue|3|0|0|A fire set at the Torah ark spread to the sanctuary before it was put out.|L:INST|1983, month not stated.
+1994-03-20|i|Eugene, Oregon|United States|44.052|-123.087|property|synagogue|3|0|0|Ten rounds from an assault rifle were fired into a temple.|L:INST;L:T20
+2000-10-08|i|Bronx, New York|United States|40.845|-73.865|property|synagogue|3|0|0|Two Molotov cocktails were thrown at a synagogue door. Neither ignited.|L:INST
+2000-01-01|a|Syracuse, New York|United States|43.048|-76.147|property|synagogue|3|0||A temple was set on fire in what was treated as a hate crime.|L:INST|Year only.
+2001-04-01|a|Northeastern United States|United States|40.713|-74.006|plot|community|4|0||A plot to bomb Holocaust memorials and Jewish and Black community figures was foiled.|L:INST|2001, month not stated. Placed at New York.
+2002-10-25|i|Eugene, Oregon|United States|44.052|-123.087|vandalism|synagogue|2|0|0|Rocks marked with swastikas were thrown through stained glass windows during a service.|L:INST
+2003-05-06|i|Encino, Los Angeles, California|United States|34.160|-118.501|property|synagogue|3|0|0|A Molotov cocktail was thrown through a synagogue window.|L:INST
+2004-04-01|i|Oklahoma City, Oklahoma|United States|35.468|-97.516|property|synagogue|3|0|0|A Molotov cocktail was thrown at a temple, causing limited damage.|L:INST
+2005-07-01|a|Southern California|United States|34.052|-118.244|plot|synagogue|4|0||A plot against synagogues, the Israeli consulate and military sites was foiled.|L:INST|2005, month not stated. Placed at Los Angeles.
+2008-09-17|i|Riverdale, Bronx, New York|United States|40.890|-73.913|plot|synagogue|4|0||A plot to bomb two synagogues and fire missiles at an air base was foiled.|L:INST
+2009-03-21|i|Chicago, Illinois|United States|41.878|-87.630|threat|school|2|0||A letter threatened to blow up a Jewish high school over the Gaza war.|L:INST
+2011-05-11|i|New York, New York|United States|40.713|-74.006|plot|synagogue|4|0||A plot to attack synagogues and other sites was foiled.|L:INST
+2012-01-11|i|Rutherford and Paramus, New Jersey|United States|40.827|-74.107|property|synagogue|3|0||Firebombings hit Jewish targets in two New Jersey towns.|L:INST
+2016-02-11|i|Columbus, Ohio|United States|39.961|-82.999|assault|business|4|0||A man attacked customers with a machete at a restaurant that displayed an Israeli flag.|L:INST
+2018-12-07|i|Toledo, Ohio|United States|41.653|-83.538|plot|synagogue|4|0||A plot for a mass-casualty attack on two synagogues was foiled.|L:INST
+2019-07-28|i|Miami Beach, Florida|United States|25.791|-80.130|assault|synagogue|4|0|1|A man was shot as he unlocked a synagogue before a service.|L:INST
+2019-11-02|i|Pueblo, Colorado|United States|38.254|-104.609|plot|synagogue|4|0||A plot to blow up a synagogue was foiled with fake explosives.|L:INST
+2019-11-19|i|New York, New York|United States|40.751|-73.994|plot|synagogue|4|0||Two men were arrested at Penn Station after threatening a synagogue shooting online.|L:INST
+2023-06-16|i|East Lansing, Michigan|United States|42.737|-84.484|threat|synagogue|3|0||A man was arrested after threatening a mass killing at a synagogue. Weapons were found.|L:INST
+2026-01-28|i|Crown Heights, Brooklyn, New York|United States|40.669|-73.943|property|synagogue|3|0|0|A vehicle struck the entrance of the Chabad headquarters. The driver was arrested.|L:INST
+# Europe and elsewhere
+1979-03-27|i|Paris|France|48.848|2.344|property|school|3|0|32|A bomb went off at a university restaurant in a Jewish student hostel.|L:FR
+1982-04-03|i|Paris|France|48.871|2.299|terror|person|5|1|0|An adviser at the Israeli embassy was shot dead.|L:FR
+1982-09-17|i|Paris|France|48.869|2.307|terror|person|4|0|51|A bomb aimed at an Israeli diplomat exploded outside the Israeli consulate.|L:FR
+1985-03-29|i|Paris|France|48.861|2.352|terror|community|4|0|18|A bomb exploded at a cinema during a Jewish film festival.|L:FR
+1991-01-26|i|Sydney|Australia|-33.869|151.209|property|synagogue|3|0|1|Arsonists attacked five synagogues in one night. A security guard was hurt.|L:INST
+1992-03-01|i|Istanbul|Turkey|41.027|28.973|property|synagogue|3|0|0|Two men carried out a bomb attack on a synagogue. There was no damage.|L:T20
+2018-04-18|i|Berlin|Germany|52.520|13.405|assault|person|3|0|1|A man was beaten with a belt in an antisemitic attack.|L:T21
+2018-04-25|i|Berlin|Germany|52.520|13.405|assault|person|3|0|1|An Israeli man wearing a kippah was attacked in the street. Marches against antisemitism followed.|L:T21
+2019-04-04|i|İzmir|Turkey|38.419|27.129|property|synagogue|3|0|0|A Molotov cocktail was thrown at a synagogue.|L:T21
+2020-05-17|a|Iran|Iran|35.689|51.389|property|community|3|0||A Jewish holy site was set on fire, according to reports.|L:T21|May 2020.
+2021-02-01|a|Singapore|Singapore|1.352|103.820|plot|synagogue|4|0||A plot to stab members of a synagogue was foiled and a suspect arrested.|L:INST
+2021-04-01|a|New York, New York|United States|40.713|-74.006|assault|person|3|0||A knife attack on a Jewish family was investigated as a possible bias crime.|L:T21|April 2021.
+2023-11-23|i|Yerevan|Armenia|40.179|44.499|property|synagogue|3|0|0|Fuel was poured on a synagogue door and set alight. Nobody was inside.|L:INST
+# Israel and the West Bank: attacks on civilians
+1953-10-12|i|Yehud|Israel|32.033|34.883|terror|home|5|3||A grenade was thrown into a family home, killing a woman and two children.|W:Yehud attack;L:IL
+1956-04-23|i|Beersheba to Eilat road|Israel|30.500|35.000|terror|person|5|4||Gunmen who crossed the border ambushed a civilian vehicle.|L:IL
+1956-08-16|i|Be'er Menucha, Arava|Israel|30.317|35.133|terror|public|5|4|9|Gunmen ambushed a bus and its escort, then attacked at close range.|L:IL
+1956-09-12|i|Ein Ofarim|Israel|30.700|35.200|terror|person|5|3||Three watchmen at a drilling camp were stabbed and their weapons taken.|W:Ein Ofarim killings;L:IL
+1956-09-23|i|Ramat Rachel, Jerusalem|Israel|31.739|35.217|terror|person|5|4|16|Machine-gun fire hit archaeologists at an excavation.|L:IL
+1989-07-06|i|Near Kiryat Yearim|Israel|31.803|35.100|terror|public|5|16|17|An attacker forced a crowded intercity bus into a ravine.|L:SA
+1994-04-13|i|Hadera|Israel|32.434|34.920|terror|public|5|5|30|A suicide bomber struck the bus station.|L:SA
+1995-07-24|i|Ramat Gan|Israel|32.068|34.825|terror|public|5|6|30|A suicide bomber blew up a bus.|L:SA
+1995-08-21|i|Ramat Eshkol, Jerusalem|Israel|31.802|35.230|terror|public|5|4||A suicide bomber blew up a bus.|L:SA
+1997-03-21|i|Tel Aviv|Israel|32.087|34.790|terror|business|5|3|47|A suicide bomber struck a cafe.|L:SA
+1997-09-04|i|Ben Yehuda Street, Jerusalem|Israel|31.781|35.218|terror|business|5|5|192|Three suicide bombers struck the pedestrian mall.|L:SA
+2001-03-04|i|Netanya|Israel|32.322|34.853|terror|public|5|3|60|A suicide bomber struck in the city centre.|L:SA
+2001-05-18|i|Netanya|Israel|32.322|34.853|terror|business|5|5|100|A suicide bomber struck a shopping mall.|L:SA
+2001-09-09|i|Nahariya|Israel|33.008|35.095|terror|public|5|3|94|A suicide bomber struck the railway station.|L:SA
+2001-11-29|i|Haifa|Israel|32.794|34.990|terror|public|5|3|9|A suicide bomber blew up a bus.|L:SA
+2002-01-17|i|Hadera|Israel|32.434|34.920|terror|public|5|6|33|A gunman attacked a bat mitzvah reception.|L:SA;L:IL
+2002-02-16|i|Karnei Shomron|West Bank|32.173|35.096|terror|business|5|3|30|A suicide bomber struck a shopping centre.|L:SA
+2002-03-20|i|Wadi Ara|Israel|32.500|35.083|terror|public|5|7||A suicide bomber blew up a bus.|L:SA
+2002-03-21|i|King George Street, Jerusalem|Israel|31.780|35.216|terror|public|5|3||A suicide bomber struck a shopping street.|L:SA
+2002-04-12|i|Mahane Yehuda market, Jerusalem|Israel|31.785|35.212|terror|business|5|6|112|A suicide bomber struck the market.|L:SA
+2002-05-19|i|Netanya|Israel|32.322|34.853|terror|business|5|3|59|A suicide bomber struck the market.|L:SA
+2002-05-22|i|Rishon LeZion|Israel|31.973|34.793|terror|public|5|3|40|A suicide bomber struck a street.|L:SA
+2002-06-19|i|French Hill, Jerusalem|Israel|31.807|35.235|terror|public|5|6|35|A suicide bomber struck a bus stop at a junction.|L:SA
+2002-07-17|i|Neve Shaanan, Tel Aviv|Israel|32.057|34.778|terror|public|5|5|40|Two suicide bombers struck a pedestrian street.|L:SA
+2002-09-19|i|Allenby Street, Tel Aviv|Israel|32.065|34.770|terror|public|5|6||A suicide bomber blew up a bus.|L:SA
+2002-10-27|i|Ariel|West Bank|32.106|35.187|terror|business|5|3||A suicide bomber struck a petrol station.|L:SA
+2003-04-30|i|Tel Aviv seafront|Israel|32.075|34.762|terror|business|5|3||A suicide bomber struck a bar.|L:SA
+2003-05-18|i|Jerusalem|Israel|31.783|35.218|terror|public|5|7|20|A suicide bomber blew up a bus.|L:SA
+2003-05-19|i|Afula|Israel|32.608|35.290|terror|business|5|3|70|A suicide bomber struck a shopping centre.|L:SA
+2003-09-09|i|Jerusalem|Israel|31.776|35.217|terror|business|5|7||A suicide bomber struck a cafe.|L:SA
+2003-12-25|i|Geha Junction|Israel|32.095|34.850|terror|public|5|4||A suicide bomber struck a bus stop.|L:SA
+2004-11-01|i|Carmel Market, Tel Aviv|Israel|32.069|34.769|terror|business|5|3|30|A suicide bomber struck the market.|L:SA
+2005-02-25|i|Tel Aviv seafront|Israel|32.075|34.762|terror|business|5|5||A suicide bomber struck a club.|L:SA
+2005-07-12|i|Netanya|Israel|32.322|34.853|terror|business|5|5||A suicide bomber struck a shopping mall.|L:SA
+2005-10-26|i|Hadera|Israel|32.434|34.920|terror|business|5|7|55|A suicide bomber struck the market.|L:SA
+2005-12-05|i|Netanya|Israel|32.322|34.853|terror|business|5|5||A suicide bomber struck a shopping mall.|L:SA
+2006-03-30|i|Kedumim|West Bank|32.212|35.136|terror|person|5|4|0|A suicide bomber struck a vehicle.|L:SA
+2007-01-29|i|Eilat|Israel|29.558|34.952|terror|business|5|3|2|A suicide bomber struck a bakery.|L:SA
+2008-07-02|i|Jaffa Road, Jerusalem|Israel|31.786|35.214|terror|public|5|3|30|A man drove a bulldozer into cars and pedestrians on a busy road.|W:2008 Jerusalem bulldozer attack;L:IL
+2016-06-08|i|Sarona Market, Tel Aviv|Israel|32.072|34.787|terror|business|5|4||Gunmen opened fire on diners at a market complex.|W:June 2016 Tel Aviv shooting;L:IL
+2022-03-22|i|Beersheba|Israel|31.252|34.791|terror|public|5|4||An attacker rammed and stabbed people in the street.|W:2022 Beersheba attack;L:IL
