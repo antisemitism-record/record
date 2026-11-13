@@ -1,7 +1,5 @@
-== agents.research.cells
-{'cells_defined': 1014, 'cells_in_database': 1014}
-== agents.research.worker
-France 2020-2029 -> 5 proposed, 5 written, 3 live, 2 held, 0 unusable; 10 searches, 139981 in / 7094 out tokens
-Germany 2020-2029 -> 11 proposed, 11 written, 11 live, 0 held, 0 unusable; 10 searches, 170626 in / 16435 out tokens
-{'cells': 2, 'rows': 16, 'live': 14, 'held': 2, 'input_tokens': 310607, 'output_tokens': 23529, 'searches': 20}
-{"total": 36801, "active": 36799, "candidate": 2, "merged": 0, "documented": 268, "register": 36533, "country_level_only": 158} {"fbi": 36281, "nypd": 252, "seed": 252, "research": 16}
+== agents.research.recent
+United Kingdom -> 1 proposed, 1 written, 1 held
+Belgium -> 1 proposed, 1 written, 0 held
+{'countries': 2, 'rows': 2, 'live': 1, 'held': 1, 'input_tokens': 213090, 'output_tokens': 4961, 'searches': 16}
+{"total": 36803, "active": 36800, "candidate": 3, "merged": 0, "documented": 270, "register": 36533, "country_level_only": 158} {"fbi": 36281, "nypd": 252, "seed": 252, "research": 18}

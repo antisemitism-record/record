@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-13T19:54:30+00:00",
+ "generated": "2026-11-13T20:01:17+00:00",
  "incidents": {
-  "total": 36801,
-  "active": 36799,
-  "candidate": 2,
+  "total": 36803,
+  "active": 36800,
+  "candidate": 3,
   "merged": 0,
-  "documented": 268,
+  "documented": 270,
   "register": 36533,
   "country_level_only": 158
  },
@@ -13,7 +13,7 @@
   "fbi": 36281,
   "nypd": 252,
   "seed": 252,
-  "research": 16
+  "research": 18
  },
  "cells": {
   "pending": 1012,
@@ -21,7 +21,7 @@
   "done": 2,
   "blocked": 0
  },
- "review_queue_open": 2,
+ "review_queue_open": 3,
  "recent_cells": [
   {
    "country": "DE",
@@ -38,9 +38,117 @@
    "notes": "5 proposed, 5 written, 3 live, 2 held, 0 unusable; 10 searches, 139981 in / 7094 out tokens"
   }
  ],
- "sources": 183,
- "source_links": 36940,
+ "sources": 188,
+ "source_links": 36945,
+ "latest_research": [
+  {
+   "event_date": "2026-10-27",
+   "place": "Anderlecht (Brussels)",
+   "country": "BE",
+   "type": "vandalism",
+   "status": "active",
+   "summary": "The Observatory on Antisemitism in Belgium reports that a paving stone was thrown through a third-floor window of the Orthodox Jewish community synagogue in Anderlecht, shattering the glass. The Observatory describes it as vandalism targeting a Jewish place of worship, and the US ambassador calls it an antisemitic attack. The perpetrator is unidentified."
+  },
+  {
+   "event_date": "2026-11-01",
+   "place": "Sheffield",
+   "country": "GB",
+   "type": "harassment",
+   "status": "candidate",
+   "summary": "Jewish News reports that a woman was filmed describing Jewish people as \"killers and psychopaths\" during a protest outside Sheffield Town Hall. South Yorkshire Police first recorded a hate incident. A later Jewish News report says police concluded the remarks did not amount to a recordable crime, and the lower, no-crime finding is the one noted here."
+  },
+  {
+   "event_date": "2023-10-18",
+   "place": "Berlin",
+   "country": "DE",
+   "type": "arson",
+   "status": "active",
+   "summary": "Two unknown persons threw Molotov cocktails at the Kahal Adass Jisroel synagogue complex on Brunnenstra\u00dfe in Berlin-Mitte in the early morning. According to reports the devices landed on the pavement and no one was hurt."
+  },
+  {
+   "event_date": "2020-10-04",
+   "place": "Hamburg",
+   "country": "DE",
+   "type": "assault",
+   "status": "active",
+   "summary": "A 26-year-old Jewish student wearing a kippah was struck on the head with a folding spade outside the Hohe Weide synagogue, according to the sources. Police assumed an antisemitic motive, and a later court ruling is reported to have found a targeted attack on a Jew."
+  },
+  {
+   "event_date": "2025-11-04",
+   "place": "Cloppenburg",
+   "country": "DE",
+   "type": "desecration",
+   "status": "active",
+   "summary": "Unknown persons scratched swastikas into several gravestones at the Jewish cemetery on Krankenhausstra\u00dfe in Cloppenburg, and state security police investigated for incitement to hatred. Police later reported that two teenagers admitted the act."
+  },
+  {
+   "event_date": "2021-05-11",
+   "place": "M\u00fcnster",
+   "country": "DE",
+   "type": "harassment",
+   "status": "active",
+   "summary": "Witnesses told police that a group of about 15 people gathered in front of the synagogue, shouted and burned an Israeli flag. State security police took over the investigation."
+  },
+  {
+   "event_date": "2025-09-26",
+   "place": "Erfurt",
+   "country": "DE",
+   "type": "assault",
+   "status": "active",
+   "summary": "Police reported that a 24-year-old Jewish man was assaulted on a tram in Erfurt after another man noticed his Star of David necklace. The attacker tried to drag him off the tram, kicked him and later threatened him, and is being investigated for a politically motivated hate crime."
+  },
+  {
+   "event_date": "2026-10-01",
+   "place": "Berlin (Sch\u00f6neberg)",
+   "country": "DE",
+   "type": "assault",
+   "status": "active",
+   "summary": "Berlin police reported that an unidentified man punched a 60-year-old man to the ground in a park after learning that he was Jewish, and the victim had minor facial injuries. State security police are investigating suspected aggravated assault with an antisemitic motive."
+  },
+  {
+   "event_date": "2021-05-11",
+   "place": "Bonn",
+   "country": "DE",
+   "type": "vandalism",
+   "status": "active",
+   "summary": "Unknown persons damaged the glass of the synagogue entrance door with stones, and police found a partly burned Israeli flag in front of it, according to the reports. Three suspects were arrested."
+  },
+  {
+   "event_date": "2021-05-12",
+   "place": "Gelsenkirchen",
+   "country": "DE",
+   "type": "harassment",
+   "status": "active",
+   "summary": "About 180 people moved from the station forecourt toward the synagogue in an unregistered rally, and antisemitic chants were shouted, according to a press report. Church bodies described the events near the synagogue as antisemitic riots."
+  },
+  {
+   "event_date": "2025-02-01",
+   "place": "Coburg",
+   "country": "DE",
+   "type": "assault",
+   "status": "active",
+   "summary": "RIAS reports that a resident of an asylum shelter in Coburg attacked another resident with a knife because he took him for a Jew. The Coburg prosecutor's office is reported to have assumed the perpetrator was not criminally responsible."
+  },
+  {
+   "event_date": "2023-10-12",
+   "place": "Berlin (Prenzlauer Berg)",
+   "country": "DE",
+   "type": "vandalism",
+   "status": "active",
+   "summary": "The entrance door of a residential house in Berlin-Prenzlauer Berg was sprayed with a Star of David. State security police investigated on suspicion of incitement to hatred (Volksverhetzung), and the press reported that the marking apparently aimed to intimidate Jewish residents."
+  }
+ ],
  "recent_runs": [
+  {
+   "agent": "recent",
+   "started_at": "2026-11-13T20:00:02.147676+00:00",
+   "finished_at": "2026-11-13T20:01:16.702844+00:00",
+   "ok": true,
+   "rows_written": 2,
+   "input_tokens": 213090,
+   "output_tokens": 4961,
+   "error": null
+  },
   {
    "agent": "research",
    "started_at": "2026-11-13T19:51:28.101459+00:00",
