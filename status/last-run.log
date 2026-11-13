@@ -1,9 +1,3 @@
 == agents.harvest.wiki_units
-{'english_pages': 5303, 'pages_all_languages': 48319, 'languages': 301, 'queued_in_database': 48319}
-== agents.harvest.pages
-wiki|en|1660 destruction of Tiberias -> 2652 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 1895 in / 88 out tokens
-wiki|en|1740 Batavia massacre -> 19339 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 7614 in / 101 out tokens
-wiki|en|Ahmedabad–Varanasi City Sabarmati Express -> 1749 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 1624 in / 98 out tokens
-wiki|en|Agron (dictionary) -> 1623 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 1422 in / 16 out tokens
-{'pages': 4, 'incidents': 0, 'live': 0, 'held': 0, 'input_tokens': 12555, 'output_tokens': 303}
-{"total": 39732, "active": 39719, "candidate": 13, "merged": 0, "documented": 3199, "register": 36533, "country_level_only": 994} {"fbi": 36281, "nypd": 252, "seed": 252, "research": 18, "jta": 2929, "wiki": 0}
+{'english_pages': 5376, 'pages_all_languages': 48736, 'languages': 301, 'queued_in_database': 49059}
+{"total": 40607, "active": 40592, "candidate": 15, "merged": 0, "documented": 4077, "register": 36533, "country_level_only": 1229} {"fbi": 36281, "nypd": 252, "seed": 252, "research": 18, "jta": 3644, "wiki": 163}
