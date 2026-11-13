@@ -1,29 +1,64 @@
 {
- "generated": "2026-11-13T19:38:37+00:00",
+ "generated": "2026-11-13T19:54:30+00:00",
  "incidents": {
-  "total": 36785,
-  "active": 36785,
-  "candidate": 0,
+  "total": 36801,
+  "active": 36799,
+  "candidate": 2,
   "merged": 0,
-  "documented": 252,
+  "documented": 268,
   "register": 36533,
   "country_level_only": 158
  },
  "by_origin": {
   "fbi": 36281,
   "nypd": 252,
-  "seed": 252
+  "seed": 252,
+  "research": 16
  },
- "sources": 153,
- "source_links": 36910,
+ "cells": {
+  "pending": 1012,
+  "claimed": 0,
+  "done": 2,
+  "blocked": 0
+ },
+ "review_queue_open": 2,
+ "recent_cells": [
+  {
+   "country": "DE",
+   "period_start": 2020,
+   "status": "done",
+   "rows_written": 11,
+   "notes": "11 proposed, 11 written, 11 live, 0 held, 0 unusable; 10 searches, 170626 in / 16435 out tokens"
+  },
+  {
+   "country": "FR",
+   "period_start": 2020,
+   "status": "done",
+   "rows_written": 5,
+   "notes": "5 proposed, 5 written, 3 live, 2 held, 0 unusable; 10 searches, 139981 in / 7094 out tokens"
+  }
+ ],
+ "sources": 183,
+ "source_links": 36940,
  "recent_runs": [
+  {
+   "agent": "research",
+   "started_at": "2026-11-13T19:51:28.101459+00:00",
+   "finished_at": "2026-11-13T19:54:29.79024+00:00",
+   "ok": true,
+   "rows_written": 16,
+   "input_tokens": 310607,
+   "output_tokens": 23529,
+   "error": null
+  },
   {
    "agent": "seed",
    "started_at": "2026-11-13T19:38:36.26317+00:00",
    "finished_at": "2026-11-13T19:38:37.484088+00:00",
    "ok": true,
    "rows_written": 252,
-   "usd": 0.0,
+   "input_tokens": 0,
+   "output_tokens": 0,
    "error": null
   },
   {
@@ -32,7 +67,8 @@
    "finished_at": "2026-11-13T19:38:35.87417+00:00",
    "ok": true,
    "rows_written": 252,
-   "usd": 0.0,
+   "input_tokens": 0,
+   "output_tokens": 0,
    "error": null
   },
   {
@@ -41,7 +77,8 @@
    "finished_at": "2026-11-13T19:38:32.387382+00:00",
    "ok": true,
    "rows_written": 36281,
-   "usd": 0.0,
+   "input_tokens": 0,
+   "output_tokens": 0,
    "error": null
   },
   {
@@ -50,7 +87,8 @@
    "finished_at": "2026-11-13T19:27:01.294103+00:00",
    "ok": true,
    "rows_written": 36123,
-   "usd": 0.0,
+   "input_tokens": 0,
+   "output_tokens": 0,
    "error": null
   }
  ]
