@@ -1,3 +1,5 @@
+== agents.harvest.requeue
+{'blocked_requeued': 135, 'abandoned_requeued': 0}
 == agents.status
-{"total": 41220, "active": 41205, "candidate": 15, "merged": 0, "documented": 4687, "register": 36533, "country_level_only": 1409} {"fbi": 36281, "nypd": 252, "seed": 252, "research": 18, "jta": 3983, "wiki": 434}
-{"total": 41220, "active": 41205, "candidate": 15, "merged": 0, "documented": 4687, "register": 36533, "country_level_only": 1409} {"fbi": 36281, "nypd": 252, "seed": 252, "research": 18, "jta": 3983, "wiki": 434}
+{"total": 41878, "active": 41843, "candidate": 35, "merged": 0, "documented": 5345, "register": 36533, "country_level_only": 1605} {"fbi": 36281, "nypd": 252, "seed": 252, "research": 18, "jta": 4333, "wiki": 742}
+{"total": 41878, "active": 41843, "candidate": 35, "merged": 0, "documented": 5345, "register": 36533, "country_level_only": 1605} {"fbi": 36281, "nypd": 252, "seed": 252, "research": 18, "jta": 4378, "wiki": 742}
