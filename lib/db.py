@@ -9,8 +9,8 @@ import time
 import datetime
 import requests
 
-URL = os.environ.get("SUPABASE_URL", "").rstrip("/")
-KEY = os.environ.get("SUPABASE_SERVICE_KEY", "")
+URL = os.environ.get("SUPABASE_URL", "").strip().rstrip("/")
+KEY = "".join(os.environ.get("SUPABASE_SERVICE_KEY", "").split())
 RULE_VERSION = "v1"
 
 
