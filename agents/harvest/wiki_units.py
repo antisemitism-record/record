@@ -109,6 +109,10 @@ def main():
     for i in range(0, len(rows), 500):
         db._request("POST", "cell", params={"on_conflict": "country,region,period_start,period_end"},
                     json=rows[i:i + 500], prefer="resolution=ignore-duplicates,return=minimal")
+    # The timeline and overview pages hold the most incidents: read them first.
+    for t in SEEDS:
+        db._request("PATCH", "cell", params={"region": f"eq.wiki|en|{t}", "status": "eq.pending"},
+                    json={"priority": 1}, prefer="return=minimal")
     langs = {l for l, _ in pages}
     print({"english_pages": len(en), "pages_all_languages": len(rows), "languages": len(langs),
            "queued_in_database": db.count("cell", granularity="page")})

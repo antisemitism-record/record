@@ -19,6 +19,9 @@ from lib.geo_world import World
 
 UA = {"User-Agent": "AntisemitismRecord/0.1 (https://github.com/antisemitism-record/record)"}
 CHUNK = 22000
+# A page with no word for "Jew" in any script, or no year from 1900 on, is not read by the model.
+JEWISH = re.compile(r"jew|jud|j[uü]d|juif|juiv|[żz]yd|žid|евре|євре|יהוד|ייִד|يهود|یهود|ebre|zsid|evre[iu]|jood|joden|hebr|εβρα|yahud|juut|jød|judi|žyd|ユダヤ|犹太|猶太|유대", re.I)
+MODERN = re.compile(r"\b(19\d\d|20[0-2]\d)\b")
 TYPES = {"murder", "assault", "arson", "vandalism", "desecration", "threat", "harassment", "terror", "riot",
          "expulsion", "property", "discrimination", "blood libel", "plot"}
 
@@ -128,6 +131,8 @@ def work(region, world, run_id, usage):
     _, lang, title = region.split("|", 2)
     url = f"https://{lang}.wikipedia.org/wiki/" + requests.utils.quote(title.replace(" ", "_"))
     text = fetch(lang, title)
+    if not JEWISH.search(text) or not MODERN.search(text):
+        return {"chars": len(text), "incidents": 0, "live": 0, "held": 0, "unparsed": 0, "skipped": True}
     items, seen, bad = [], set(), 0
     for part in chunks(text):
         found, ok = llm.json_block(llm.ask("Text:\n\n" + part, system=SYSTEM, usage=usage, max_tokens=16000))
@@ -141,12 +146,13 @@ def work(region, world, run_id, usage):
                 items.append(it)
     written = db.write_documented(items) if items else 0
     live = sum(1 for i in items if i["verified"])
-    return {"chars": len(text), "incidents": written, "live": live, "held": written - live, "unparsed": bad}
+    return {"chars": len(text), "incidents": written, "live": live, "held": written - live, "unparsed": bad,
+            "skipped": False}
 
 
-def claim_one():
+def claim_one(max_priority):
     cells = db.select("cell", select="id,region", granularity="eq.page", status="eq.pending",
-                      order="priority.asc", limit=40)
+                      priority=f"lte.{max_priority}", order="priority.asc", limit=40)
     random.shuffle(cells)
     for c in cells:
         got = db._request("PATCH", "cell", params={"id": f"eq.{c['id']}", "status": "eq.pending", "select": "id"},
@@ -161,18 +167,20 @@ def main():
     args = dict(a.split("=", 1) for a in sys.argv[1:] if "=" in a)
     deadline = time.time() + 60 * int(args.get("minutes", 20))
     limit = int(args.get("pages", 10 ** 9))
+    max_priority = int(args.get("maxpriority", 20))
     world, usage = World(), llm.Usage()
     run_id = db.start_run("harvest:pages")
     total = {"pages": 0, "incidents": 0, "live": 0, "held": 0}
     try:
         while time.time() < deadline and total["pages"] < limit:
-            cell = claim_one()
+            cell = claim_one(max_priority)
             if not cell:
                 break
             before = (usage.input_tokens, usage.output_tokens)
             try:
                 res = work(cell["region"], world, run_id, usage)
-                note = (f'{res["chars"]} characters, {res["incidents"]} incidents, {res["live"]} live, {res["held"]} held, '
+                note = ("not read: no Jewish reference or no date from 1900 on; " if res["skipped"] else "") + (
+                    f'{res["chars"]} characters, {res["incidents"]} incidents, {res["live"]} live, {res["held"]} held, '
                         f'{res["unparsed"]} unparsed pieces; {usage.input_tokens - before[0]} in / '
                         f'{usage.output_tokens - before[1]} out tokens')
                 db._request("PATCH", "cell", params={"id": f"eq.{cell['id']}"},
