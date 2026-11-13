@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T20:50:25+00:00",
+ "generated": "2026-11-13T20:53:15+00:00",
  "incidents": {
   "total": 36944,
   "active": 36939,
@@ -17,14 +17,14 @@
   "jta": 141
  },
  "cells": {
-  "pending": 2256,
-  "claimed": 0,
+  "pending": 2255,
+  "claimed": 1,
   "done": 4,
   "blocked": 0
  },
  "jta_months": {
-  "pending": 1244,
-  "claimed": 0,
+  "pending": 1243,
+  "claimed": 1,
   "done": 2,
   "blocked": 0
  },
@@ -293,6 +293,16 @@
   }
  ],
  "recent_runs": [
+  {
+   "agent": "harvest:jta",
+   "started_at": "2026-11-13T20:53:14.680606+00:00",
+   "finished_at": null,
+   "ok": null,
+   "rows_written": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "error": null
+  },
   {
    "agent": "harvest:jta",
    "started_at": "2026-11-13T20:44:18.577087+00:00",
