@@ -1,160 +1,160 @@
 {
- "generated": "2026-11-13T21:05:57+00:00",
+ "generated": "2026-11-13T21:14:14+00:00",
  "incidents": {
-  "total": 38083,
-  "active": 38075,
-  "candidate": 8,
+  "total": 39025,
+  "active": 39012,
+  "candidate": 13,
   "merged": 0,
-  "documented": 1550,
+  "documented": 2492,
   "register": 36533,
-  "country_level_only": 560
+  "country_level_only": 834
  },
  "by_origin": {
   "fbi": 36281,
   "nypd": 252,
   "seed": 252,
   "research": 18,
-  "jta": 1280
+  "jta": 2222
  },
  "cells": {
-  "pending": 2193,
+  "pending": 2172,
   "claimed": 6,
-  "done": 61,
+  "done": 82,
   "blocked": 0
  },
  "jta_months": {
-  "pending": 1181,
+  "pending": 1160,
   "claimed": 6,
-  "done": 59,
+  "done": 80,
   "blocked": 0
  },
- "held_for_review": 8,
+ "held_for_review": 13,
  "latest_jta": [
   {
-   "event_date": "1927-09-12",
+   "event_date": "1931-03-13",
    "place": null,
-   "country": "IE",
-   "type": "harassment",
+   "country": "PS",
+   "type": "blood libel",
    "status": "active",
    "geo_precision": "country",
-   "summary": "The article reports an anti-Semitic campaign raised by several Irish newspapers in connection with the showing of a Metro-Goldwyn-Mayer film. The article is truncated and gives no further details."
+   "summary": "The article reports that the Arab newspaper Felestin published a blood libel story the previous week, and that criminal proceedings against its editor were dismissed."
   },
   {
-   "event_date": "1927-09-20",
-   "place": "Kutelen",
-   "country": "UA",
-   "type": "property",
+   "event_date": "1931-03-20",
+   "place": "Preussisch-Holland",
+   "country": "PL",
+   "type": "assault",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "The article reports that Arthur Knopf, a young Jewish shop assistant, was stabbed in Preussisch-Holland in East Prussia by high school students taking part in a demonstration. He was in critical condition. The students said they stabbed him because they do not like Jews."
+  },
+  {
+   "event_date": "1931-03-05",
+   "place": "Haifa Bay area",
+   "country": "IL",
+   "type": "vandalism",
    "status": "active",
    "geo_precision": "country",
-   "summary": "Workers seized one of the three synagogues in Kutelen, Zhitomir, and it is to be converted into an artisan club after a long conflict with the religious congregation."
+   "summary": "Bedouin and Arabs are trespassing on Jewish-owned lands in the Haifa Bay area, and several thousand trees have been uprooted. The land is owned by the Palestine Economic Corporation together with the Jewish National Fund."
   },
   {
-   "event_date": "1927-09-04",
-   "place": null,
-   "country": "TR",
-   "type": "discrimination",
-   "status": "active",
-   "geo_precision": "country",
-   "summary": "The article reports that the government is reported to have issued an order prohibiting Jews from entering the interior of the country."
-  },
-  {
-   "event_date": "1927-09-11",
-   "place": "Roustchouk",
-   "country": "BG",
+   "event_date": "1931-03-12",
+   "place": "Berlin",
+   "country": "DE",
    "type": "harassment",
    "status": "active",
    "geo_precision": "city",
-   "summary": "The article reports that members of the anti-Semitic organization Redna Zachtita tried to incite the population against the Jews and distributed anti-Semitic proclamations in Roustchouk. Police acted promptly and no further incidents followed."
+   "summary": "A crowd of Hitlerists gathered outside the Adlon Hotel in Berlin, where Charlie Chaplin was staying, shouting abuse calling him the 'Jewish comedian'. Police drove the demonstrators off."
   },
   {
-   "event_date": "1927-09-18",
-   "place": "Riga",
-   "country": "LV",
-   "type": "threat",
-   "status": "active",
-   "geo_precision": "city",
-   "summary": "Rabbis of the Jewish community in Riga received letters threatening that all Jews would be exterminated if the Latvian citizenship law was promulgated. The letters were apparently sent by an organized band."
-  },
-  {
-   "event_date": "1927-09-20",
-   "place": "Romny",
-   "country": "UA",
+   "event_date": "1931-03-16",
+   "place": "Moscow",
+   "country": "RU",
    "type": "discrimination",
    "status": "active",
    "geo_precision": "city",
-   "summary": "The local rabbi of Romny was sentenced to six months' imprisonment, later commuted to a fine of 50 roubles, on a charge of teaching religion to Jewish children under sixteen."
+   "summary": "The article reports that the Jewish Communist organ Emess published caricatures of the accused Menshevik leaders that emphasised their Jewish features, and that the trial was used to stir anti-Jewish feeling."
   },
   {
-   "event_date": "1927-09-02",
-   "place": null,
-   "country": "HU",
-   "type": "expulsion",
-   "status": "active",
-   "geo_precision": "country",
-   "summary": "The article reports that a number of Jews, mostly natives of Galicia who had lived in Hungary for decades, were expelled from Hungary under a recent order that led to raids on aliens in several towns, and arrived in Germany."
-  },
-  {
-   "event_date": "1927-09-04",
-   "place": "Angora",
-   "country": "TR",
-   "type": "discrimination",
+   "event_date": "1931-03-20",
+   "place": "Schriesheim",
+   "country": "DE",
+   "type": "desecration",
    "status": "active",
    "geo_precision": "city",
-   "summary": "The article reports that placards were posted in Angora, Smyrna and Djancing urging the population to break business relations with Jews."
+   "summary": "The article reports that a Jewish cemetery in Schriesheim near Heidelberg was desecrated, with many tombstones demolished and others covered with filth. Two members of the Hitlerist organisation were arrested."
   },
   {
-   "event_date": "1927-09-07",
-   "place": "Kimpolung",
-   "country": "RO",
-   "type": "riot",
+   "event_date": "1931-03-03",
+   "place": "Jaffa",
+   "country": "IL",
+   "type": "blood libel",
    "status": "active",
    "geo_precision": "city",
-   "summary": "The article reports anti-Semitic excesses in Kimpolung on the day before the article, and names a widow, Mrs. Rosa Behr, and her three children. The article does not describe the act."
+   "summary": "The Arabic newspaper Felestin published a story that a Jew had stolen Arab children, which the article describes as a blood libel. The Jewish Agency asked the government to act against the paper."
   },
   {
-   "event_date": "1927-09-11",
-   "place": "Roustchouk",
-   "country": "BG",
-   "type": "arson",
+   "event_date": "1931-03-03",
+   "place": "Jaffa",
+   "country": "IL",
+   "type": "assault",
    "status": "active",
    "geo_precision": "city",
-   "summary": "The article reports that several persons set fire to a triumphal arch at the entrance to the Jewish quarter of Roustchouk, erected for a Jewish sports anniversary. The persons were traced and arrested."
+   "summary": "According to the Felestin, an Arab greengrocer struck a Jew named Levy after confronting him over alleged stolen children, and Levy was then arrested. The article reports this as the greengrocer's account."
   },
   {
-   "event_date": "1927-09-13",
-   "place": "Beacon, N.Y.",
-   "country": "US",
-   "type": "threat",
-   "status": "active",
-   "geo_precision": "country",
-   "summary": "A threatening note signed K.K.K. was received by Benjamin Cohen, manager of the co-operative camp Nitgadaiget at Beacon, New York. The note told campers to withdraw from the community or severe methods would be taken."
-  },
-  {
-   "event_date": "1927-09-16",
-   "place": "Spalarovke",
+   "event_date": "1931-03-11",
+   "place": "Nehite",
    "country": "UA",
+   "type": "blood libel",
+   "status": "active",
+   "geo_precision": "country",
+   "summary": "A school teacher from Nehite told police that four Jews had seized him and tried to crucify him on a synagogue door, and the peasants spread an outcry that Jews wanted his blood for Passover. The Czudyn police chief reported that the teacher had invented the story."
+  },
+  {
+   "event_date": "1931-03-11",
+   "place": "Munich",
+   "country": "DE",
    "type": "harassment",
    "status": "active",
-   "geo_precision": "country",
-   "summary": "A village barber gave an anti-Semitic speech at a public meeting in the village of Spalarovke, blaming the Jews and the Jewish Government for all the trouble. He was later sentenced to two years' imprisonment."
+   "geo_precision": "city",
+   "summary": "Young men on Sunday trains from Munich into the mountains sang antisemitic songs, including lyrics calling for Jews to be killed, and made other passengers unable to find peace. The report describes this as a recurring practice."
   },
   {
-   "event_date": "1927-09-19",
-   "place": "Constantinople",
-   "country": "TR",
+   "event_date": "1931-03-14",
+   "place": "Homel",
+   "country": "BY",
+   "type": "assault",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "The Minsk Yiddish Communist daily Oktiabr reports that non-Jewish workers at the Trud shoe factory in Homel tied up a Jewish worker, stripped him, and poured cement over his body, causing severe injuries. Other workers rescued him."
+  },
+  {
+   "event_date": "1931-03-14",
+   "place": null,
+   "country": "PS",
+   "type": "discrimination",
+   "status": "active",
+   "geo_precision": "country",
+   "summary": "The Palestine Arab Executive issued a proclamation reviving a boycott of Jews, urging Arab organisations to spread the boycott of Jewish goods and land sales."
+  },
+  {
+   "event_date": "1931-03-16",
+   "place": "Hamburg",
+   "country": "DE",
+   "type": "assault",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "Police Sergeant Friedrich Pohl fired his service revolver at Government-Councillor Lassally, a Jewish senior police officer, in his Hamburg office. The bullet lodged in Lassally's stomach and was removed; Pohl said he shot because he hates Jews."
+  },
+  {
+   "event_date": "1931-03-20",
+   "place": "Duisburg",
+   "country": "DE",
    "type": "vandalism",
    "status": "active",
    "geo_precision": "city",
-   "summary": "During anti-Jewish agitation in Constantinople following a Jewish protest, a number of Jewish homes had their windows smashed. Agitation to boycott Jewish firms was also reported."
-  },
-  {
-   "event_date": "1927-09-20",
-   "place": null,
-   "country": "HU",
-   "type": "discrimination",
-   "status": "active",
-   "geo_precision": "country",
-   "summary": "In Hungary, lawyer Rendes charged that Alfred Wohlstein, a native Hungarian, was included in the recent raids on aliens and deported because he is a Jew. The presiding judge declared this impossible."
+   "summary": "The article reports that Hitlerist troops marched from a meeting to the Jewish Community Building in Duisburg and bombarded it with stones, smashing every window. Police arrived after the attackers had dispersed."
   }
  ],
  "review_queue_open": 3,
@@ -162,86 +162,86 @@
   {
    "country": null,
    "region": "jta",
-   "period_start": 192709,
+   "period_start": 193103,
+   "status": "done",
+   "rows_written": 20,
+   "notes": "245 articles, 124 read, 20 incidents, 20 live, 0 held, 5 at country level, 1 unparsed batches; 78567 in / 21083 out tokens"
+  },
+  {
+   "country": null,
+   "region": "jta",
+   "period_start": 193005,
+   "status": "done",
+   "rows_written": 48,
+   "notes": "685 articles, 214 read, 48 incidents, 47 live, 1 held, 14 at country level, 0 unparsed batches; 95782 in / 28337 out tokens"
+  },
+  {
+   "country": null,
+   "region": "jta",
+   "period_start": 193101,
    "status": "done",
    "rows_written": 22,
-   "notes": "340 articles, 107 read, 22 incidents, 22 live, 0 held, 9 at country level, 0 unparsed batches; 55145 in / 16887 out tokens"
+   "notes": "276 articles, 127 read, 22 incidents, 22 live, 0 held, 6 at country level, 0 unparsed batches; 75253 in / 18930 out tokens"
   },
   {
    "country": null,
    "region": "jta",
-   "period_start": 192502,
+   "period_start": 193004,
    "status": "done",
-   "rows_written": 0,
-   "notes": "0 articles, 0 read, 0 incidents, 0 live, 0 held, 0 at country level, 0 unparsed batches; 0 in / 0 out tokens"
+   "rows_written": 28,
+   "notes": "676 articles, 227 read, 28 incidents, 28 live, 0 held, 12 at country level, 0 unparsed batches; 106334 in / 21860 out tokens"
   },
   {
    "country": null,
    "region": "jta",
-   "period_start": 192810,
+   "period_start": 192911,
    "status": "done",
-   "rows_written": 51,
-   "notes": "420 articles, 164 read, 51 incidents, 51 live, 0 held, 8 at country level, 0 unparsed batches; 85060 in / 35041 out tokens"
+   "rows_written": 95,
+   "notes": "548 articles, 232 read, 95 incidents, 94 live, 1 held, 36 at country level, 0 unparsed batches; 104417 in / 58900 out tokens"
   },
   {
    "country": null,
    "region": "jta",
-   "period_start": 192806,
+   "period_start": 192703,
    "status": "done",
-   "rows_written": 32,
-   "notes": "415 articles, 147 read, 32 incidents, 32 live, 0 held, 11 at country level, 0 unparsed batches; 77142 in / 21798 out tokens"
+   "rows_written": 33,
+   "notes": "450 articles, 196 read, 33 incidents, 33 live, 0 held, 8 at country level, 0 unparsed batches; 115076 in / 25698 out tokens"
   },
   {
    "country": null,
    "region": "jta",
-   "period_start": 192704,
+   "period_start": 192603,
    "status": "done",
-   "rows_written": 31,
-   "notes": "395 articles, 165 read, 31 incidents, 31 live, 0 held, 10 at country level, 0 unparsed batches; 91440 in / 21176 out tokens"
+   "rows_written": 24,
+   "notes": "383 articles, 151 read, 24 incidents, 23 live, 1 held, 15 at country level, 0 unparsed batches; 88814 in / 19149 out tokens"
   },
   {
    "country": null,
    "region": "jta",
-   "period_start": 192710,
+   "period_start": 193009,
    "status": "done",
-   "rows_written": 22,
-   "notes": "374 articles, 135 read, 22 incidents, 22 live, 0 held, 5 at country level, 0 unparsed batches; 61744 in / 12492 out tokens"
+   "rows_written": 37,
+   "notes": "569 articles, 228 read, 37 incidents, 37 live, 0 held, 8 at country level, 0 unparsed batches; 113439 in / 26704 out tokens"
   },
   {
    "country": null,
    "region": "jta",
-   "period_start": 192803,
+   "period_start": 192901,
    "status": "done",
-   "rows_written": 34,
-   "notes": "457 articles, 190 read, 34 incidents, 34 live, 0 held, 9 at country level, 1 unparsed batches; 99399 in / 27577 out tokens"
+   "rows_written": 26,
+   "notes": "493 articles, 166 read, 26 incidents, 26 live, 0 held, 6 at country level, 0 unparsed batches; 88510 in / 21106 out tokens"
   },
   {
    "country": null,
    "region": "jta",
-   "period_start": 192711,
+   "period_start": 192812,
    "status": "done",
-   "rows_written": 29,
-   "notes": "380 articles, 133 read, 29 incidents, 29 live, 0 held, 8 at country level, 0 unparsed batches; 66443 in / 20169 out tokens"
-  },
-  {
-   "country": null,
-   "region": "jta",
-   "period_start": 192308,
-   "status": "done",
-   "rows_written": 18,
-   "notes": "218 articles, 90 read, 18 incidents, 18 live, 0 held, 6 at country level, 0 unparsed batches; 35696 in / 11778 out tokens"
-  },
-  {
-   "country": null,
-   "region": "jta",
-   "period_start": 192511,
-   "status": "done",
-   "rows_written": 0,
-   "notes": "0 articles, 0 read, 0 incidents, 0 live, 0 held, 0 at country level, 0 unparsed batches; 0 in / 0 out tokens"
+   "rows_written": 72,
+   "notes": "597 articles, 167 read, 72 incidents, 71 live, 1 held, 22 at country level, 0 unparsed batches; 76787 in / 37777 out tokens"
   }
  ],
- "sources": 1247,
- "source_links": 38225,
+ "sources": 1967,
+ "source_links": 39167,
  "latest_research": [
   {
    "event_date": "2026-10-27",
