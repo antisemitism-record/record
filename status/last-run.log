@@ -1,27 +1,7 @@
-== agents.probe
-wp_font_face 1975-06-01 404 total=? {"code":"rest_no_route","message":"No route was found matching the URL and request method.","data":{"status":404}}
-guest-author 1933-04-01 200 total=0 []
-guest-author 1975-06-01 200 total=0 []
-jp_act_log_event 1933-04-01 401 total=? {"code":"invalid_user_permission_activity_log_event","message":"You do not have the correct user permissions to access Activity Log events.","data":{"status":401}}
-jp_act_log_event 1975-06-01 401 total=? {"code":"invalid_user_permission_activity_log_event","message":"You do not have the correct user permissions to access Activity Log events.","data":{"status":401}}
-dt_subscription 1933-04-01 404 total=? {"code":"rest_no_route","message":"No route was found matching the URL and request method.","data":{"status":404}}
-dt_subscription 1975-06-01 404 total=? {"code":"rest_no_route","message":"No route was found matching the URL and request method.","data":{"status":404}}
-archive 1933-04-01 200 total=21 [{"id":514128,"date":"1933-04-02T05:00:00","link":"https:\/\/www.jta.org\/archive\/prominent-jewish-lawyer-dies-after-terrible-beating-by-nazis-2","title":{"rendered":"Prominent Jewish Lawyer Dies After Terrible Beating by Nazis"}},{"id":514127,"date":"1933-04-02T05:00:00","link":"https:\/\/www.jta.org\/archive\/hitler-head-in-u
-archive 1975-06-01 200 total=11 [{"id":687599,"date":"1975-06-02T04:00:00","link":"https:\/\/www.jta.org\/archive\/jewish-editors-concerned-by-attempts-to-blame-israel","title":{"rendered":"Jewish Editors Concerned by Attempts to Blame Israel"}},{"id":687598,"date":"1975-06-02T04:00:00","link":"https:\/\/www.jta.org\/archive\/israels-oriental-jews-demand-voice
-jewniverse 1933-04-01 200 total=0 []
-jewniverse 1975-06-01 200 total=0 []
-quick-reads 1933-04-01 200 total=0 []
-quick-reads 1975-06-01 200 total=0 []
-paid-content 1933-04-01 200 total=0 []
-paid-content 1975-06-01 200 total=0 []
-jp_pay_order 1933-04-01 401 total=? {"code":"rest_cannot_view","message":"Sorry, you are not allowed to view orders.","data":{"status":401}}
-jp_pay_order 1975-06-01 401 total=? {"code":"rest_cannot_view","message":"Sorry, you are not allowed to view orders.","data":{"status":401}}
-jp_pay_product 1933-04-01 200 total=0 []
-jp_pay_product 1975-06-01 200 total=0 []
-evergreen 1933-04-01 200 total=0 []
-evergreen 1975-06-01 200 total=0 []
-nosher 1933-04-01 200 total=0 []
-nosher 1975-06-01 200 total=0 []
-archive links: ['https://www.jta.org/archive', 'https://www.jta.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.jta.org%2Farchive', 'https://www.jta.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.jta.org%2Farchive&#038;format=xml', 'https://www.jta.org/category/archive', 'https://www.jta.org/archive/when-to-lay-tefillin-in-outer-space', 'https://www.jta.org/archive/eichmanns-son-says-gestapo-chief-and-other-leading-nazis-are-alive', 'https://www.jta.org/archive/jewish-life-around-the-world-is-marked-by-anxiety-adl-leader-says', 'https://www.jta.org/archive/st-louis-radio-station-telecasts-first-television-seder-in-the-united-states', 'https://www.jta.org/archive/wiesel-urges-help-for-the-palestinian-people-but-says-that-terrorism-is-not-the-way']
-search 200 ['https://www.jta.org/archive/pogroms', 'https://www.jta.org/archive/pogroms-and-pretexts', 'https://www.jta.org/archive/machno-pogrom-band-leader-attempts-to-disclaim-guilt-for-pogroms', 'https://www.jta.org/archive/pogroms-are-not-such-simple-matters', 'https://www.jta.org/archive/compare-lynchings-pogroms', 'https://www.jta.org/archive/report-pogrom-in-kursk', 'https://www.jta.org/archive/kishinev-pogrom-commemorated', 'https://www.jta.org/archive/pogrom-agitators-jailed']
-{"total": 36803, "active": 36800, "candidate": 3, "merged": 0, "documented": 270, "register": 36533, "country_level_only": 158} {"fbi": 36281, "nypd": 252, "seed": 252, "research": 18}
+== agents.harvest.units
+{'jta_months_defined': 1246, 'jta_months_in_database': 1246}
+== agents.harvest.jta
+193304 -> 506 articles, 277 read, 124 incidents, 122 live, 2 held, 60 at country level, 0 unparsed batches; 129977 in / 68621 out tokens
+197506 -> 310 articles, 116 read, 17 incidents, 17 live, 0 held, 10 at country level, 0 unparsed batches; 68840 in / 13977 out tokens
+{'months': 2, 'articles': 816, 'read': 393, 'incidents': 141, 'live': 139, 'held': 2, 'input_tokens': 198817, 'output_tokens': 82598, 'calls': 22}
+{"total": 36944, "active": 36939, "candidate": 5, "merged": 0, "documented": 411, "register": 36533, "country_level_only": 228} {"fbi": 36281, "nypd": 252, "seed": 252, "research": 18, "jta": 141}

@@ -1,30 +1,183 @@
 {
- "generated": "2026-11-13T20:39:56+00:00",
+ "generated": "2026-11-13T20:50:25+00:00",
  "incidents": {
-  "total": 36803,
-  "active": 36800,
-  "candidate": 3,
+  "total": 36944,
+  "active": 36939,
+  "candidate": 5,
   "merged": 0,
-  "documented": 270,
+  "documented": 411,
   "register": 36533,
-  "country_level_only": 158
+  "country_level_only": 228
  },
  "by_origin": {
   "fbi": 36281,
   "nypd": 252,
   "seed": 252,
-  "research": 18
+  "research": 18,
+  "jta": 141
  },
  "cells": {
-  "pending": 1012,
+  "pending": 2256,
+  "claimed": 0,
+  "done": 4,
+  "blocked": 0
+ },
+ "jta_months": {
+  "pending": 1244,
   "claimed": 0,
   "done": 2,
   "blocked": 0
  },
+ "held_for_review": 5,
+ "latest_jta": [
+  {
+   "event_date": "1975-06-11",
+   "place": null,
+   "country": "SA",
+   "type": "discrimination",
+   "status": "active",
+   "geo_precision": "country",
+   "summary": "The ADL filed charges with the EEOC against four US companies for accepting Arab-country job practices that screen out Jews. The article says Aramco demanded baptismal certificates from overseas job candidates to prove they were not Jewish."
+  },
+  {
+   "event_date": "1975-06-17",
+   "place": "Metullah",
+   "country": "IL",
+   "type": "terror",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "Katyusha rockets fired at midnight hit Metullah, damaging power lines and some buildings. Rockets were also fired at Kfar Giladi and Metullah before dawn, causing slight damage."
+  },
+  {
+   "event_date": "1975-06-09",
+   "place": null,
+   "country": "RU",
+   "type": "discrimination",
+   "status": "active",
+   "geo_precision": "country",
+   "summary": "The article reports that Soviet Jewish war veterans Col. (ret.) Efim Davidovich and Col. Lev Ovsicher were stripped of rank and lost their pensions after applying for visas to emigrate to Israel, and that they face persecution by the KGB."
+  },
+  {
+   "event_date": "1975-06-10",
+   "place": null,
+   "country": "GB",
+   "type": "harassment",
+   "status": "active",
+   "geo_precision": "country",
+   "summary": "The article reports that an anti-Semitic pamphlet, 'Did Six Million Really Die?', was sent unsolicited to schools by a neo-Fascist group. The pamphlet first appeared a year earlier."
+  },
+  {
+   "event_date": "1975-06-11",
+   "place": "Moscow",
+   "country": "RU",
+   "type": "discrimination",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "The NCSJ reported that Anatoly Malkin, 21, of Moscow, was detained and would probably be charged with draft evasion after applying for an exit visa."
+  },
+  {
+   "event_date": "1975-06-16",
+   "place": "Nahariya",
+   "country": "IL",
+   "type": "terror",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "Katyusha rockets fired from Lebanon exploded at the seaside resort of Nahariya in the evening, injuring two civilians."
+  },
+  {
+   "event_date": "1975-06-05",
+   "place": "Moscow",
+   "country": "RU",
+   "type": "harassment",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "The article reports that the KGB told Jewish activist and physics professor Mark Azbel that his weekly seminars at home were an anti-Soviet action. Fifty-odd dismissed Soviet Jewish scientists attend the seminars, and the article describes personal threats and punitive measures against Azbel and his colleagues."
+  },
+  {
+   "event_date": "1975-06-05",
+   "place": null,
+   "country": "RU",
+   "type": "harassment",
+   "status": "active",
+   "geo_precision": "country",
+   "summary": "The article reports that on June 15, 1970, about 20 Soviet Jews were arrested, allegedly for attempting to hijack a Soviet airliner, and that eyewitness testimony describes physical and mental torture of prisoners in the camps."
+  },
+  {
+   "event_date": "1975-06-09",
+   "place": null,
+   "country": null,
+   "type": "threat",
+   "status": "active",
+   "geo_precision": "country",
+   "summary": "In a BBC interview, Leila Khaled warned diaspora Jewish leaders who aid Israel that they are targets for terrorist attack, and refused to name them."
+  },
+  {
+   "event_date": "1975-06-09",
+   "place": null,
+   "country": null,
+   "type": "assault",
+   "status": "active",
+   "geo_precision": "country",
+   "summary": "The article reports that Palestinian terrorists wounded J. Edward Sieff, managing director of Marks and Spencer, two years before the interview."
+  },
+  {
+   "event_date": "1975-06-11",
+   "place": "Babushkin",
+   "country": "RU",
+   "type": "discrimination",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "The NCSJ reported that in Babushkin, a Moscow suburb, Jews seeking to apply for emigration were told to go home because emigration was finished."
+  },
+  {
+   "event_date": "1975-06-11",
+   "place": null,
+   "country": "RU",
+   "type": "discrimination",
+   "status": "active",
+   "geo_precision": "country",
+   "summary": "The NCSJ reported that in another region, applicants were told the invitations from relatives in Israel were forged."
+  },
+  {
+   "event_date": "1975-06-16",
+   "place": "Kfar Yuval",
+   "country": "IL",
+   "type": "murder",
+   "status": "active",
+   "geo_precision": "country",
+   "summary": "Four terrorists entered the Mordechai home in Kfar Yuval and took hostages, and a battle with soldiers followed. The article reports two Israeli civilians killed and six Israelis injured."
+  },
+  {
+   "event_date": "1975-06-17",
+   "place": "Kfar Giladi",
+   "country": "IL",
+   "type": "terror",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "Katyusha rockets were fired at Kfar Giladi just before dawn, causing slight damage that was promptly repaired."
+  }
+ ],
  "review_queue_open": 3,
  "recent_cells": [
   {
+   "country": null,
+   "region": "jta",
+   "period_start": 197506,
+   "status": "done",
+   "rows_written": 17,
+   "notes": "310 articles, 116 read, 17 incidents, 17 live, 0 held, 10 at country level, 0 unparsed batches; 68840 in / 13977 out tokens"
+  },
+  {
+   "country": null,
+   "region": "jta",
+   "period_start": 193304,
+   "status": "done",
+   "rows_written": 124,
+   "notes": "506 articles, 277 read, 124 incidents, 122 live, 2 held, 60 at country level, 0 unparsed batches; 129977 in / 68621 out tokens"
+  },
+  {
    "country": "DE",
+   "region": null,
    "period_start": 2020,
    "status": "done",
    "rows_written": 11,
@@ -32,14 +185,15 @@
   },
   {
    "country": "FR",
+   "region": null,
    "period_start": 2020,
    "status": "done",
    "rows_written": 5,
    "notes": "5 proposed, 5 written, 3 live, 2 held, 0 unusable; 10 searches, 139981 in / 7094 out tokens"
   }
  ],
- "sources": 188,
- "source_links": 36945,
+ "sources": 277,
+ "source_links": 37086,
  "latest_research": [
   {
    "event_date": "2026-10-27",
@@ -139,6 +293,16 @@
   }
  ],
  "recent_runs": [
+  {
+   "agent": "harvest:jta",
+   "started_at": "2026-11-13T20:44:18.577087+00:00",
+   "finished_at": "2026-11-13T20:50:25.031092+00:00",
+   "ok": true,
+   "rows_written": 141,
+   "input_tokens": 198817,
+   "output_tokens": 82598,
+   "error": null
+  },
   {
    "agent": "recent",
    "started_at": "2026-11-13T20:00:02.147676+00:00",
