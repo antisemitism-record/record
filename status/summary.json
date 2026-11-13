@@ -1,364 +1,364 @@
 {
- "generated": "2026-11-13T21:27:59+00:00",
+ "generated": "2026-11-13T21:31:10+00:00",
  "incidents": {
-  "total": 40607,
-  "active": 40592,
+  "total": 41220,
+  "active": 41205,
   "candidate": 15,
   "merged": 0,
-  "documented": 4077,
+  "documented": 4687,
   "register": 36533,
-  "country_level_only": 1229
+  "country_level_only": 1409
  },
  "by_origin": {
   "fbi": 36281,
   "nypd": 252,
   "seed": 252,
   "research": 18,
-  "jta": 3644,
-  "wiki": 163
+  "jta": 3983,
+  "wiki": 434
  },
  "cells": {
-  "pending": 50895,
+  "pending": 50877,
   "claimed": 10,
-  "done": 279,
+  "done": 297,
   "blocked": 135
  },
  "jta_months": {
-  "pending": 1131,
+  "pending": 1125,
   "claimed": 6,
-  "done": 109,
+  "done": 115,
   "blocked": 0
  },
  "wiki_pages": {
-  "pending": 48752,
+  "pending": 48740,
   "claimed": 4,
-  "done": 168,
+  "done": 180,
   "blocked": 135
  },
  "latest_wiki": [
   {
-   "event_date": "1994-01-01",
-   "place": "Buenos Aires",
-   "country": "AR",
-   "type": "terror",
+   "event_date": "1941-10-01",
+   "place": "Minsk",
+   "country": "BY",
+   "type": "murder",
    "status": "active",
    "geo_precision": "city",
-   "summary": "The text reports a 1994 attack against AMIA, the Jewish community building in Buenos Aires. Hezbollah is held responsible for it."
+   "summary": "Personnel of the 707th Infantry Division conducted public hangings of resistance members in Minsk, including 17-year-old Jewish nurse Masha Bruskina."
   },
   {
-   "event_date": "1994-07-26",
+   "event_date": "1941-10-01",
+   "place": null,
+   "country": "BY",
+   "type": "murder",
+   "status": "active",
+   "geo_precision": "country",
+   "summary": "The 707th Infantry Division and attached Order Police units murdered over 10,000 individuals in Belorussia between October and November 1941, most of whom were Jews."
+  },
+  {
+   "event_date": "2026-03-01",
+   "place": "Heemstede",
+   "country": "NL",
+   "type": "threat",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "The text reports that Dutch police arrested four suspects in March and July 2026 over an alleged explosive or arson plot against a synagogue in Heemstede; two suspects were arrested near the synagogue with concealed fireworks in March."
+  },
+  {
+   "event_date": "2014-08-01",
+   "place": null,
+   "country": "BE",
+   "type": "assault",
+   "status": "active",
+   "geo_precision": "country",
+   "summary": "A 75-year-old Jewish woman was hit and pushed to the ground because of her Jewish-sounding surname."
+  },
+  {
+   "event_date": "2014-07-01",
+   "place": null,
+   "country": "DK",
+   "type": "threat",
+   "status": "active",
+   "geo_precision": "country",
+   "summary": "During the Gaza War in July 2014, death threats were expressed against Jews in Denmark."
+  },
+  {
+   "event_date": "2025-01-01",
+   "place": "Maribor",
+   "country": "SI",
+   "type": "vandalism",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "The text reports that the Maribor Synagogue was vandalized again with threatening graffiti."
+  },
+  {
+   "event_date": "1946-01-01",
+   "place": "Kielce",
+   "country": "PL",
+   "type": "riot",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "The text reports the Kielce pogrom in 1946, in which citizens violently attacked Jews after a false accusation of kidnapping a Christian child."
+  },
+  {
+   "event_date": "1945-09-01",
+   "place": "Topo\u013e\u010dany",
+   "country": "SK",
+   "type": "riot",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "The text reports that the Topo\u013e\u010dany pogrom took place in September 1945."
+  },
+  {
+   "event_date": "2012-01-01",
+   "place": "Schaarbeek",
+   "country": "BE",
+   "type": "harassment",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "During the 2012 local elections in Schaarbeek, candidates from the Jewish community were attacked for their affiliation, according to the president of the Coordination Committee of Jewish Organizations in Belgium."
+  },
+  {
+   "event_date": "1913-01-01",
+   "place": "Kiev",
+   "country": "UA",
+   "type": "blood libel",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "The text reports the Beilis affair in Kiev, in which a local Jew was accused of killing a Christian boy and was later found innocent."
+  },
+  {
+   "event_date": "2026-03-01",
    "place": "London",
    "country": "GB",
    "type": "terror",
    "status": "active",
    "geo_precision": "city",
-   "summary": "A car bomb exploded outside a Jewish community centre in London thirteen hours after a car bomb attack on the Israeli embassy, injuring 22 people. The date is derived from the text's statement that it occurred eight days after the AMIA attack."
+   "summary": "The text reports that approximately 10 attacks in March and April 2026 targeted the Jewish community in London, involving arson, explosive devices and chemicals, and hitting Jewish schools, synagogues and charities. Responsibility was claimed by Harakat Ashab al-Yamin al-Islamia."
   },
   {
-   "event_date": "1994-07-18",
-   "place": "Buenos Aires",
-   "country": "AR",
-   "type": "terror",
+   "event_date": "2012-11-01",
+   "place": "Antwerp",
+   "country": "BE",
+   "type": "harassment",
    "status": "active",
    "geo_precision": "city",
-   "summary": "A suicide attack drove a van loaded with explosives into the AMIA Jewish community center in Buenos Aires and detonated it, killing 85 people and injuring over 300."
-  },
-  {
-   "event_date": "2019-09-21",
-   "place": "Racine",
-   "country": "US",
-   "type": "vandalism",
-   "status": "active",
-   "geo_precision": "city",
-   "summary": "Members of The Base spray-painted swastikas, the word Jude, and The Base's symbol on the outside of Beth Israel Sinai Congregation. The text places this during Operation Kristallnacht, which it dates to September 21."
-  },
-  {
-   "event_date": "2019-09-21",
-   "place": "Hancock",
-   "country": "US",
-   "type": "vandalism",
-   "status": "active",
-   "geo_precision": "city",
-   "summary": "Nathan Weeden spray-painted swastikas and The Base's symbol on the exterior of Temple Jacob. The text places this during Operation Kristallnacht, which it dates to September 21 in the body, though the lead gives September 19."
-  },
-  {
-   "event_date": "1903-07-29",
-   "place": "Aiken",
-   "country": "US",
-   "type": "murder",
-   "status": "active",
-   "geo_precision": "city",
-   "summary": "Abraham Surasky, a Jewish peddler, was shot and axed to death by Lee Green and George Toole in rural South Carolina about 15 miles from Aiken. Green's wife Dora was also involved, and the court acquitted Green of murder."
-  },
-  {
-   "event_date": "1903-01-01",
-   "place": null,
-   "country": "US",
-   "type": "murder",
-   "status": "active",
-   "geo_precision": "country",
-   "summary": "According to a sworn affidavit, Lee Green shot at and attempted to murder another Jewish peddler named Levy about three weeks before the murder of Abraham Surasky. The date and place are not given beyond this."
-  },
-  {
-   "event_date": "1952-01-01",
-   "place": null,
-   "country": "CZ",
-   "type": "discrimination",
-   "status": "active",
-   "geo_precision": "country",
-   "summary": "The text reports the Sl\u00e1nsk\u00fd show trial in Communist Czechoslovakia, in which 14 leading Communists were tried and convicted, most of them hanged. The text says the trial had an anti-Semitic thrust and that eleven of the fourteen defendants were Jews."
-  },
-  {
-   "event_date": "1941-07-01",
-   "place": null,
-   "country": "UA",
-   "type": "murder",
-   "status": "active",
-   "geo_precision": "country",
-   "summary": "The text reports that between 29 July and 16 September 1941 the 454th Security Division captured about 1,500 civilians and Red Army soldiers, and that 78 of them, who were Jews, were killed. The text names occupied Ukraine and Southern Russia as the area of operations."
-  },
-  {
-   "event_date": "1938-01-01",
-   "place": "\u013duboch\u0148a",
-   "country": "SK",
-   "type": "property",
-   "status": "active",
-   "geo_precision": "country",
-   "summary": "The text reports that the Buergenthal family's resort hotel in \u013duboch\u0148a was confiscated by the Hlinka Guard in 1938 or early 1939. The text says the family owned and managed the hotel."
-  },
-  {
-   "event_date": "1938-11-01",
-   "place": null,
-   "country": "DE",
-   "type": "riot",
-   "status": "active",
-   "geo_precision": "country",
-   "summary": "The text reports that in November 1938 a pogrom across Germany, known as Kristallnacht, followed the assassination of a German diplomat. Synagogues were burned, Jewish homes and businesses were attacked, thousands of Jews were arrested, and some were stoned or beaten to death."
-  },
-  {
-   "event_date": "1945-04-07",
-   "place": null,
-   "country": "AT",
-   "type": "murder",
-   "status": "active",
-   "geo_precision": "country",
-   "summary": "The text reports that members of the division executed eighteen escaped prisoners between 7 and 11 April 1945. The location is not named."
+   "summary": "Demonstrators at an anti-Israel rally in Antwerp chanted 'Hamas, Hamas, all Jews to the gas.'"
   }
  ],
  "held_for_review": 15,
  "latest_jta": [
   {
-   "event_date": "1933-09-03",
-   "place": null,
-   "country": "BR",
+   "event_date": "1934-02-04",
+   "place": "Brighton Beach, Brooklyn",
+   "country": "US",
    "type": "harassment",
    "status": "active",
    "geo_precision": "country",
-   "summary": "The article reports that a Russian monarchist paper in Brazil, the Russian Gazette, published an article making insulting accusations against Jews. The local Jewish community has taken steps against those thought responsible."
+   "summary": "The article reports a drive by an anti-fascist committee to remove John Smith, manager of the Brighton Beach Woolworth store, over alleged anti-Semitic statements he made."
   },
   {
-   "event_date": "1933-09-05",
+   "event_date": "1934-02-04",
    "place": null,
-   "country": "CA",
+   "country": "DE",
    "type": "threat",
    "status": "active",
    "geo_precision": "country",
-   "summary": "The article reports that Jews in suburban towns of Ontario received letters signed by Swastika clubs warning them to leave their homes."
+   "summary": "The article reports that Nazi authorities announced that the German Jewish writers Arnold Zweig and Alfred Schirokauer would be arrested if they set foot in Germany."
   },
   {
-   "event_date": "1933-09-01",
-   "place": "Lodz",
+   "event_date": "1934-02-02",
+   "place": "Warsaw",
    "country": "PL",
+   "type": "vandalism",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "The article reports that in the last few days many windows in Jewish shops in Warsaw were smashed during frequent attacks on Jews in the city's streets."
+  },
+  {
+   "event_date": "1934-02-04",
+   "place": "Berlin",
+   "country": "DE",
    "type": "harassment",
    "status": "active",
    "geo_precision": "city",
-   "summary": "Members of the Polish Nazi Party in Lodz paraded the streets, stood outside Jewish shops and tried to stop customers from entering."
+   "summary": "The article reports that the Protocols of the Elders of Zion are being reproduced again in Berlin, with hundreds of thousands of copies being distributed to incite hatred of Jews."
   },
   {
-   "event_date": "1933-09-03",
-   "place": "St. Edouard",
-   "country": "CA",
+   "event_date": "1934-02-04",
+   "place": null,
+   "country": "DE",
    "type": "discrimination",
    "status": "active",
-   "geo_precision": "city",
-   "summary": "The article reports that the St. Edouard section of the Federation of Fascist Labor Clubs adopted a resolution calling for a complete stop to Jewish immigration, and forwarded it to the immigration minister at Ottawa."
+   "geo_precision": "country",
+   "summary": "The article reports that new Ministry of the Interior regulations made it almost impossible for Jews to change their Jewish names to Nordic-sounding ones."
   },
   {
-   "event_date": "1933-09-05",
+   "event_date": "1934-02-04",
    "place": null,
-   "country": "CZ",
-   "type": "murder",
+   "country": "DE",
+   "type": "discrimination",
    "status": "active",
    "geo_precision": "country",
-   "summary": "The article reports that Professor Theodor Lessing, a German Jewish philosopher and refugee from Germany, was killed on Czechoslovak territory, and that police are hunting his assassins."
+   "summary": "The article reports that the Nazi Minister of Finance announced a flight tax to be levied on Jews emigrating from the Reich."
   },
   {
-   "event_date": "1933-09-05",
-   "place": "Toronto",
-   "country": "CA",
-   "type": "riot",
+   "event_date": "1934-02-02",
+   "place": null,
+   "country": "CN",
+   "type": "harassment",
    "status": "active",
-   "geo_precision": "city",
-   "summary": "The article reports serious riots on August 16 and 17 in Willowvale Park in Toronto, which it links to the Swastika activity against Jews."
+   "geo_precision": "country",
+   "summary": "The article refers to the latest anti-Jewish outrage in Manchuria, which it says was engineered by Russian Fascists and Prussian Nazis. The article does not describe the act."
   },
   {
-   "event_date": "1933-09-01",
-   "place": "Marienbad",
-   "country": "CZ",
-   "type": "murder",
-   "status": "active",
-   "geo_precision": "city",
-   "summary": "Theodor Lessing, a German-Jewish philosopher and refugee from Nazi Germany, was shot dead in his bedroom at his villa in Marienbad by two men firing through the window. Police searched for a suspect."
-  },
-  {
-   "event_date": "1933-09-01",
-   "place": "Marienbad",
-   "country": "CZ",
-   "type": "threat",
-   "status": "active",
-   "geo_precision": "city",
-   "summary": "Theodor Lessing had received letters threatening his life about three weeks before his murder, according to the Prague press. One letter warned he would be dead within a month."
-  },
-  {
-   "event_date": "1933-09-01",
-   "place": "Katowice",
+   "event_date": "1934-02-02",
+   "place": "Warsaw",
    "country": "PL",
    "type": "assault",
    "status": "active",
    "geo_precision": "city",
-   "summary": "Purple-shirted Nazi news vendors in Katowice attacked Jewish passersby, and repeated fights occurred there."
+   "summary": "The article reports that Jews were attacked in the center of Warsaw during a demonstration organized by the Endek National Democrats. Police arrested seventeen Endek participants."
   },
   {
-   "event_date": "1933-09-03",
-   "place": "Quebec City",
-   "country": "CA",
+   "event_date": "1934-02-02",
+   "place": "Cz\u0119stochowa",
+   "country": "PL",
+   "type": "assault",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "The article reports that a district court sentenced an Endek youth to eighteen months in jail for a brutal attack on David Altman, Jewish editor of the government newspaper Glos Czestochowski. The date of the attack is not given."
+  },
+  {
+   "event_date": "1934-02-02",
+   "place": "Rio de Janeiro",
+   "country": "BR",
+   "type": "riot",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "The article reports that a student mob attacked the store of Zitrin, a Jewish gold trader on Rio's principal street, over a painting displayed in his window. Police arrested Zitrin to save him from the mob."
+  },
+  {
+   "event_date": "1934-02-04",
+   "place": "Paterson",
+   "country": "US",
    "type": "discrimination",
    "status": "active",
    "geo_precision": "city",
-   "summary": "The article reports that the Quebec city council passed a resolution urging federal authorities not to relax immigration laws, and sent it to the federal immigration minister. The resolution said Jewish immigration would create a state within a state."
+   "summary": "The article reports that no Jew was selected for the Paterson Grand Jury, the first such omission in many years, and that few Jews were on other juries. Local Jewish leaders linked this to an anti-Semitic atmosphere."
   },
   {
-   "event_date": "1933-09-03",
+   "event_date": "1934-02-04",
    "place": null,
-   "country": "BR",
-   "type": "discrimination",
-   "status": "active",
-   "geo_precision": "country",
-   "summary": "The article reports that Brazil's Ministry of Labor has stopped acknowledging affidavits submitted by Jews to bring family members into the country, so Jewish immigration has nearly ceased. The article says Germans, and a police chief described as anti-Semitic, are said to be behind it."
-  },
-  {
-   "event_date": "1933-09-02",
-   "place": "Magdeburg",
    "country": "DE",
    "type": "discrimination",
    "status": "active",
-   "geo_precision": "city",
-   "summary": "The article reports that Nazi headquarters at Magdeburg issued orders to members not to buy from or deal with Jews, and warned that offenders would be expelled from the party."
+   "geo_precision": "country",
+   "summary": "The article reports that the Nazi Ministry of the Interior's racial department is checking the names of all Jews and people of Jewish descent in Germany, using files of about 3,000,000 names."
   },
   {
-   "event_date": "1933-09-05",
-   "place": "Toronto",
-   "country": "CA",
-   "type": "desecration",
-   "status": "active",
-   "geo_precision": "city",
-   "summary": "The article reports that youths pasted swastikas on fences and tombstones at Jewish cemeteries on Roselawn Avenue in Toronto, during the month of Elul."
-  },
-  {
-   "event_date": "1933-09-07",
-   "place": "Nowobrodnow",
-   "country": "PL",
-   "type": "vandalism",
+   "event_date": "1934-02-04",
+   "place": null,
+   "country": "DE",
+   "type": "discrimination",
    "status": "active",
    "geo_precision": "country",
-   "summary": "Polish anti-Semites painted all the Jewish shops in Nowobrodnow overnight with signs urging Poles not to buy from Jews and to beat them. The article also reports that leaflets calling for confiscation of Jewish property and a boycott of Jewish businesses were distributed the next morning."
+   "summary": "The article reports that the German war blind association was told by the Nazi government that its customary subsidy would be withdrawn if blind Jewish soldiers were allowed to keep membership."
+  },
+  {
+   "event_date": "1934-02-04",
+   "place": null,
+   "country": "DE",
+   "type": "harassment",
+   "status": "active",
+   "geo_precision": "country",
+   "summary": "The article reports that police arrested a dismissed Jewish lawyer for displaying a 'former lawyer' sign, confiscated his stationery and brought him before a court, which fined him fifty marks. The High Court later rescinded the fine."
   }
  ],
  "review_queue_open": 3,
  "recent_cells": [
   {
    "country": null,
-   "region": "wiki|en|AMIA bombing",
-   "period_start": 0,
-   "status": "done",
-   "rows_written": 3,
-   "notes": "33169 characters, 3 incidents, 3 live, 0 held, 0 unparsed pieces; 13195 in / 3050 out tokens"
-  },
-  {
-   "country": null,
-   "region": "wiki|en|2024 anti-refugee riots in Turkey",
-   "period_start": 0,
-   "status": "done",
-   "rows_written": 0,
-   "notes": "2861 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 1865 in / 110 out tokens"
-  },
-  {
-   "country": null,
-   "region": "wiki|en|7th SS Police Regiment",
-   "period_start": 0,
-   "status": "done",
-   "rows_written": 0,
-   "notes": "not read: no Jewish reference or no date from 1900 on; 1290 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 0 in / 0 out tokens"
-  },
-  {
-   "country": null,
-   "region": "wiki|en|A Shoggoth on the Roof",
-   "period_start": 0,
-   "status": "done",
-   "rows_written": 0,
-   "notes": "10057 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 4619 in / 116 out tokens"
-  },
-  {
-   "country": null,
-   "region": "wiki|en|2008\u20132009 neo-Nazi murders of Roma in Hungary",
-   "period_start": 0,
-   "status": "done",
-   "rows_written": 0,
-   "notes": "34227 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 12989 in / 176 out tokens"
-  },
-  {
-   "country": null,
-   "region": "wiki|en|2019 synagogue vandalism",
+   "region": "wiki|en|707th Infantry Division",
    "period_start": 0,
    "status": "done",
    "rows_written": 2,
-   "notes": "3355 characters, 2 incidents, 2 live, 0 held, 0 unparsed pieces; 2103 in / 1393 out tokens"
+   "notes": "5028 characters, 2 incidents, 2 live, 0 held, 0 unparsed pieces; 2752 in / 1085 out tokens"
   },
   {
    "country": null,
-   "region": "wiki|en|Abd Allah ibn Salam",
+   "region": "jta",
+   "period_start": 193402,
+   "status": "done",
+   "rows_written": 65,
+   "notes": "1323 articles, 553 read, 65 incidents, 65 live, 0 held, 29 at country level, 0 unparsed batches; 316790 in / 55229 out tokens"
+  },
+  {
+   "country": null,
+   "region": "wiki|en|Antisemitism in Italy",
+   "period_start": 0,
+   "status": "done",
+   "rows_written": 41,
+   "notes": "75992 characters, 41 incidents, 41 live, 0 held, 0 unparsed pieces; 29500 in / 26081 out tokens"
+  },
+  {
+   "country": null,
+   "region": "jta",
+   "period_start": 193305,
+   "status": "done",
+   "rows_written": 122,
+   "notes": "615 articles, 356 read, 122 incidents, 122 live, 0 held, 40 at country level, 0 unparsed batches; 183916 in / 78410 out tokens"
+  },
+  {
+   "country": null,
+   "region": "jta",
+   "period_start": 192611,
+   "status": "done",
+   "rows_written": 25,
+   "notes": "435 articles, 144 read, 25 incidents, 25 live, 0 held, 8 at country level, 0 unparsed batches; 79405 in / 18103 out tokens"
+  },
+  {
+   "country": null,
+   "region": "wiki|en|1984 Ch\u00e2teaubriant shooting",
    "period_start": 0,
    "status": "done",
    "rows_written": 0,
-   "notes": "6541 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 3316 in / 76 out tokens"
+   "notes": "4073 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 2300 in / 140 out tokens"
   },
   {
    "country": null,
-   "region": "wiki|en|Abraham Surasky",
+   "region": "wiki|en|Antisemitism in Europe",
    "period_start": 0,
    "status": "done",
-   "rows_written": 2,
-   "notes": "2270 characters, 2 incidents, 2 live, 0 held, 0 unparsed pieces; 1711 in / 1393 out tokens"
+   "rows_written": 34,
+   "notes": "75992 characters, 34 incidents, 34 live, 0 held, 0 unparsed pieces; 29500 in / 24051 out tokens"
   },
   {
    "country": null,
-   "region": "wiki|en|A Trial in Prague",
+   "region": "wiki|en|Antisemitism in Germany",
    "period_start": 0,
    "status": "done",
-   "rows_written": 1,
-   "notes": "3029 characters, 1 incidents, 1 live, 0 held, 0 unparsed pieces; 1991 in / 1054 out tokens"
+   "rows_written": 48,
+   "notes": "75992 characters, 48 incidents, 48 live, 0 held, 0 unparsed pieces; 29500 in / 25027 out tokens"
   },
   {
    "country": null,
-   "region": "wiki|en|Abraham de Balmes",
+   "region": "wiki|en|Antisemitism in the Netherlands",
    "period_start": 0,
    "status": "done",
-   "rows_written": 0,
-   "notes": "2785 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 2048 in / 57 out tokens"
+   "rows_written": 51,
+   "notes": "75992 characters, 51 incidents, 51 live, 0 held, 0 unparsed pieces; 29500 in / 28110 out tokens"
+  },
+  {
+   "country": null,
+   "region": "wiki|en|List of attacks on Jewish institutions",
+   "period_start": 0,
+   "status": "done",
+   "rows_written": 41,
+   "notes": "11996 characters, 41 incidents, 41 live, 0 held, 0 unparsed pieces; 5196 in / 13733 out tokens"
   }
  ],
- "sources": 3128,
- "source_links": 40752,
+ "sources": 3405,
+ "source_links": 41362,
  "latest_research": [
   {
    "event_date": "2026-10-27",

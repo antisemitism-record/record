@@ -1,3 +1,3 @@
-== agents.harvest.wiki_units
-{'english_pages': 5376, 'pages_all_languages': 48736, 'languages': 301, 'queued_in_database': 49059}
-{"total": 40607, "active": 40592, "candidate": 15, "merged": 0, "documented": 4077, "register": 36533, "country_level_only": 1229} {"fbi": 36281, "nypd": 252, "seed": 252, "research": 18, "jta": 3644, "wiki": 163}
+== agents.status
+{"total": 41220, "active": 41205, "candidate": 15, "merged": 0, "documented": 4687, "register": 36533, "country_level_only": 1409} {"fbi": 36281, "nypd": 252, "seed": 252, "research": 18, "jta": 3983, "wiki": 434}
+{"total": 41220, "active": 41205, "candidate": 15, "merged": 0, "documented": 4687, "register": 36533, "country_level_only": 1409} {"fbi": 36281, "nypd": 252, "seed": 252, "research": 18, "jta": 3983, "wiki": 434}
