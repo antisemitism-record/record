@@ -1,364 +1,364 @@
 {
- "generated": "2026-11-13T21:33:39+00:00",
+ "generated": "2026-11-14T01:01:50+00:00",
  "incidents": {
-  "total": 41878,
-  "active": 41843,
-  "candidate": 35,
+  "total": 42729,
+  "active": 42692,
+  "candidate": 37,
   "merged": 0,
-  "documented": 5345,
+  "documented": 6196,
   "register": 36533,
-  "country_level_only": 1605
+  "country_level_only": 1841
  },
  "by_origin": {
   "fbi": 36281,
   "nypd": 252,
   "seed": 252,
   "research": 18,
-  "jta": 4378,
-  "wiki": 742
+  "jta": 4811,
+  "wiki": 1115
  },
  "cells": {
-  "pending": 50989,
-  "claimed": 10,
-  "done": 320,
+  "pending": 50932,
+  "claimed": 0,
+  "done": 387,
   "blocked": 0
  },
  "jta_months": {
-  "pending": 1121,
-  "claimed": 6,
-  "done": 120,
+  "pending": 1120,
+  "claimed": 0,
+  "done": 126,
   "blocked": 0
  },
  "wiki_pages": {
-  "pending": 48856,
-  "claimed": 4,
-  "done": 199,
+  "pending": 48800,
+  "claimed": 0,
+  "done": 259,
   "blocked": 0
  },
  "latest_wiki": [
   {
-   "event_date": "1919-08-01",
-   "place": null,
-   "country": "RU",
-   "type": "property",
+   "event_date": "2026-08-01",
+   "place": "C\u00f3rdoba",
+   "country": "ES",
+   "type": "vandalism",
    "status": "active",
-   "geo_precision": "country",
-   "summary": "In August 1919 the Soviet government seized Jewish properties, including synagogues, and many Jewish communities were dissolved."
+   "geo_precision": "city",
+   "summary": "The statue of Maimonides in C\u00f3rdoba was vandalized with a swastika, according to the text."
   },
   {
-   "event_date": "1953-01-01",
+   "event_date": "2014-05-18",
    "place": null,
-   "country": "RU",
+   "country": "ES",
    "type": "harassment",
    "status": "active",
    "geo_precision": "country",
-   "summary": "The Doctors' plot culminated in a show trial of a group of doctors, almost all of whom were Jewish, for supposedly plotting to assassinate Stalin."
+   "summary": "About 17,500 antisemitic tweets were posted by Spanish users after Maccabi Tel Aviv won the EuroLeague on 18 May 2014. Twelve Jewish associations filed a judicial complaint over references to death camps and the Holocaust."
+  },
+  {
+   "event_date": "2026-09-08",
+   "place": null,
+   "country": "ES",
+   "type": "harassment",
+   "status": "active",
+   "geo_precision": "country",
+   "summary": "Real Madrid supporters made Nazi salutes and chanted 'Jew that I see, Jew that I hit' before a match against Inter Milano, according to the text. The text does not name the match location."
+  },
+  {
+   "event_date": "1943-01-01",
+   "place": null,
+   "country": "BY",
+   "type": "threat",
+   "status": "active",
+   "geo_precision": "country",
+   "summary": "German planes dropped leaflets in the area offering a 50,000 Reichsmark reward for help in capturing Tuvia Bielski, later doubled to 100,000 RM. The leaflets were aimed at the Christian population."
+  },
+  {
+   "event_date": "1939-09-13",
+   "place": "Bielsko",
+   "country": "PL",
+   "type": "vandalism",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "The text reports that the Bielsko Synagogue was destroyed by Nazis on 13 September 1939. No further details are given."
+  },
+  {
+   "event_date": "1942-01-01",
+   "place": "Eupatoria",
+   "country": "UA",
+   "type": "murder",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "After partisans revolted in Eupatoria, reprisals directed by Major Hans-Wolf Riesen of the Eleventh Army staff led to the execution of 1,200 civilians. The text says the bulk of them were Jews."
+  },
+  {
+   "event_date": "1958-12-31",
+   "place": null,
+   "country": "LY",
+   "type": "discrimination",
+   "status": "active",
+   "geo_precision": "country",
+   "summary": "On 31 December 1958 the President of the Executive Council of Tripolitania ordered the dissolution of the Jewish Community Council and the appointment of a Muslim commissioner."
   },
   {
    "event_date": "1947-01-01",
-   "place": null,
-   "country": "DE",
-   "type": "discrimination",
-   "status": "active",
-   "geo_precision": "country",
-   "summary": "By 1947-48, Jews in German universities in the Soviet Occupation Zone who resisted Sovietisation were characterized as having a 'non-Aryan background'."
-  },
-  {
-   "event_date": "1967-06-01",
-   "place": "Kiev",
-   "country": "UA",
-   "type": "harassment",
+   "place": "Aden",
+   "country": "YE",
+   "type": "riot",
    "status": "active",
    "geo_precision": "city",
-   "summary": "Within a week after the 1967 Six-Day War, Jewish radio engineer Boris Kochubievsky was called to the KGB bureau and taken without questioning to a mental institution in Kiev."
+   "summary": "In 1947, rioters killed at least 80 Jews in Aden."
+  },
+  {
+   "event_date": "1934-01-01",
+   "place": "Thrace",
+   "country": "TR",
+   "type": "riot",
+   "status": "active",
+   "geo_precision": "country",
+   "summary": "In 1934, pogroms took place in Thrace."
   },
   {
    "event_date": "1948-01-01",
-   "place": null,
-   "country": "RU",
+   "place": "Kfar Etzion",
+   "country": "PS",
    "type": "murder",
    "status": "active",
-   "geo_precision": "country",
-   "summary": "During the anti-cosmopolitan campaign after 1948, numerous Yiddish-writing poets, writers, painters and sculptors were arrested or killed."
+   "geo_precision": "city",
+   "summary": "In 1948, 127 defenders and residents of Kfar Etzion were killed in a massacre during the siege by the Arab Legion and irregulars."
   },
   {
-   "event_date": "1918-01-01",
-   "place": null,
-   "country": "RU",
+   "event_date": "1945-01-01",
+   "place": "Cairo",
+   "country": "EG",
    "type": "riot",
    "status": "active",
-   "geo_precision": "country",
-   "summary": "The text reports that pogroms against Jews continued during 1918-1920, carried out by both the Red and White armies."
+   "geo_precision": "city",
+   "summary": "The text reports violent anti-Jewish violence in Cairo in 1945, resulting in 10 Jewish victims."
   },
   {
-   "event_date": "1936-01-01",
-   "place": null,
-   "country": "RU",
-   "type": "harassment",
-   "status": "active",
-   "geo_precision": "country",
-   "summary": "In the show trial of the 'Trotskyite-Zinovievite Terrorist Center', Bolshevik leaders were accused of hiding their Jewish origins under Slavic names."
-  },
-  {
-   "event_date": "2000-01-01",
-   "place": "Scott Township",
-   "country": "US",
-   "type": "vandalism",
-   "status": "active",
-   "geo_precision": "country",
-   "summary": "Richard Baumhammers fired into the windows of the Beth El Congregation synagogue and spray-painted two red swastikas on the building."
-  },
-  {
-   "event_date": "2017-01-01",
-   "place": "Alameda",
-   "country": "US",
-   "type": "vandalism",
+   "event_date": "1967-01-01",
+   "place": "Damascus",
+   "country": "SY",
+   "type": "riot",
    "status": "active",
    "geo_precision": "city",
-   "summary": "Two classroom windows at Temple Israel in Alameda were smashed."
-  },
-  {
-   "event_date": "2002-07-04",
-   "place": "Los Angeles",
-   "country": "US",
-   "type": "terror",
-   "status": "active",
-   "geo_precision": "city",
-   "summary": "A lone gunman opened fire at the El Al airline ticket counter at Los Angeles International Airport. Two people were killed and four injured before the gunman was shot by a security guard."
-  },
-  {
-   "event_date": "2018-04-17",
-   "place": "Berlin",
-   "country": "DE",
-   "type": "assault",
-   "status": "active",
-   "geo_precision": "city",
-   "summary": "The text reports an antisemitic attack in Berlin, Germany on 17 April 2018."
-  },
-  {
-   "event_date": "2016-05-01",
-   "place": "University of California, Irvine",
-   "country": "US",
-   "type": "harassment",
-   "status": "active",
-   "geo_precision": "city",
-   "summary": "The Students for Justice in Palestine chapter at UC Irvine was sanctioned for disrupting a program hosted by a Jewish campus group in May. The text says it also intimidated Jewish students."
+   "summary": "In 1967, after the Six-Day War, antisemitic riots broke out in Damascus."
   }
  ],
- "held_for_review": 35,
+ "held_for_review": 37,
  "latest_jta": [
   {
-   "event_date": "1929-04-07",
-   "place": "Pskov",
+   "event_date": "1930-11-04",
+   "place": "Moscow",
    "country": "RU",
-   "type": "murder",
-   "status": "active",
-   "geo_precision": "city",
-   "summary": "Trofimov murdered the Jewish worker Bolsheminikov in a Soviet factory in Pskov, and his trial opened in Pskov. A local paper reported that a few days later an anti-Semitic incident occurred and that the local Communist official refused to arrest the offender."
-  },
-  {
-   "event_date": "1929-04-05",
-   "place": "Pluk",
-   "country": "PL",
-   "type": "blood libel",
-   "status": "active",
-   "geo_precision": "country",
-   "summary": "Peasants in the village of Pluk spread a rumor that a Jewish farmer had sold a Christian farmhand for ritual purposes, and a public meeting was held on the accusation. The farmhand's return ended the accusation, and the Jewish farmer began libel proceedings against his accusers."
-  },
-  {
-   "event_date": "1929-04-12",
-   "place": "Borovitchi",
-   "country": "RU",
-   "type": "threat",
-   "status": "active",
-   "geo_precision": "city",
-   "summary": "The article reports that Malishev, a member of the town Soviet, said at a session on anti-Semitism that the Jews rather than anti-Semitism should be fought, and the Soviet denounced him."
-  },
-  {
-   "event_date": "1929-04-01",
-   "place": "Briceni",
-   "country": "MD",
-   "type": "riot",
-   "status": "active",
-   "geo_precision": "city",
-   "summary": "A deputy asked the Romanian Minister of the Interior to act against anti-Semitic excesses in Briceni. The Jewish paper Adeverul says a detailed account confirms the outrages were barbaric."
-  },
-  {
-   "event_date": "1929-04-01",
-   "place": "Vilna",
-   "country": "LT",
-   "type": "riot",
-   "status": "active",
-   "geo_precision": "city",
-   "summary": "After a street collision in which a Christian servant girl was cut, a crowd spread a ritual murder rumor against a Jewish barber, Hillel Nigus, and attempted to lynch him. The mob broke the windows and doors of the restaurant where he had taken refuge, and police later dispersed the crowd."
-  },
-  {
-   "event_date": "1929-04-04",
-   "place": null,
-   "country": "PL",
    "type": "assault",
    "status": "active",
-   "geo_precision": "country",
-   "summary": "According to the Bundist paper Volkszeitung, Communists attacked Jewish needle workers of the Right Wing in Poland. Shops were invaded and workers were attacked with knives, shears and hammers, and many were injured."
+   "geo_precision": "city",
+   "summary": "According to local press reports, a worker named Matrosov shut a Jewish co-worker in the steam department of a Moscow timber plant and turned on the steam. The Jewish worker was found unconscious, and Matrosov was arrested."
   },
   {
-   "event_date": "1929-04-12",
-   "place": "Deliatyn",
-   "country": "UA",
-   "type": "harassment",
+   "event_date": "1930-11-10",
+   "place": "Borscha",
+   "country": "RO",
+   "type": "arson",
    "status": "active",
    "geo_precision": "city",
-   "summary": "Troops were sent to Deliatyn in Galicia after a continued anti-Jewish agitation, and peasants from neighboring villages joined an anti-Jewish demonstration in the town. A guard of Zionist youths was placed around Jewish barracks because of fear of arson."
+   "summary": "The article refers to an anti-Semitic fire in Borscha that burned Jewish homes. The Romanian cabinet granted aid to the Jews of Borscha and allowed use of timber for rebuilding."
   },
   {
-   "event_date": "1929-04-12",
-   "place": "Borovitchi",
-   "country": "RU",
-   "type": "harassment",
-   "status": "active",
-   "geo_precision": "city",
-   "summary": "The article reports that two brothers, Lavrentiev, were sentenced to two years' imprisonment each for spreading anti-Semitic propaganda at a factory in Borovitchi."
-  },
-  {
-   "event_date": "1929-04-12",
-   "place": null,
-   "country": "RU",
-   "type": "murder",
-   "status": "active",
-   "geo_precision": "country",
-   "summary": "The article reports that a Communist worker, Trofimov, was sentenced by a Pskov court to five years' imprisonment for murdering his Jewish fellow worker, Bolsheminikov, and that the defense said he was an anti-Semite."
-  },
-  {
-   "event_date": "1929-03-27",
-   "place": "Bialoczow",
-   "country": "PL",
-   "type": "riot",
-   "status": "active",
-   "geo_precision": "city",
-   "summary": "During Purim celebrations, villagers attacked Jewish homes at Bialoczow after a rumor that Purim players had profaned a cross. Windows in seventeen Jewish homes were smashed, according to the Ministry of the Interior."
-  },
-  {
-   "event_date": "1929-04-01",
-   "place": "Boston",
-   "country": "US",
+   "event_date": "1930-11-03",
+   "place": "Cluj",
+   "country": "RO",
    "type": "discrimination",
    "status": "active",
    "geo_precision": "city",
-   "summary": "Representative Isidore H. Fox told a legislative committee that the Boston School Committee avoided appointing a Jewish attendance officer despite a qualified Jewish candidate. He charged that the committee manipulated its votes to block a Jewish appointment."
+   "summary": "Jewish religious heads protested that during King Carol's visits to Cluj, their delegation was given scattered seats in inconspicuous places, preventing it from addressing the King as a body. They attributed this to a Ministerial Director."
   },
   {
-   "event_date": "1929-04-03",
-   "place": "Clausenburg",
+   "event_date": "1930-11-03",
+   "place": "Warsaw",
+   "country": "PL",
+   "type": "vandalism",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "Unknown persons, believed to be members of the National-Democratic party, raided the offices of the Nasz Prezegland, a Polish-Jewish daily in Warsaw, and broke its windows. Police arrived and the raiders left."
+  },
+  {
+   "event_date": "1930-11-07",
+   "place": "Tilsit",
+   "country": "RU",
+   "type": "desecration",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "Eight gravestones were smashed in a Jewish cemetery in Tilsit, East Prussia. The vandals were not caught. The article describes this as the 95th desecration of a Jewish cemetery in Germany."
+  },
+  {
+   "event_date": "1930-11-10",
+   "place": "Jassy",
+   "country": "RO",
+   "type": "riot",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "The article reports that anti-Semitic demonstrators attacked Jewish passersby in Jassy near a Liberal political meeting before police dispersed them."
+  },
+  {
+   "event_date": "1930-11-01",
+   "place": "Budapest",
+   "country": "HU",
+   "type": "assault",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "Five Jewish students at the University of Budapest were found with injuries from assaults the previous day. The article reports that anti-Jewish attacks on students had been occurring for several days."
+  },
+  {
+   "event_date": "1930-11-01",
+   "place": "Budapest",
+   "country": "HU",
+   "type": "riot",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "A band of 25 anti-Semites entered the courtyards of the University of Budapest and tried to drive Jewish students from the school premises. Several Jews were injured."
+  },
+  {
+   "event_date": "1930-11-03",
+   "place": "Danzig",
+   "country": "PL",
+   "type": "assault",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "Hitlerites attacked Jews on the streets of Danzig, beating them with blackjacks. Samuel Rosan and Isaak Roslin were taken to hospital in critical condition."
+  },
+  {
+   "event_date": "1930-11-03",
+   "place": "Zoppot",
+   "country": "PL",
+   "type": "assault",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "Hitlerites attacked Jews at the Cafe Corso in Zoppot, a suburb of Danzig, the previous day."
+  },
+  {
+   "event_date": "1930-11-04",
+   "place": "Yonkers",
+   "country": "US",
+   "type": "assault",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "Two Jewish doctors, brothers, said a Westchester County Park Commission patrolman beat them after arresting them for smoking in a park swimming pool, and the court upheld the assault charges against him. The doctors had claimed in court that the assault was due to anti-Semitic feeling."
+  },
+  {
+   "event_date": "1930-11-06",
+   "place": "Ortelsburg",
+   "country": "PL",
+   "type": "assault",
+   "status": "active",
+   "geo_precision": "city",
+   "summary": "A gang of Hitlerites attacked Selig Preuss, a Jewish merchant, and his son, badly injuring both of them in Ortelsburg, East Prussia."
+  },
+  {
+   "event_date": "1930-11-10",
+   "place": "Novosielicz",
    "country": "RO",
    "type": "assault",
    "status": "active",
-   "geo_precision": "city",
-   "summary": "According to the paper Lupta, anti-Semitic hooligans at Clausenburg attacked Jewish passersby and seriously injured three Jewish citizens. The paper says the culprits were known to the authorities but went unpunished."
+   "geo_precision": "country",
+   "summary": "The article reports that a gang of Cuzists attacked Jewish passengers on a train from Novosielicz to Czernowitz, throwing their baggage off and pushing the Jews from the train. Hirsch Rosenblatt and Moses Lichtig, both of Czernowitz, were among those more seriously injured."
   },
   {
-   "event_date": "1929-04-04",
-   "place": "Vologda",
-   "country": "RU",
-   "type": "threat",
-   "status": "active",
-   "geo_precision": "city",
-   "summary": "A 19-year-old employee of the Vologda Sanitation Department attempted to organize a society under the slogan 'Kill the Jews, Save Russia' and wrote a secret circular for it. He was sentenced to three months' imprisonment after an investigation."
-  },
-  {
-   "event_date": "1929-04-07",
-   "place": null,
-   "country": "YE",
+   "event_date": "1930-11-10",
+   "place": "Vienna",
+   "country": "AT",
    "type": "assault",
    "status": "active",
-   "geo_precision": "country",
-   "summary": "Under an edict issued in Yemen, police searched for Jewish orphans and tried to force them to convert to Islam. Children who refused were beaten and imprisoned in cellars, according to a letter published in Doar Ha'yom."
+   "geo_precision": "city",
+   "summary": "The article reports that eight Zionist students distributing campaign leaflets on the University of Vienna campus were attacked and injured by anti-Semitic students."
   }
  ],
  "review_queue_open": 3,
  "recent_cells": [
   {
    "country": null,
-   "region": "jta",
-   "period_start": 192904,
+   "region": "wiki|en|Antisemitism in Spain",
+   "period_start": 0,
    "status": "done",
-   "rows_written": 45,
-   "notes": "545 articles, 163 read, 45 incidents, 45 live, 0 held, 10 at country level, 0 unparsed batches; 75051 in / 29810 out tokens"
+   "rows_written": 3,
+   "notes": "17078 characters, 3 incidents, 3 live, 0 held, 0 unparsed pieces; 6815 in / 2232 out tokens"
   },
   {
    "country": null,
-   "region": "wiki|en|Abraham Cresques",
+   "region": "wiki|en|Bielski partisans",
    "period_start": 0,
    "status": "done",
-   "rows_written": 0,
-   "notes": "4349 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 2567 in / 16 out tokens"
-  },
-  {
-   "country": null,
-   "region": "wiki|en|Antisemitism in the Soviet Union",
-   "period_start": 0,
-   "status": "done",
-   "rows_written": 7,
-   "notes": "24916 characters, 7 incidents, 7 live, 0 held, 0 unparsed pieces; 10437 in / 5235 out tokens"
+   "rows_written": 1,
+   "notes": "18150 characters, 1 incidents, 1 live, 0 held, 0 unparsed pieces; 7345 in / 1882 out tokens"
   },
   {
    "country": null,
    "region": "jta",
-   "period_start": 193106,
+   "period_start": 193011,
    "status": "done",
-   "rows_written": 47,
-   "notes": "257 articles, 107 read, 47 incidents, 47 live, 0 held, 5 at country level, 0 unparsed batches; 64624 in / 27764 out tokens"
+   "rows_written": 49,
+   "notes": "651 articles, 203 read, 49 incidents, 49 live, 0 held, 8 at country level, 0 unparsed batches; 101928 in / 30236 out tokens"
   },
   {
    "country": null,
-   "region": "wiki|en|Abraham Silberschein",
+   "region": "wiki|en|Adolf Hitler",
    "period_start": 0,
    "status": "done",
    "rows_written": 0,
-   "notes": "5493 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 2797 in / 108 out tokens"
+   "notes": "84763 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 32511 in / 1279 out tokens"
   },
   {
    "country": null,
-   "region": "wiki|en|Aaron ben David Cohen of Ragusa",
+   "region": "wiki|en|Bielsko Synagogue",
+   "period_start": 0,
+   "status": "done",
+   "rows_written": 1,
+   "notes": "614 characters, 1 incidents, 1 live, 0 held, 0 unparsed pieces; 1125 in / 591 out tokens"
+  },
+  {
+   "country": null,
+   "region": "wiki|en|Adnan Menderes",
    "period_start": 0,
    "status": "done",
    "rows_written": 0,
-   "notes": "not read: no Jewish reference or no date from 1900 on; 850 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 0 in / 0 out tokens"
+   "notes": "not read: no Jewish reference or no date from 1900 on; 15593 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 0 in / 0 out tokens"
   },
   {
    "country": null,
-   "region": "wiki|en|Timeline of antisemitism in the 21st century",
-   "period_start": 0,
-   "status": "done",
-   "rows_written": 65,
-   "notes": "106279 characters, 65 incidents, 65 live, 0 held, 0 unparsed pieces; 41901 in / 44107 out tokens"
-  },
-  {
-   "country": null,
-   "region": "wiki|en|23rd SS-Standarte",
+   "region": "wiki|en|Abraham ben Abraham",
    "period_start": 0,
    "status": "done",
    "rows_written": 0,
-   "notes": "not read: no Jewish reference or no date from 1900 on; 1323 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 0 in / 0 out tokens"
+   "notes": "16989 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 7168 in / 569 out tokens"
   },
   {
    "country": null,
-   "region": "wiki|en|Antisemitism in Sweden",
+   "region": "wiki|en|Abraham the Monk",
    "period_start": 0,
    "status": "done",
-   "rows_written": 9,
-   "notes": "26756 characters, 9 incidents, 9 live, 0 held, 0 unparsed pieces; 10924 in / 4836 out tokens"
+   "rows_written": 0,
+   "notes": "790 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 1164 in / 46 out tokens"
   },
   {
    "country": null,
-   "region": "wiki|en|Antisemitism in Turkey",
+   "region": "wiki|en|Abwehr",
    "period_start": 0,
    "status": "done",
-   "rows_written": 23,
-   "notes": "31322 characters, 23 incidents, 23 live, 0 held, 0 unparsed pieces; 13015 in / 11561 out tokens"
+   "rows_written": 1,
+   "notes": "46445 characters, 1 incidents, 1 live, 0 held, 0 unparsed pieces; 18342 in / 1215 out tokens"
+  },
+  {
+   "country": null,
+   "region": "wiki|en|Action Saybusch",
+   "period_start": 0,
+   "status": "done",
+   "rows_written": 0,
+   "notes": "9393 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 4044 in / 394 out tokens"
   }
  ],
- "sources": 3711,
- "source_links": 42065,
+ "sources": 4078,
+ "source_links": 42871,
  "latest_research": [
   {
    "event_date": "2026-10-27",
@@ -459,43 +459,103 @@
  ],
  "recent_runs": [
   {
-   "agent": "harvest:pages",
-   "started_at": "2026-11-13T21:25:03.343835+00:00",
-   "finished_at": null,
-   "ok": null,
+   "agent": "harvest:jta",
+   "started_at": "2026-11-14T01:01:01.006387+00:00",
+   "finished_at": "2026-11-14T01:01:40.117478+00:00",
+   "ok": true,
    "rows_written": 0,
    "input_tokens": 0,
    "output_tokens": 0,
+   "error": null
+  },
+  {
+   "agent": "harvest:jta",
+   "started_at": "2026-11-14T01:00:39.913971+00:00",
+   "finished_at": "2026-11-14T01:00:52.064331+00:00",
+   "ok": true,
+   "rows_written": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "error": null
+  },
+  {
+   "agent": "harvest:jta",
+   "started_at": "2026-11-14T01:00:18.239715+00:00",
+   "finished_at": "2026-11-14T01:00:32.674572+00:00",
+   "ok": true,
+   "rows_written": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "error": null
+  },
+  {
+   "agent": "harvest:jta",
+   "started_at": "2026-11-14T01:00:04.732636+00:00",
+   "finished_at": "2026-11-14T01:00:28.845976+00:00",
+   "ok": true,
+   "rows_written": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "error": null
+  },
+  {
+   "agent": "harvest:jta",
+   "started_at": "2026-11-14T00:59:40.821224+00:00",
+   "finished_at": "2026-11-14T01:00:16.950058+00:00",
+   "ok": true,
+   "rows_written": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "error": null
+  },
+  {
+   "agent": "harvest:jta",
+   "started_at": "2026-11-14T00:59:22.290853+00:00",
+   "finished_at": "2026-11-14T01:00:03.431908+00:00",
+   "ok": true,
+   "rows_written": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "error": null
+  },
+  {
+   "agent": "harvest:pages",
+   "started_at": "2026-11-13T21:25:03.343835+00:00",
+   "finished_at": "2026-11-13T21:37:54.466461+00:00",
+   "ok": true,
+   "rows_written": 247,
+   "input_tokens": 327670,
+   "output_tokens": 177590,
    "error": null
   },
   {
    "agent": "harvest:pages",
    "started_at": "2026-11-13T21:24:43.812123+00:00",
-   "finished_at": null,
-   "ok": null,
-   "rows_written": 0,
-   "input_tokens": 0,
-   "output_tokens": 0,
+   "finished_at": "2026-11-13T21:37:56.733779+00:00",
+   "ok": true,
+   "rows_written": 257,
+   "input_tokens": 369185,
+   "output_tokens": 179893,
    "error": null
   },
   {
    "agent": "harvest:pages",
    "started_at": "2026-11-13T21:24:21.847896+00:00",
-   "finished_at": null,
-   "ok": null,
-   "rows_written": 0,
-   "input_tokens": 0,
-   "output_tokens": 0,
+   "finished_at": "2026-11-13T21:37:56.768816+00:00",
+   "ok": true,
+   "rows_written": 342,
+   "input_tokens": 351454,
+   "output_tokens": 189185,
    "error": null
   },
   {
    "agent": "harvest:pages",
    "started_at": "2026-11-13T21:24:05.984075+00:00",
-   "finished_at": null,
-   "ok": null,
-   "rows_written": 0,
-   "input_tokens": 0,
-   "output_tokens": 0,
+   "finished_at": "2026-11-13T21:37:53.560846+00:00",
+   "ok": true,
+   "rows_written": 269,
+   "input_tokens": 387075,
+   "output_tokens": 176837,
    "error": null
   },
   {
@@ -511,101 +571,41 @@
   {
    "agent": "harvest:jta",
    "started_at": "2026-11-13T20:54:54.687416+00:00",
-   "finished_at": null,
-   "ok": null,
-   "rows_written": 0,
-   "input_tokens": 0,
-   "output_tokens": 0,
+   "finished_at": "2026-11-13T21:37:51.674989+00:00",
+   "ok": true,
+   "rows_written": 736,
+   "input_tokens": 1809042,
+   "output_tokens": 535333,
    "error": null
   },
   {
    "agent": "harvest:jta",
    "started_at": "2026-11-13T20:54:36.198751+00:00",
-   "finished_at": null,
-   "ok": null,
-   "rows_written": 0,
-   "input_tokens": 0,
-   "output_tokens": 0,
+   "finished_at": "2026-11-13T21:37:51.256455+00:00",
+   "ok": true,
+   "rows_written": 774,
+   "input_tokens": 1484496,
+   "output_tokens": 555320,
    "error": null
   },
   {
    "agent": "harvest:jta",
    "started_at": "2026-11-13T20:54:17.378707+00:00",
-   "finished_at": null,
-   "ok": null,
-   "rows_written": 0,
-   "input_tokens": 0,
-   "output_tokens": 0,
+   "finished_at": "2026-11-13T21:38:03.050713+00:00",
+   "ok": true,
+   "rows_written": 803,
+   "input_tokens": 1770230,
+   "output_tokens": 553363,
    "error": null
   },
   {
    "agent": "harvest:jta",
    "started_at": "2026-11-13T20:53:53.123291+00:00",
-   "finished_at": null,
-   "ok": null,
-   "rows_written": 0,
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "error": null
-  },
-  {
-   "agent": "harvest:jta",
-   "started_at": "2026-11-13T20:53:37.644657+00:00",
-   "finished_at": null,
-   "ok": null,
-   "rows_written": 0,
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "error": null
-  },
-  {
-   "agent": "harvest:jta",
-   "started_at": "2026-11-13T20:53:14.680606+00:00",
-   "finished_at": null,
-   "ok": null,
-   "rows_written": 0,
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "error": null
-  },
-  {
-   "agent": "harvest:jta",
-   "started_at": "2026-11-13T20:44:18.577087+00:00",
-   "finished_at": "2026-11-13T20:50:25.031092+00:00",
+   "finished_at": "2026-11-13T21:37:54.196927+00:00",
    "ok": true,
-   "rows_written": 141,
-   "input_tokens": 198817,
-   "output_tokens": 82598,
-   "error": null
-  },
-  {
-   "agent": "recent",
-   "started_at": "2026-11-13T20:00:02.147676+00:00",
-   "finished_at": "2026-11-13T20:01:16.702844+00:00",
-   "ok": true,
-   "rows_written": 2,
-   "input_tokens": 213090,
-   "output_tokens": 4961,
-   "error": null
-  },
-  {
-   "agent": "research",
-   "started_at": "2026-11-13T19:51:28.101459+00:00",
-   "finished_at": "2026-11-13T19:54:29.79024+00:00",
-   "ok": true,
-   "rows_written": 16,
-   "input_tokens": 310607,
-   "output_tokens": 23529,
-   "error": null
-  },
-  {
-   "agent": "seed",
-   "started_at": "2026-11-13T19:38:36.26317+00:00",
-   "finished_at": "2026-11-13T19:38:37.484088+00:00",
-   "ok": true,
-   "rows_written": 252,
-   "input_tokens": 0,
-   "output_tokens": 0,
+   "rows_written": 752,
+   "input_tokens": 1852248,
+   "output_tokens": 552562,
    "error": null
   }
  ]
