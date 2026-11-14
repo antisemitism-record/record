@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T07:41:54+00:00",
+ "generated": "2026-11-14T12:52:46+00:00",
  "incidents": {
   "total": 42729,
   "active": 42692,
@@ -459,6 +459,66 @@
  ],
  "recent_runs": [
   {
+   "agent": "harvest:jta",
+   "started_at": "2026-11-14T12:52:15.059349+00:00",
+   "finished_at": "2026-11-14T12:52:37.682947+00:00",
+   "ok": true,
+   "rows_written": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "error": null
+  },
+  {
+   "agent": "harvest:jta",
+   "started_at": "2026-11-14T12:51:50.137663+00:00",
+   "finished_at": "2026-11-14T12:52:25.236979+00:00",
+   "ok": true,
+   "rows_written": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "error": null
+  },
+  {
+   "agent": "harvest:jta",
+   "started_at": "2026-11-14T12:51:27.951741+00:00",
+   "finished_at": "2026-11-14T12:51:33.376095+00:00",
+   "ok": true,
+   "rows_written": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "error": null
+  },
+  {
+   "agent": "harvest:jta",
+   "started_at": "2026-11-14T12:51:13.933958+00:00",
+   "finished_at": "2026-11-14T12:51:30.33314+00:00",
+   "ok": true,
+   "rows_written": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "error": null
+  },
+  {
+   "agent": "harvest:jta",
+   "started_at": "2026-11-14T12:50:51.054307+00:00",
+   "finished_at": "2026-11-14T12:51:22.586784+00:00",
+   "ok": true,
+   "rows_written": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "error": null
+  },
+  {
+   "agent": "harvest:jta",
+   "started_at": "2026-11-14T12:50:36.782426+00:00",
+   "finished_at": "2026-11-14T12:50:55.560531+00:00",
+   "ok": true,
+   "rows_written": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "error": null
+  },
+  {
    "agent": "harvest:pages",
    "started_at": "2026-11-14T07:41:43.064111+00:00",
    "finished_at": "2026-11-14T07:41:45.72231+00:00",
@@ -542,66 +602,6 @@
    "agent": "harvest:jta",
    "started_at": "2026-11-14T06:58:56.296757+00:00",
    "finished_at": "2026-11-14T06:59:11.35633+00:00",
-   "ok": true,
-   "rows_written": 0,
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "error": null
-  },
-  {
-   "agent": "harvest:jta",
-   "started_at": "2026-11-14T06:58:37.138617+00:00",
-   "finished_at": "2026-11-14T06:58:51.812953+00:00",
-   "ok": true,
-   "rows_written": 0,
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "error": null
-  },
-  {
-   "agent": "harvest:pages",
-   "started_at": "2026-11-14T01:43:47.952477+00:00",
-   "finished_at": "2026-11-14T01:43:48.846995+00:00",
-   "ok": true,
-   "rows_written": 0,
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "error": null
-  },
-  {
-   "agent": "harvest:pages",
-   "started_at": "2026-11-14T01:43:22.240239+00:00",
-   "finished_at": "2026-11-14T01:43:23.37997+00:00",
-   "ok": true,
-   "rows_written": 0,
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "error": null
-  },
-  {
-   "agent": "harvest:pages",
-   "started_at": "2026-11-14T01:43:03.249311+00:00",
-   "finished_at": "2026-11-14T01:43:04.364396+00:00",
-   "ok": true,
-   "rows_written": 0,
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "error": null
-  },
-  {
-   "agent": "harvest:pages",
-   "started_at": "2026-11-14T01:42:45.920033+00:00",
-   "finished_at": "2026-11-14T01:42:47.714626+00:00",
-   "ok": true,
-   "rows_written": 0,
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "error": null
-  },
-  {
-   "agent": "harvest:jta",
-   "started_at": "2026-11-14T01:01:01.006387+00:00",
-   "finished_at": "2026-11-14T01:01:40.117478+00:00",
    "ok": true,
    "rows_written": 0,
    "input_tokens": 0,
