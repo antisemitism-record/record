@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T07:00:52+00:00",
+ "generated": "2026-11-14T07:41:54+00:00",
  "incidents": {
   "total": 42729,
   "active": 42692,
@@ -18,9 +18,9 @@
   "wiki": 1115
  },
  "cells": {
-  "pending": 50932,
+  "pending": 50929,
   "claimed": 0,
-  "done": 387,
+  "done": 390,
   "blocked": 0
  },
  "jta_months": {
@@ -30,9 +30,9 @@
   "blocked": 0
  },
  "wiki_pages": {
-  "pending": 48800,
+  "pending": 48797,
   "claimed": 0,
-  "done": 259,
+  "done": 262,
   "blocked": 0
  },
  "latest_wiki": [
@@ -278,6 +278,30 @@
  "recent_cells": [
   {
    "country": null,
+   "region": "wiki|en|Black Sun (symbol)",
+   "period_start": 0,
+   "status": "done",
+   "rows_written": 0,
+   "notes": "not read: no Jewish reference or no date from 1900 on; 8296 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 0 in / 0 out tokens"
+  },
+  {
+   "country": null,
+   "region": "wiki|en|Accumulatoren-Fabrik AFA",
+   "period_start": 0,
+   "status": "done",
+   "rows_written": 0,
+   "notes": "not read: no Jewish reference or no date from 1900 on; 1137 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 0 in / 0 out tokens"
+  },
+  {
+   "country": null,
+   "region": "wiki|en|Bilateral Compensation Agreements for Victims of the Nazi Regime",
+   "period_start": 0,
+   "status": "done",
+   "rows_written": 0,
+   "notes": "not read: no Jewish reference or no date from 1900 on; 1826 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 0 in / 0 out tokens"
+  },
+  {
+   "country": null,
    "region": "wiki|en|Antisemitism in Spain",
    "period_start": 0,
    "status": "done",
@@ -331,30 +355,6 @@
    "status": "done",
    "rows_written": 0,
    "notes": "16989 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 7168 in / 569 out tokens"
-  },
-  {
-   "country": null,
-   "region": "wiki|en|Abraham the Monk",
-   "period_start": 0,
-   "status": "done",
-   "rows_written": 0,
-   "notes": "790 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 1164 in / 46 out tokens"
-  },
-  {
-   "country": null,
-   "region": "wiki|en|Abwehr",
-   "period_start": 0,
-   "status": "done",
-   "rows_written": 1,
-   "notes": "46445 characters, 1 incidents, 1 live, 0 held, 0 unparsed pieces; 18342 in / 1215 out tokens"
-  },
-  {
-   "country": null,
-   "region": "wiki|en|Action Saybusch",
-   "period_start": 0,
-   "status": "done",
-   "rows_written": 0,
-   "notes": "9393 characters, 0 incidents, 0 live, 0 held, 0 unparsed pieces; 4044 in / 394 out tokens"
   }
  ],
  "sources": 4078,
@@ -459,6 +459,46 @@
  ],
  "recent_runs": [
   {
+   "agent": "harvest:pages",
+   "started_at": "2026-11-14T07:41:43.064111+00:00",
+   "finished_at": "2026-11-14T07:41:45.72231+00:00",
+   "ok": true,
+   "rows_written": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "error": null
+  },
+  {
+   "agent": "harvest:pages",
+   "started_at": "2026-11-14T07:41:12.943339+00:00",
+   "finished_at": "2026-11-14T07:41:17.52493+00:00",
+   "ok": true,
+   "rows_written": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "error": null
+  },
+  {
+   "agent": "harvest:pages",
+   "started_at": "2026-11-14T07:40:55.680206+00:00",
+   "finished_at": "2026-11-14T07:40:58.941367+00:00",
+   "ok": true,
+   "rows_written": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "error": null
+  },
+  {
+   "agent": "harvest:pages",
+   "started_at": "2026-11-14T07:40:33.388957+00:00",
+   "finished_at": "2026-11-14T07:40:35.061945+00:00",
+   "ok": true,
+   "rows_written": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "error": null
+  },
+  {
    "agent": "harvest:jta",
    "started_at": "2026-11-14T07:00:13.126569+00:00",
    "finished_at": "2026-11-14T07:00:33.429913+00:00",
@@ -562,46 +602,6 @@
    "agent": "harvest:jta",
    "started_at": "2026-11-14T01:01:01.006387+00:00",
    "finished_at": "2026-11-14T01:01:40.117478+00:00",
-   "ok": true,
-   "rows_written": 0,
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "error": null
-  },
-  {
-   "agent": "harvest:jta",
-   "started_at": "2026-11-14T01:00:39.913971+00:00",
-   "finished_at": "2026-11-14T01:00:52.064331+00:00",
-   "ok": true,
-   "rows_written": 0,
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "error": null
-  },
-  {
-   "agent": "harvest:jta",
-   "started_at": "2026-11-14T01:00:18.239715+00:00",
-   "finished_at": "2026-11-14T01:00:32.674572+00:00",
-   "ok": true,
-   "rows_written": 0,
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "error": null
-  },
-  {
-   "agent": "harvest:jta",
-   "started_at": "2026-11-14T01:00:04.732636+00:00",
-   "finished_at": "2026-11-14T01:00:28.845976+00:00",
-   "ok": true,
-   "rows_written": 0,
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "error": null
-  },
-  {
-   "agent": "harvest:jta",
-   "started_at": "2026-11-14T00:59:40.821224+00:00",
-   "finished_at": "2026-11-14T01:00:16.950058+00:00",
    "ok": true,
    "rows_written": 0,
    "input_tokens": 0,
